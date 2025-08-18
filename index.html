@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AR</title>
+  <meta name="description"
+    content="Portfolio of Md. Abdur Rahman — researcher in computer vision, machine learning, and 3D & multimodal medical imaging." />
+  <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="avatar">
+          <img src="AR.jpg" alt="Md. Abdur Rahman">
+        </div>
+        <div>
+          <div class="name">Md. Abdur Rahman</div>
+          <div class="title">Machine Learning · Computer Vision · Medical Imaging · Pattern Recognition</div>
+        </div>
+      </div>
+      <nav>
+        <a class="chip" href="#about">About</a>
+        <a class="chip" href="#publications">Publications</a>
+        <a class="chip" href="#experience">Experience</a>
+        <a class="chip" href="#services">Services</a>
+        <!-- <button id="themeToggle" class="chip">🌓 Theme</button> -->
+      </nav>
+    </header>
+
+    <main class="grid cols-2" id="about">
+      <section class="panel reveal">
+        <h2>Research Interests</h2>
+        <p class="muted">
+          My research interests include computer vision, machine learning, and pattern analysis. A significant part of
+          my work focuses on 3D and multimodal medical imaging, where I develop methods to extract meaningful patterns
+          and structure from complex and high-dimensional data in clinical environments. I’m particularly motivated by
+          challenges in data-scarce settings and aim to design approaches that are efficient and applicable in
+          real-world scenarios.
+        </p>
+        <div class="contact">
+          <a href="mailto:mrahman202260@bscse.uiu.ac.bd">📧 mrahman202260@bscse.uiu.ac.bd</a>
+          <!-- <a href="tel:+8801930351528">📱 +8801930351528</a> -->
+          <a href="https://github.com/abdurrahman4127" target="_blank">🐙 GitHub</a>
+          <a href="https://linkedin.com/in/abdurrahman4127" target="_blank">🔗 LinkedIn</a>
+          <span class="tag">Dhaka 1212, Bangladesh</span>
+        </div>
+      </section>
+
+      <aside class="panel reveal">
+        <h2>Education</h2>
+        <div class="timeline list">
+          <div class="item t-item">
+            <strong>United International University</strong>
+            <div class="muted">B.Sc. in Computer Science and Engineering</div>
+            <div class="muted">Major: Data Science</div>
+            <div class="muted">2020 – 2024</div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <section class="two-column-container reveal" style="margin-top:16px">
+      <div class="column" id="experience">
+        <h2>Experience</h2>
+        <div class="timeline list">
+          <div class="item t-item">
+            <strong>Graduate Researcher</strong> · <span class="muted">AI Lab, Prof. Sami Azam</span>
+            <div class="muted">Aug 2023 – Present</div>
+          </div>
+          <div class="item t-item">
+            <strong>Undergrad Teaching Assistant</strong> · <span class="muted">UIU CSE Dept</span>
+            <div class="muted">Jun 2024 – Oct 2024</div>
+          </div>
+          <div class="item t-item">
+            <strong>Grader</strong> · <span class="muted">UIU CSE Dept</span>
+            <div class="muted">May 2023 – Sept 2023</div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="column" id="insights">
+        <h2>Update</h2>
+        <div class="timeline list">
+          <div class="item t-item">
+            <strong>July 24:</strong> Paper accepted!
+          </div>
+          <div class="item t-item">
+            <strong>May 29:</strong> Paper on arXiv!
+          </div>
+          <div class="item t-item">
+            <strong>July 24:</strong> Paper accepted!
+          </div>
+          <div class="item t-item">
+            <strong>May 29:</strong> Paper on arXiv!
+          </div>
+          <div class="item t-item">
+            <strong>July 24:</strong> Paper accepted!
+          </div>
+          <div class="item t-item">
+            <strong>May 29:</strong> Paper on arXiv!
+          </div>
+          <div class="item t-item">
+            <strong>July 24:</strong> Paper accepted!
+          </div>
+          <div class="item t-item">
+            <strong>May 29:</strong> Paper on arXiv!
+          </div>
+          <!-- Add more insights here -->
+        </div>
+      </div>
+
+    </section>
+
+
+    <section id="publications" class="panel reveal" style="margin-top:16px">
+      <div style="display:flex; justify-content: space-between; align-items: center; gap:10px; flex-wrap:wrap">
+        <h2>Publications</h2>
+        <div class="srch" style="min-width:450px">
+          <input id="pubSearch" type="search" placeholder="Search title, venue, year..." />
+        </div>
+      </div>
+      <div class="pub-type-switch">
+        <button class="switch active" data-filter="all">All</button>
+        <button class="switch" data-filter="journals">Journals</button>
+        <button class="switch" data-filter="conferences">Conferences</button>
+        <button class="switch" data-filter="under-review">Under Review</button>
+        <button class="switch" data-filter="preprints">Preprints</button>
+      </div>
+      <div id="pubScroller">
+        <div id="pubList" class="list"></div>
+      </div>
+    </section>
+
+
+    <section id="services" class="panel reveal" style="margin-top:16px">
+      <h2>Services</h2>
+      <div class="timeline list">
+        <div class="item t-item"><strong>Reviewer</strong>: IEEE Access <br> <span class="muted">(2025–Present)</span>
+        </div>
+        <div class="item t-item"><strong>Reviewer</strong>: Biomedical Signal Processing and Control <br> <span
+            class="muted">(2025–Present)</span></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>
+        © <span id="year"> </span> Md. Abdur Rahman. All rights reserved.
+      </div>
+      <div><a href="#about">Back to top ↑</a></div>
+    </footer>
+  </div>
+
+  <!-- Template for Publication Details -->
+<template id="pubDetailTemplate">
+  <div class="pub-details">
+    <div class="pub-details-grid">
+      <div>
+        <img class="ga" src="" alt="Graphical Abstract"
+             onerror="this.style.background='repeating-linear-gradient(45deg,#202a53,#202a53 10px,#253061 10px,#253061 20px)';">
+      </div>
+      <div>
+        <div class="muted"><strong>Authors:</strong> <span id="detail-authors"></span></div>
+        <p><strong>Published:</strong> <span id="detail-venue"></span></p>
+        <div class="pub-actions">
+          <button class="btn show-abstract" id="show-abstract">Abstract</button>
+          <a href="#" class="btn primary" target="_blank" id="detail-doi">Open DOI</a>
+          <a href="#" class="btn" target="_blank" id="detail-pdf">Open PDF</a>
+          <button class="btn" id="copy-bibtex">Copy BibTeX</button>
+        </div>
+        <div class="bib" id="detail-bibtex"></div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<div id="abstractModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>Abstract</h3>
+    <p id="abstractText"></p>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
