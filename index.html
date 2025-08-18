@@ -77,12 +77,18 @@
         <div class="timeline list">
           <div class="item t-item">
             <strong>Research Assistant</strong> · <span class="muted">United International University</span>
-            <div class="muted">Supervised by <a href="https://scholar.google.com/citations?hl=en&user=kw5_oUMAAAAJ&view_op=list_works&sortby=pubdate">Prof. Sami Azam</a>, <a href="https://scholar.google.com/citations?hl=en&user=YM_7NU4AAAAJ&view_op=list_works&sortby=pubdate">Dr. Saddam Mukta</a>, and Md. Shoib Ahmed</div>
+            <div class="muted">Supervised by <a
+                href="https://scholar.google.com/citations?hl=en&user=kw5_oUMAAAAJ&view_op=list_works&sortby=pubdate">Prof.
+                Sami Azam</a>, <a
+                href="https://scholar.google.com/citations?hl=en&user=YM_7NU4AAAAJ&view_op=list_works&sortby=pubdate">Dr.
+                Saddam Mukta</a>, and Md. Shoib Ahmed</div>
             <div class="muted">May 2025 – Present</div>
           </div>
           <div class="item t-item">
             <strong>Graduate Researcher</strong> · <span class="muted">AAIINS Lab</span>
-            <div class="muted">Supervised by <a href="https://scholar.google.com/citations?hl=en&user=kw5_oUMAAAAJ&view_op=list_works&sortby=pubdate">Prof. Sami Azam</a></div>
+            <div class="muted">Supervised by <a
+                href="https://scholar.google.com/citations?hl=en&user=kw5_oUMAAAAJ&view_op=list_works&sortby=pubdate">Prof.
+                Sami Azam</a></div>
             <div class="muted">Aug 2023 – Present</div>
           </div>
           <div class="item t-item">
@@ -104,28 +110,41 @@
         <h2>Update</h2>
         <div class="timeline list">
           <div class="item t-item">
-            <strong>July 24:</strong> Paper accepted!
+            <strong>Jul, 2025:</strong> HANS-Net is now available in arXiv
           </div>
           <div class="item t-item">
-            <strong>May 29:</strong> Paper on arXiv!
+            <strong>Aug 2025:</strong> A review on LLMs' hallucination to truth is now available in arXiv
           </div>
           <div class="item t-item">
-            <strong>July 24:</strong> Paper accepted!
+            <strong>Jun 2025:</strong> A second-author Q1 paper accepted in Journal of Cancer Research and Clinical
+            Oncology
           </div>
           <div class="item t-item">
-            <strong>May 29:</strong> Paper on arXiv!
+            <strong>Feb 2025:</strong> Another first author (undergraduate thesis) papar accepted in IEEE Access (Q1,
+            IF: 3.6)
           </div>
           <div class="item t-item">
-            <strong>July 24:</strong> Paper accepted!
+            <strong>Oct 2024:</strong> Graduation done! AR out
           </div>
           <div class="item t-item">
-            <strong>Jun 2024:</strong> Became a <i>U</i>nder<i>g</i>rad Teaching <i>A</i>ssistant (UGA) at UIU for 3 (OOP) lab courses.
+            <strong>Sep 2024:</strong> My first fist-author paper accepted in CAAI Transactions on Intelligence
+            Technology (Q1, IF: 8.4)
           </div>
           <div class="item t-item">
-            <strong>May 2023:</strong> Appointed as a Grader at United International University (UIU). Will be grading 3 Computer Networks courses.
+            <strong>Jun 2024:</strong> Became a <i>U</i>nder<i>g</i>rad Teaching <i>A</i>ssistant (UGA) at UIU for 3
+            (OOP) lab courses.
           </div>
           <div class="item t-item">
-            <strong>Nov 2023:</strong> My first ever paper is accepted in 26th International Conference on Computer and Information Technology (ICCIT)!
+            <strong>Nov 2023:</strong> My first ever paper is accepted in 26th International Conference on Computer and
+            Information Technology (ICCIT)!
+          </div>
+          <div class="item t-item">
+            <strong>Nov 2023:</strong> First ever meeting with Prof. Sami Azam Sir, the best supervisor anyone could
+            ever ask for...
+          </div>
+          <div class="item t-item">
+            <strong>May 2023:</strong> Appointed as a Grader at United International University (UIU). Will be grading 3
+            Computer Networks courses.
           </div>
           <!-- Add more insights here -->
         </div>
@@ -173,35 +192,35 @@
   </div>
 
   <!-- Template for Publication Details -->
-<template id="pubDetailTemplate">
-  <div class="pub-details">
-    <div class="pub-details-grid">
-      <div>
-        <img class="ga" src="" alt="Graphical Abstract"
-             onerror="this.style.background='repeating-linear-gradient(45deg,#202a53,#202a53 10px,#253061 10px,#253061 20px)';">
-      </div>
-      <div>
-        <div class="muted"><strong>Authors:</strong> <span id="detail-authors"></span></div>
-        <p><strong>Published:</strong> <span id="detail-venue"></span></p>
-        <div class="pub-actions">
-          <button class="btn show-abstract" id="show-abstract">Abstract</button>
-          <a href="#" class="btn primary" target="_blank" id="detail-doi">Open DOI</a>
-          <a href="#" class="btn" target="_blank" id="detail-pdf">Open PDF</a>
-          <button class="btn" id="copy-bibtex">Copy BibTeX</button>
+  <template id="pubDetailTemplate">
+    <div class="pub-details">
+      <div class="pub-details-grid">
+        <div>
+          <img class="ga" src="" alt="Graphical Abstract"
+            onerror="this.style.background='repeating-linear-gradient(45deg,#202a53,#202a53 10px,#253061 10px,#253061 20px)';">
         </div>
-        <div class="bib" id="detail-bibtex"></div>
+        <div>
+          <div class="muted"><strong>Authors:</strong> <span id="detail-authors"></span></div>
+          <p><strong>Published:</strong> <span id="detail-venue"></span></p>
+          <div class="pub-actions">
+            <button class="btn show-abstract" id="show-abstract">Abstract</button>
+            <a href="#" class="btn primary" target="_blank" id="detail-doi">Open DOI</a>
+            <a href="#" class="btn" target="_blank" id="detail-pdf">Open PDF</a>
+            <button class="btn" id="copy-bibtex">Copy BibTeX</button>
+          </div>
+          <div class="bib" id="detail-bibtex"></div>
+        </div>
       </div>
     </div>
-  </div>
-</template>
+  </template>
 
-<div id="abstractModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h3>Abstract</h3>
-    <p id="abstractText"></p>
+  <div id="abstractModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Abstract</h3>
+      <p id="abstractText"></p>
+    </div>
   </div>
-</div>
 
 
   <script src="script.js"></script>
