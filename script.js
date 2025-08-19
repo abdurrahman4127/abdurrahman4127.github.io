@@ -325,7 +325,7 @@ function render(filter = 'all', query = '') {
                         onerror="this.style.background='repeating-linear-gradient(45deg,#202a53,#202a53 10px,#253061 10px,#253061 20px)'">
                 </div>
                 <div style="flex:1">
-                    <p style="margin-top:0; margin-bottom:10px;"><strong>aeXived on:</strong> ${p.accepted || '—'}</p>
+                    <p style="margin-top:0; margin-bottom:10px;"><strong>arXived on:</strong> ${p.accepted || '—'}</p>
 
                     <div class="pub-actions">
                     <button class="btn show-abstract" data-abstract="${encodeURIComponent(p.abstract || 'Abstract not available')}">Abstract</button>
