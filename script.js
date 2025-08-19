@@ -236,7 +236,7 @@ const publications = [
     },
     {
         id: 'raiaan2024dementia',
-        type: 'under-review', year: 2024,
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.7',
         title: 'Investigating Dementia Patterns by Machine Learning and Brain MRI Using Weakly-Supervised Multimodal Classification',
         authors: 'Raiaan, M. A. K.; Fahad, N. M.; Sutradhar, D.; <strong><u>Rahman; M. A.</u></strong>; Jonkman, M.; Azam, S.',
         venue: '<strong>Submitted to</strong> International Journal of Intelligent Systems',
