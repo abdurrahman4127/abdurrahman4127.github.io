@@ -204,10 +204,10 @@ const publications = [
     },
     {
         id: 'sutradhar2025cade',
-        type: 'under-review', year: 2025, quartile: '', imf: '',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: '',
         title: 'CADE: A lightweight change-adaptive dual-path encoder framework for predicting and generating future changes in satellite imagery using semi-supervised learning',
         authors: 'Sutradhar, D.; <strong><u>Rahman, M. A.</u></strong>; Mannan, Z. I.; Azid, S. I.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>TO SUBMIT</i>',
+        venue: '<strong>Submitted to</strong> <i>Neural Computing and Applications</i>',
         doi: '#',
         pdf: '#',
         abstract: '',
