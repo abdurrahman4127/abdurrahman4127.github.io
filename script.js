@@ -245,6 +245,17 @@ const publications = [
         abstract: '',
         bibtex: ``
     },
+    {
+        id: 'chowa2025languageactionreviewlarge',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', 
+        title: 'From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users',
+        authors: 'Chowa, S. S.; Alvi, R.;  Rahman, S. S.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Hussain, M; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Submitted to</strong> <i>Artificial Intelligence Review</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
+    },
     // --- Preprints ---
     {
         id: 'rahman2025hallucination_preprint',
@@ -311,10 +322,24 @@ const input = document.getElementById('pubSearch');
 function render(filter = 'all', query = '') {
     pubList.innerHTML = '';
     const q = query.trim().toLowerCase();
+    // const items = publications
+    //     .filter(p => filter === 'all' || p.type === filter)
+    //     .filter(p => !q || [p.title, p.venue, p.authors, p.year].join(' ').toLowerCase().includes(q))
+    //     .sort((a, b) => b.year - a.year);
     const items = publications
         .filter(p => filter === 'all' || p.type === filter)
+        // Only remove duplicates when viewing "all"
+        .filter(p => {
+            if (filter === 'all' && p.type === 'preprint') {
+                const baseId = p.id.replace('_preprint', '');
+                return !publications.some(q => q.id === baseId && q.type === 'under-review');
+            }
+            return true;
+        })
         .filter(p => !q || [p.title, p.venue, p.authors, p.year].join(' ').toLowerCase().includes(q))
         .sort((a, b) => b.year - a.year);
+
+
 
     items.forEach(p => {
         const item = document.createElement('div');
