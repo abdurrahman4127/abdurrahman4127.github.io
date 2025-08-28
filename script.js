@@ -279,6 +279,26 @@ const publications = [
   journal={arXiv preprint arXiv:2507.11325},
   year={2025}
 }`
+    },
+    {
+        id: 'chowa2025languageactionreviewlarge_preprint',
+        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Tue, Aug 24, 2025',
+        title: 'From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users',
+        authors: 'Chowa, S. S.; Alvi, R.;  Rahman, S. S.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Hussain, M; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Submitted to</strong> <i>Artificial Intelligence Review</i>',
+        doi: 'https://doi.org/10.48550/arXiv.2508.17281',
+        ga: 'graphical_abstract/chowa2025languageactionreviewlarge_preprint.png',
+        pdf: 'https://arxiv.org/pdf/2508.17281',
+        abstract: "The pursuit of human-level artificial intelligence (AI) has significantly advanced the development of autonomous agents and Large Language Models (LLMs). LLMs are now widely utilized as decision-making agents for their ability to interpret instructions, manage sequential tasks, and adapt through feedback. This review examines recent developments in employing LLMs as autonomous agents and tool users and comprises seven research questions. We only used the papers published between 2023 and 2025 in conferences of the A* and A rank and Q1 journals. A structured analysis of the LLM agents' architectural design principles, dividing their applications into single-agent and multi-agent systems, and strategies for integrating external tools is presented. In addition, the cognitive mechanisms of LLM, including reasoning, planning, and memory, and the impact of prompting methods and fine-tuning procedures on agent performance are also investigated. Furthermore, we evaluated current benchmarks and assessment protocols and have provided an analysis of 68 publicly available datasets to assess the performance of LLM-based agents in various tasks. In conducting this review, we have identified critical findings on verifiable reasoning of LLMs, the capacity for self-improvement, and the personalization of LLM-based agents. Finally, we have discussed ten future research directions to overcome these gaps.",
+        bibtex: `@misc{chowa2025languageactionreviewlarge,
+      title={From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users}, 
+      author={Sadia Sultana Chowa and Riasad Alvi and Subhey Sadi Rahman and Md Abdur Rahman and Mohaimenul Azam Khan Raiaan and Md Rafiqul Islam and Mukhtar Hussain and Sami Azam},
+      year={2025},
+      eprint={2508.17281},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.17281}, 
+}}`
     }
 ];
 
