@@ -217,7 +217,7 @@ const publications = [
         id: 'ahmed2025colorectal',
         type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.1',
         title: 'Predicting Post-Resection Colorectal Liver Metastases Recurrence using Advanced Graph Neural Networks with Explainability and Causal Inference',
-        authors: 'Ahmed, J.; <strong><u>Rahman, M. A.</u></strong>; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        authors: 'Ahmed, J.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K., Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<strong>Submitted to</strong> <i>Advanced Intelligent Systems</i>',
         doi: '#',
         pdf: '#',
