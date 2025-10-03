@@ -148,11 +148,10 @@ const publications = [
     },
     {
         id: 'rahman2025finegrained',
-        type: 'under-review', year: 2025, 
-        // quartile: 'Q1', imf: 'Impact Factor: 8.0',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.5',
         title: 'A fine-grained attention and geometric correspondence model for musculoskeletal risk classification in athletes using multimodal visual and skeletal features',
-        authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>TO SUBMIT</strong> <i></i>',
+        authors: '<strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Raiaan, M. A. K.<sup>*</sup>; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Submitted to</strong> <i>Expert Systems with Applications</i>',
         doi: '#',
         pdf: '#',
         abstract: '',
@@ -259,6 +258,23 @@ const publications = [
     },
     // --- Preprints ---
     {
+        id: 'rahman2025finegrained_preprint',
+        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.5', accepted: 'Sun, Sept 7, 2025',
+        title: 'A Fine-Grained Attention and Geometric Correspondence Model for Musculoskeletal Risk Classification in Athletes Using Multimodal Visual and Skeletal Features',
+        authors: '<strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Raiaan, M. A. K.<sup>*</sup>; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Submitted to</strong> <i>Expert Systems with Applications</i>',
+        doi: 'https://doi.org/10.48550/arXiv.2509.05913',
+        ga: 'graphical_abstract/rahman2025finegrained_preprint.png',
+        pdf: 'https://arxiv.org/pdf/2509.05913',
+        abstract: "Musculoskeletal disorders pose significant risks to athletes, and assessing risk early is important for prevention. However, most existing methods are designed for controlled settings and fail to reliably assess risk in complex environments due to their reliance on a single type of data. This research proposes ViSK-GAT (Visual-Skeletal Geometric Attention Transformer), a novel multimodal deep learning framework designed to classify musculoskeletal risk using visual and skeletal coordinate-based features. In addition, a custom multimodal dataset is constructed by combining visual data and skeletal coordinates for risk assessment. Each sample is labeled into eight risk categories based on the Rapid Entire Body Assessment system. ViSK-GAT combines a Residual Block with a Lightweight Transformer Block to learn spatial and temporal dependencies jointly. It incorporates two novel modules: the Fine-Grained Attention Module (FGAM), which enables precise inter-modal feature refinement through cross-attention between visual and skeletal inputs, and the Multimodal Geometric Correspondence Module (MGCM), which enhances cross-modal coherence by aligning image features with coordinate-based representations. ViSK-GAT achieved strong performance with validation and test accuracies of 93.55% and 93.89%, respectively; a precision of 93.86%; an F1 score of 93.85%; and Cohen's Kappa and Matthews Correlation Coefficient of 93%. The regression results also indicated a low Root Mean Square Error of the predicted probability distribution of 0.1205 and a corresponding Mean Absolute Error of 0.0156. Compared to nine popular transfer learning backbones, ViSK-GAT consistently outperformed previous methods. The ViSK-GAT model advances artificial intelligence implementation and application, transforming musculoskeletal risk classification and enabling impactful early interventions in sports.",
+        bibtex: `@article{rahman2025fine,
+  title={A Fine-Grained Attention and Geometric Correspondence Model for Musculoskeletal Risk Classification in Athletes Using Multimodal Visual and Skeletal Features},
+  author={Rahman, Md Abdur and Raiaan, Mohaimenul Azam Khan and Shermin, Tamanna and Islam, Md Rafiqul and Hussain, Mukhtar and Azam, Sami},
+  journal={arXiv preprint arXiv:2509.05913},
+  year={2025}
+}`
+    },
+        {
         id: 'rahman2025hallucination_preprint',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Tue, Aug 5, 2025',
         title: 'Hallucination to truth: A review of fact-checking and factuality evaluation in large language models',
