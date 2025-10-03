@@ -275,6 +275,26 @@ const publications = [
 }`
     },
         {
+        id: 'rahman2025arionet_preprint',
+        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.6', accepted: 'Wed, 1 Oct, 2025',
+        title: 'ARIONet: An Advanced Self-supervised Contrastive Representation Network for Birdsong Classification and Future Frame Prediction',
+        authors: '<strong><u>Rahman, M. A.</u></strong>; Thuseethan, S.; Yeo, K. C.; Mohamed, R. E., & Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Submitted to</strong> <i>Applied Acoustics</i>',
+        doi: 'https://doi.org/10.48550/arXiv.2510.00522',
+        ga: 'graphical_abstract/rahman2025arionet_preprint.png',
+        pdf: 'https://arxiv.org/pdf/2510.00522',
+        abstract: "Automated birdsong classification is essential for advancing ecological monitoring and biodiversity studies. Despite recent progress, existing methods often depend heavily on labeled data, use limited feature representations, and overlook temporal dynamics essential for accurate species identification. In this work, we propose a self-supervised contrastive network, ARIONet (Acoustic Representation for Interframe Objective Network), that jointly optimizes contrastive classification and future frame prediction using augmented audio representations. The model simultaneously integrates multiple complementary audio features within a transformer-based encoder model. Our framework is designed with two key objectives: (1) to learn discriminative species-specific representations for contrastive learning through maximizing similarity between augmented views of the same audio segment while pushing apart different samples, and (2) to model temporal dynamics by predicting future audio frames, both without requiring large-scale annotations. We validate our framework on four diverse birdsong datasets, including the British Birdsong Dataset, Bird Song Dataset, and two extended Xeno-Canto subsets (A-M and N-Z). Our method consistently outperforms existing baselines and achieves classification accuracies of 98.41%, 93.07%, 91.89%, and 91.58%, and F1-scores of 97.84%, 94.10%, 91.29%, and 90.94%, respectively. Furthermore, it demonstrates low mean absolute errors and high cosine similarity, up to 95%, in future frame prediction tasks. Extensive experiments further confirm the effectiveness of our self-supervised learning strategy in capturing complex acoustic patterns and temporal dependencies, as well as its potential for real-world applicability in ecological conservation and monitoring.",
+        bibtex: `@airticle{rahman2025arionet_preprint,
+	title={ARIONet: An Advanced Self-supervised Contrastive Representation Network for Birdsong Classification and Future Frame Prediction}, 
+	author={Md. Abdur Rahman and Selvarajah Thuseethan and Kheng Cher Yeo and Reem E. Mohamed and Sami Azam},
+	year={2025},
+	eprint={2510.00522},
+	archivePrefix={arXiv},
+	primaryClass={cs.SD},
+	url={https://arxiv.org/abs/2510.00522}, 
+}`
+    },
+        {
         id: 'rahman2025hallucination_preprint',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Tue, Aug 5, 2025',
         title: 'Hallucination to truth: A review of fact-checking and factuality evaluation in large language models',
