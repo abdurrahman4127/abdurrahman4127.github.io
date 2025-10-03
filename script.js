@@ -114,44 +114,11 @@ const publications = [
         bibtex: ``
     },
     {
-        id: 'sutradhar2025sourcefree',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.7',
-        title: 'A source-free approach for domain adaptation via multiview image transformation and latent space consistency',
-        authors: 'Sutradhar, D.<sup>*</sup>; <strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Raiaan, M. A. K.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
-        venue: '<strong>Submitted to</strong> <i>IEEE Transactions on Image Processing</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'abian2025hansnet',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.5',
-        title: 'HANS-Net: Hyperbolic convolution and adaptive temporal attention for accurate and generalizable liver and tumor segmentation in CT imaging',
-        authors: 'Abian, A. I.; Debnath, R. K.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Karim, A.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
         id: 'rahman2025refrm3d',
         type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.6',
         title: 'ReFRM3D: A radiomics-enhanced fused residual multiparametric 3D network with multi-scale feature fusion for glioma characterization',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Abian, A. I.; Zhang, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<strong>Submitted to</strong> <i>Knowledge-Based Systems</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'rahman2025finegrained',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.5',
-        title: 'A fine-grained attention and geometric correspondence model for musculoskeletal risk classification in athletes using multimodal visual and skeletal features',
-        authors: '<strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Raiaan, M. A. K.<sup>*</sup>; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
-        venue: '<strong>Submitted to</strong> <i>Expert Systems with Applications</i>',
         doi: '#',
         pdf: '#',
         abstract: '',
@@ -169,11 +136,55 @@ const publications = [
         bibtex: ``
     },
     {
+        id: 'rahman2025finegrained',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.5',
+        title: 'A fine-grained attention and geometric correspondence model for musculoskeletal risk classification in athletes using multimodal visual and skeletal features',
+        authors: '<strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Raiaan, M. A. K.<sup>*</sup>; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
+        venue: '<strong>Submitted to</strong> <i>Expert Systems with Applications</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
+    },
+    {
+        id: 'sutradhar2025sourcefree',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.7',
+        title: 'A source-free approach for domain adaptation via multiview image transformation and latent space consistency',
+        authors: 'Sutradhar, D.<sup>*</sup>; <strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Raiaan, M. A. K.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
+        venue: '<strong>Submitted to</strong> <i>IEEE Transactions on Image Processing</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
+    },
+    {
         id: 'raiaan2025diffusion',
         type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.3',
         title: 'Diffusion-based knowledge distillation for effective multi-organ segmentation with reduced computational time',
         authors: 'Raiaan, M. A. K.<sup>*</sup>; <strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Yeo, K. C.; Sebastian, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
         venue: '<strong>Submitted to</strong> <i>Computers in Biology and Medicine</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
+    }, 
+    {
+        id: 'abian2025hansnet',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.5',
+        title: 'HANS-Net: Hyperbolic convolution and adaptive temporal attention for accurate and generalizable liver and tumor segmentation in CT imaging',
+        authors: 'Abian, A. I.; Debnath, R. K.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Karim, A.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Submitted to</strong> <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
+    },
+    {
+        id: 'ahmed2025colorectal',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.1',
+        title: 'Predicting Post-Resection Colorectal Liver Metastases Recurrence using Advanced Graph Neural Networks with Explainability and Causal Inference',
+        authors: 'Ahmed, J.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K., Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Submitted to</strong> <i>Advanced Intelligent Systems</i>',
         doi: '#',
         pdf: '#',
         abstract: '',
@@ -224,17 +235,6 @@ const publications = [
         bibtex: ``
     },
     {
-        id: 'ahmed2025colorectal',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.1',
-        title: 'Predicting Post-Resection Colorectal Liver Metastases Recurrence using Advanced Graph Neural Networks with Explainability and Causal Inference',
-        authors: 'Ahmed, J.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K., Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>Advanced Intelligent Systems</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
         id: 'alam2025parkinson',
         type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.7',
         title: 'Quantitative measurement of Parkinson disease progression using DaTscan radiomics and clinical features with a machine learning based approach',
@@ -245,17 +245,17 @@ const publications = [
         abstract: '',
         bibtex: ``
     },
-    {
-        id: 'raiaan2024dementia',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.7',
-        title: 'Investigating Dementia Patterns by Machine Learning and Brain MRI Using Weakly-Supervised Multimodal Classification',
-        authors: 'Raiaan, M. A. K.; Fahad, N. M.; Sutradhar, D.; <strong><u>Rahman; M. A.</u></strong>; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>International Journal of Intelligent Systems</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
+    // {
+    //     id: 'raiaan2024dementia',
+    //     type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.7',
+    //     title: 'Investigating Dementia Patterns by Machine Learning and Brain MRI Using Weakly-Supervised Multimodal Classification',
+    //     authors: 'Raiaan, M. A. K.; Fahad, N. M.; Sutradhar, D.; <strong><u>Rahman; M. A.</u></strong>; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+    //     venue: '<strong>Submitted to</strong> <i>International Journal of Intelligent Systems</i>',
+    //     doi: '#',
+    //     pdf: '#',
+    //     abstract: '',
+    //     bibtex: ``
+    // },
     {
         id: 'chowa2025languageactionreviewlarge',
         type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', 
