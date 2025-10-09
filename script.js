@@ -245,23 +245,24 @@ const publications = [
         abstract: '',
         bibtex: ``
     },
-    // {
-    //     id: 'raiaan2024dementia',
-    //     type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.7',
-    //     title: 'Investigating Dementia Patterns by Machine Learning and Brain MRI Using Weakly-Supervised Multimodal Classification',
-    //     authors: 'Raiaan, M. A. K.; Fahad, N. M.; Sutradhar, D.; <strong><u>Rahman; M. A.</u></strong>; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-    //     venue: '<strong>Submitted to</strong> <i>International Journal of Intelligent Systems</i>',
-    //     doi: '#',
-    //     pdf: '#',
-    //     abstract: '',
-    //     bibtex: ``
-    // },
     {
         id: 'chowa2025languageactionreviewlarge',
         type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', 
         title: 'From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users',
         authors: 'Chowa, S. S.; Alvi, R.;  Rahman, S. S.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Hussain, M; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<strong>Submitted to</strong> <i>Artificial Intelligence Review</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
+    },
+    {
+        id: 'fahad2025dinvestigating',
+        type: 'under-review', year: 2025, 
+        // quartile: 'Q1', imf: 'Impact Factor: 3.7',
+        title: 'Investigating Dementia Patterns by Machine Learning and Graph-Based Marker Analysis Integrating Deterministic Finite Automata for Multiclass Dementia Diagnosis',
+        authors: 'Fahad, N. M.; Sutradhar, D.<sup>*</sup>; <strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Sakib, S.<sup>*</sup>; Islam, M. R.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Equal contribution<sup>*</sup>)',
+        venue: '<strong>Submitted to</strong> <i>Discover Computing</i>',
         doi: '#',
         pdf: '#',
         abstract: '',
