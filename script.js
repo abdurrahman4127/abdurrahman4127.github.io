@@ -80,6 +80,19 @@ const publications = [
   publisher={Springer}
 }`
     },
+    {
+        id: 'ahmed2025colorectal',
+        type: 'in-production', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.1', accepted: 'Thu, Oct 9, 2025',
+        title: 'Predicting Post-Resection Colorectal Liver Metastases Recurrence using Advanced Graph Neural Networks with Explainability and Causal Inference',
+        authors: 'Ahmed, J.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<i>Advanced Intelligent Systems</i>',
+        doi: '',
+        // https://doi.org/10.1002/aisy.202500596
+        pdf: '',
+        ga: 'graphical_abstract/jubair2025predicting.png',
+        abstract: "Colorectal liver metastases (CRLM) are a significant challenge in oncology, as recurrence after liver resection is frequently observed. Accurate prediction of CRLM recurrence is important to guide specific treatment strategies and improve clinical outcomes. To address this issue, this study proposes a novel framework. To the best of our knowledge, we are the first to integrate Graph Neural Networks (GNNs) and causal inference to predict post-resection CRLM recurrence using clinical and pathological characteristics. In addition, a GNNExplainer framework is also utilized for the interpretability of the models beyond predictive accuracy. Our proposed framework identifies the factors of recurrence and their impact on patient outcomes, not only providing predictions to clinicians but also explaining the underlying reasons. Furthermore, causal inference strengthened the model by confirming factors. The relevance of these variables is also shown through counterfactual and interventional analyses, allowing for more evidence-based choices. The GCN model of our framework exhibits high performance with test accuracy of 99.40%, F1-score of 99.21%, and receiver operating characteristic area under the curve (ROC AUC) of 99.97%. An extensive evaluation shows the clinical applicability of the proposed framework.",
+        bibtex: `Manuscript is accepted on 9 Oct, 2025, and is now under the production team.`
+    },
 
     // --- Conferences ---
     {
@@ -167,24 +180,13 @@ const publications = [
         pdf: '#',
         abstract: '',
         bibtex: ``
-    }, 
+    },
     {
         id: 'abian2025hansnet',
         type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.5',
         title: 'HANS-Net: Hyperbolic convolution and adaptive temporal attention for accurate and generalizable liver and tumor segmentation in CT imaging',
         authors: 'Abian, A. I.; Debnath, R. K.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Karim, A.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<strong>Submitted to</strong> <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'ahmed2025colorectal',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.1',
-        title: 'Predicting Post-Resection Colorectal Liver Metastases Recurrence using Advanced Graph Neural Networks with Explainability and Causal Inference',
-        authors: 'Ahmed, J.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K., Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>Advanced Intelligent Systems</i>',
         doi: '#',
         pdf: '#',
         abstract: '',
@@ -247,7 +249,7 @@ const publications = [
     },
     {
         id: 'chowa2025languageactionreviewlarge',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', 
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9',
         title: 'From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users',
         authors: 'Chowa, S. S.; Alvi, R.;  Rahman, S. S.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Hussain, M; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<strong>Submitted to</strong> <i>Artificial Intelligence Review</i>',
@@ -258,7 +260,7 @@ const publications = [
     },
     {
         id: 'fahad2025dinvestigating',
-        type: 'under-review', year: 2025, 
+        type: 'under-review', year: 2025,
         // quartile: 'Q1', imf: 'Impact Factor: 3.7',
         title: 'Investigating Dementia Patterns by Machine Learning and Graph-Based Marker Analysis Integrating Deterministic Finite Automata for Multiclass Dementia Diagnosis',
         authors: 'Fahad, N. M.; Sutradhar, D.<sup>*</sup>; <strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Sakib, S.<sup>*</sup>; Islam, M. R.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Equal contribution<sup>*</sup>)',
@@ -286,7 +288,7 @@ const publications = [
   year={2025}
 }`
     },
-        {
+    {
         id: 'rahman2025arionet_preprint',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.6', accepted: 'Wed, 1 Oct, 2025',
         title: 'ARIONet: An Advanced Self-supervised Contrastive Representation Network for Birdsong Classification and Future Frame Prediction',
@@ -306,7 +308,7 @@ const publications = [
 	url={https://arxiv.org/abs/2510.00522}, 
 }`
     },
-        {
+    {
         id: 'rahman2025hallucination_preprint',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Tue, Aug 5, 2025',
         title: 'Hallucination to truth: A review of fact-checking and factuality evaluation in large language models',
@@ -432,8 +434,24 @@ function render(filter = 'all', query = '') {
             </div>
         `;
 
-        }
-        else if (!p.ga) {
+        } else if (p.type === 'in-production') {
+            details.innerHTML = `
+            <div class="pub-details-grid">
+                <div style="flex:1">
+                    <img class="ga" src="${p.ga}" alt="Graphical Abstract"
+                        onerror="this.style.background='repeating-linear-gradient(45deg,#202a53,#202a53 10px,#253061 10px,#253061 20px)'">
+                </div>
+                <div style="flex:1">
+                    <p style="margin-top:0; margin-bottom:10px;"><strong>Accepted for publication on:</strong> ${p.accepted || '—'}</p>
+                    <div class="pub-actions">
+                    <button class="btn show-abstract" data-abstract="${encodeURIComponent(p.abstract || 'Abstract not available')}">Abstract</button>
+                    </div>
+                    <div class="bib">${p.bibtex}</div>
+                </div>
+            </div>
+        `;
+
+        } else if (!p.ga) {
             details.innerHTML = `
             <div class="pub-details-grid">
                 <div style="flex:1">
