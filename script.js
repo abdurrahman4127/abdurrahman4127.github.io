@@ -120,7 +120,7 @@ const publications = [
         type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.7',
         title: 'WeCKD: Weakly-supervised chain distillation for efficient multimodal medical image classification',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Karim, A.; Beissbarth, J.; Leach, A.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>IEEE Transactions on Image Processing</i>',
+        venue: '<strong></strong> <i>NOT SUBMITTED YET</i>',
         doi: '#',
         pdf: '#',
         abstract: '',
