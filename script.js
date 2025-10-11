@@ -116,11 +116,12 @@ const publications = [
 
     // --- Under Review Papers ---
     {
-        id: 'rahman2025weckd',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.7',
+        // id: 'rahman2025weckd',
+        // type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.7',
         title: 'WeCKD: Weakly-supervised chain distillation for efficient multimodal medical image classification',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Karim, A.; Beissbarth, J.; Leach, A.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong></strong> <i>NOT SUBMITTED YET</i>',
+        // venue: '<strong></strong> <i>NOT SUBMITTED YET</i>',
+        venue: 'NOT SUBMITTED YET',
         doi: '#',
         pdf: '#',
         abstract: '',
@@ -411,7 +412,14 @@ function render(filter = 'all', query = '') {
         const details = document.createElement('div');
         details.className = 'pub-details'; // visible by default
 
-        if (p.type === 'under-review') {
+        if (p.venue.includes('NOT SUBMITTED')) {
+            details.innerHTML = `
+        <div class="pub-details-grid">
+            <div style="flex:1">
+                <p><strong>Status:</strong> On-going</p>
+            </div>
+        </div>
+    `;} else if (p.type === 'under-review') {
             details.innerHTML = `<div class="pub-details-grid"><div><p><strong>Status:</strong> Under review</p></div></div>`;
         } else if (p.type === 'preprint') {
             details.innerHTML = `
@@ -453,40 +461,40 @@ function render(filter = 'all', query = '') {
 
         } else if (!p.ga) {
             details.innerHTML = `
-            <div class="pub-details-grid">
-                <div style="flex:1">
-                    <p><strong>Accepted on:</strong> ${p.accepted || '—'}</p>
-                    <div class="pub-actions">
+        <div class="pub-details-grid">
+            <div style="flex:1">
+                <p><strong>Accepted on:</strong> ${p.accepted || '—'}</p>
+                <div class="pub-actions">
                     <button class="btn show-abstract" data-abstract="${encodeURIComponent(p.abstract || 'Abstract not available')}">Abstract</button>
-                        <a href="${p.doi}" class="btn primary" target="_blank">Open DOI</a>
-                        <a href="${p.pdf}" class="btn" target="_blank">Open PDF</a>
-                        <button class="btn copy-bib">Copy BibTeX</button>
-                    </div>
-                    <div class="bib">${p.bibtex}</div>
+                    <a href="${p.doi}" class="btn primary" target="_blank">Open DOI</a>
+                    <a href="${p.pdf}" class="btn" target="_blank">Open PDF</a>
+                    <button class="btn copy-bib">Copy BibTeX</button>
                 </div>
+                <div class="bib">${p.bibtex}</div>
             </div>
-        `;
+        </div>
+    `;
         } else {
             details.innerHTML = `
-            <div class="pub-details-grid">
-                <div style="flex:1">
-                    <img class="ga" src="${p.ga}" alt="Graphical Abstract"
-                        onerror="this.style.background='repeating-linear-gradient(45deg,#202a53,#202a53 10px,#253061 10px,#253061 20px)'">
-                </div>
-                <div style="flex:1">
-                    <p style="margin-top:0; margin-bottom:10px;"><strong>Accepted on:</strong> ${p.accepted || '—'}</p>
-
-                    <div class="pub-actions">
-                    <button class="btn show-abstract" data-abstract="${encodeURIComponent(p.abstract || 'Abstract not available')}">Abstract</button>
-                        <a href="${p.doi}" class="btn primary" target="_blank">Open DOI</a>
-                        <a href="${p.pdf}" class="btn" target="_blank">Open PDF</a>
-                        <button class="btn copy-bib">Copy BibTeX</button>
-                    </div>
-                    <div class="bib">${p.bibtex}</div>
-                </div>
+        <div class="pub-details-grid">
+            <div style="flex:1">
+                <img class="ga" src="${p.ga}" alt="Graphical Abstract"
+                    onerror="this.style.background='repeating-linear-gradient(45deg,#202a53,#202a53 10px,#253061 10px,#253061 20px)'">
             </div>
-        `;
+            <div style="flex:1">
+                <p style="margin-top:0; margin-bottom:10px;"><strong>Accepted on:</strong> ${p.accepted || '—'}</p>
+                <div class="pub-actions">
+                    <button class="btn show-abstract" data-abstract="${encodeURIComponent(p.abstract || 'Abstract not available')}">Abstract</button>
+                    <a href="${p.doi}" class="btn primary" target="_blank">Open DOI</a>
+                    <a href="${p.pdf}" class="btn" target="_blank">Open PDF</a>
+                    <button class="btn copy-bib">Copy BibTeX</button>
+                </div>
+                <div class="bib">${p.bibtex}</div>
+            </div>
+        </div>
+    `;
         }
+
 
         item.appendChild(details);
 
