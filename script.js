@@ -116,23 +116,23 @@ const publications = [
 
     // --- Under Review Papers ---
     {
-        // id: 'rahman2025weckd',
-        // type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.7',
-        title: 'WeCKD: Weakly-supervised chain distillation for efficient multimodal medical image classification',
-        authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Karim, A.; Beissbarth, J.; Leach, A.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        // venue: '<strong></strong> <i>NOT SUBMITTED YET</i>',
-        venue: 'NOT SUBMITTED YET',
+        id: 'rahman2025refrm3d',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.6',
+        title: 'ReFRM3D: A radiomics-enhanced fused residual multiparametric 3D network with multi-scale feature fusion for glioma characterization',
+        authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Abian, A. I.; Zhang, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Submitted to</strong> <i>Knowledge-Based Systems</i>',
         doi: '#',
         pdf: '#',
         abstract: '',
         bibtex: ``
     },
     {
-        id: 'rahman2025refrm3d',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.6',
-        title: 'ReFRM3D: A radiomics-enhanced fused residual multiparametric 3D network with multi-scale feature fusion for glioma characterization',
-        authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Abian, A. I.; Zhang, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>Knowledge-Based Systems</i>',
+        id: 'rahman2025weckd',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.5',
+        title: 'WeCKD: Weakly-supervised Chained Distillation Network for Efficient Multimodal Medical Imaging',
+        authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>; Karim, A.; Beissbarth, J.; & Leach, A.',
+        venue: '<strong></strong> <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
+        // venue: 'NOT SUBMITTED YET',
         doi: '#',
         pdf: '#',
         abstract: '',
@@ -272,6 +272,18 @@ const publications = [
         bibtex: ``
     },
     // --- Preprints ---
+    {
+        id: 'rahman2025weckd_preprint',
+        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.5', accepted: 'Fri, Oct 17, 2025',
+        title: 'WeCKD: Weakly-supervised Chained Distillation Network for Efficient Multimodal Medical Imaging',
+        authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>; Karim, A.; Beissbarth, J.; & Leach, A.',
+        venue: '<strong></strong> <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
+        doi: 'https://doi.org/10.48550/arXiv.2510.14668',
+        ga: 'graphical_abstract/rahman2025weckd_preprint.png',
+        pdf: 'https://arxiv.org/pdf/2510.14668',
+        abstract: "Knowledge distillation (KD) has traditionally relied on a static teacher-student framework, where a large, well-trained teacher transfers knowledge to a single student model. However, these approaches often suffer from knowledge degradation, inefficient supervision, and reliance on either a very strong teacher model or large labeled datasets, which limits their effectiveness in real-world, limited-data scenarios. To address these, we present the first-ever Weakly-supervised Chain-based KD network (WeCKD) that redefines knowledge transfer through a structured sequence of interconnected models. Unlike conventional KD, it forms a progressive distillation chain, where each model not only learns from its predecessor but also refines the knowledge before passing it forward. This structured knowledge transfer further enhances feature learning, reduces data dependency, and mitigates the limitations of one-step KD. Each model in the distillation chain is trained on only a fraction of the dataset and demonstrates that effective learning can be achieved with minimal supervision. Extensive evaluations across four otoscopic imaging datasets demonstrate that it not only matches but in many cases surpasses the performance of existing supervised methods. Experimental results on two other datasets further underscore its generalization across diverse medical imaging modalities, including microscopic and magnetic resonance imaging. Furthermore, our evaluations resulted in cumulative accuracy gains of up to +23% over a single backbone trained on the same limited data, which highlights its potential for real-world adoption.",
+        bibtex: ``
+    },
     {
         id: 'rahman2025finegrained_preprint',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.5', accepted: 'Sun, Sept 7, 2025',
