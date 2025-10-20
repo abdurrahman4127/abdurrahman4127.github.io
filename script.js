@@ -120,7 +120,7 @@ const publications = [
         type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.6',
         title: 'ReFRM3D: A radiomics-enhanced fused residual multiparametric 3D network with multi-scale feature fusion for glioma characterization',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Abian, A. I.; Zhang, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>Knowledge-Based Systems</i>',
+        venue: '<strong>Under review at</strong> <i>Knowledge-Based Systems</i>',
         doi: '#',
         pdf: '#',
         abstract: '',
@@ -128,169 +128,12 @@ const publications = [
     },
     {
         id: 'rahman2025weckd',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.5',
-        title: 'WeCKD: Weakly-supervised Chained Distillation Network for Efficient Multimodal Medical Imaging',
-        authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>; Karim, A.; Beissbarth, J.; & Leach, A.',
-        venue: '<strong></strong> <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
-        // venue: 'NOT SUBMITTED YET',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'rahman2025metal',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.3',
-        title: 'METAL: An Advanced Meta-Enhanced Tumor Adaptive Learning Framework for Brain Tumor Segmentation with Partial Modalities',
-        authors: '<strong><u>Rahman, M. A.</u></strong>; Abian, A. I.; Alam, M. M.; Y., Mukta, S.; Shourav, S. A.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>Computers in Biology and Medicine</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'rahman2025arionet',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.6',
-        title: 'ARIONet: An Advanced Self-supervised Contrastive Representation Network for Birdsong Classification and Future Frame Prediction',
-        authors: '<strong><u>Rahman, M. A.</u></strong>; Thuseethan, S.; Yeo, K. C.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>Applied Acoustics</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'rahman2025finegrained',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.5',
-        title: 'A fine-grained attention and geometric correspondence model for musculoskeletal risk classification in athletes using multimodal visual and skeletal features',
-        authors: '<strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Raiaan, M. A. K.<sup>*</sup>; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
-        venue: '<strong>Submitted to</strong> <i>Expert Systems with Applications</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'sutradhar2025sourcefree',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.7',
-        title: 'A source-free approach for domain adaptation via multiview image transformation and latent space consistency',
-        authors: 'Sutradhar, D.<sup>*</sup>; <strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Raiaan, M. A. K.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
-        venue: '<strong>Submitted to</strong> <i>IEEE Transactions on Image Processing</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'raiaan2025diffusion',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.3',
-        title: 'Diffusion-based knowledge distillation for effective multi-organ segmentation with reduced computational time',
-        authors: 'Raiaan, M. A. K.<sup>*</sup>; <strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Yeo, K. C.; Sebastian, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
-        venue: '<strong>Submitted to</strong> <i>Computers in Biology and Medicine</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'abian2025hansnet',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.5',
-        title: 'HANS-Net: Hyperbolic convolution and adaptive temporal attention for accurate and generalizable liver and tumor segmentation in CT imaging',
-        authors: 'Abian, A. I.; Debnath, R. K.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Karim, A.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'debnath2025ssmtconed',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.9',
-        title: 'SSMT-ConED: A semi-supervised student–teacher framework with contrastive learning and generative adversarial network-based augmentation for robust multi-organ segmentation across CT and MRI modalities',
-        authors: 'Debnath, R. K.; Raiaan, M. A. K.; <strong><u>Rahman, M. A.</u></strong>; Selvarajah, T.; Yeo, K. C.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>Biomedical Signal Processing and Control</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'rahman2025hallucination',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9',
-        title: 'Hallucination to truth: A review of fact-checking and factuality evaluation in large language models',
-        authors: 'Rahman, S. S.; Islam, M. A.; Alam, M. M.; Zeba, M.; <strong><u>Rahman, M. A.</u></strong>; Chowa, S. S.; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>Artificial Intelligence Review</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'fahad2024dualstage',
-        type: 'under-review', year: 2025, quartile: 'Q2', imf: 'Impact Factor: 2.1',
-        title: 'A Dual-Stage Framework for Cardiovascular Abnormalities Diagnosis from ECG Signals Using CA-GNN and Semi-Supervised Autoencoders',
-        authors: 'Fahad, N. M.; <strong><u>Rahman, M. A.</u></strong>; Jakarea, M.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>Signal, Image and Video Processing</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'sutradhar2025cade',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: '',
-        title: 'CADE: A lightweight change-adaptive dual-path encoder framework for predicting and generating future changes in satellite imagery using semi-supervised learning',
-        authors: 'Sutradhar, D.; <strong><u>Rahman, M. A.</u></strong>; Mannan, Z. I.; Azid, S. I.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>Neural Computing and Applications</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'alam2025parkinson',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.7',
-        title: 'Quantitative measurement of Parkinson disease progression using DaTscan radiomics and clinical features with a machine learning based approach',
-        authors: 'Alam, M. M.; Rahman, S. S.; Chowa, S. S.; <strong><u>Rahman, M. A.</u></strong>; Islam, M. R.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>International Journal of Intelligent Systems</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'chowa2025languageactionreviewlarge',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9',
-        title: 'From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users',
-        authors: 'Chowa, S. S.; Alvi, R.;  Rahman, S. S.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Hussain, M; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>Artificial Intelligence Review</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'fahad2025dinvestigating',
-        type: 'under-review', year: 2025,
-        // quartile: 'Q1', imf: 'Impact Factor: 3.7',
-        title: 'Investigating Dementia Patterns by Machine Learning and Graph-Based Marker Analysis Integrating Deterministic Finite Automata for Multiclass Dementia Diagnosis',
-        authors: 'Fahad, N. M.; Sutradhar, D.<sup>*</sup>; <strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Sakib, S.<sup>*</sup>; Islam, M. R.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Equal contribution<sup>*</sup>)',
-        venue: '<strong>Submitted to</strong> <i>Discover Computing</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    // --- Preprints ---
-    {
-        id: 'rahman2025weckd_preprint',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.5', accepted: 'Fri, Oct 17, 2025',
         title: 'WeCKD: Weakly-supervised Chained Distillation Network for Efficient Multimodal Medical Imaging',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>; Karim, A.; Beissbarth, J.; & Leach, A.',
-        venue: '<strong></strong> <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
+        venue: '<strong>Under review at</strong> <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
         doi: 'https://doi.org/10.48550/arXiv.2510.14668',
-        ga: 'graphical_abstract/rahman2025weckd_preprint.png',
+        ga: 'graphical_abstract/rahman2025weckd.png',
         pdf: 'https://arxiv.org/pdf/2510.14668',
         abstract: "Knowledge distillation (KD) has traditionally relied on a static teacher-student framework, where a large, well-trained teacher transfers knowledge to a single student model. However, these approaches often suffer from knowledge degradation, inefficient supervision, and reliance on either a very strong teacher model or large labeled datasets, which limits their effectiveness in real-world, limited-data scenarios. To address these, we present the first-ever Weakly-supervised Chain-based KD network (WeCKD) that redefines knowledge transfer through a structured sequence of interconnected models. Unlike conventional KD, it forms a progressive distillation chain, where each model not only learns from its predecessor but also refines the knowledge before passing it forward. This structured knowledge transfer further enhances feature learning, reduces data dependency, and mitigates the limitations of one-step KD. Each model in the distillation chain is trained on only a fraction of the dataset and demonstrates that effective learning can be achieved with minimal supervision. Extensive evaluations across four otoscopic imaging datasets demonstrate that it not only matches but in many cases surpasses the performance of existing supervised methods. Experimental results on two other datasets further underscore its generalization across diverse medical imaging modalities, including microscopic and magnetic resonance imaging. Furthermore, our evaluations resulted in cumulative accuracy gains of up to +23% over a single backbone trained on the same limited data, which highlights its potential for real-world adoption.",
         bibtex: `@misc{rahman2025weckdweaklysupervisedchaineddistillation,
@@ -301,36 +144,29 @@ const publications = [
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2510.14668}, 
-}`
+}`},
+    {
+        id: 'rahman2025metal',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.3',
+        title: 'METAL: An Advanced Meta-Enhanced Tumor Adaptive Learning Framework for Brain Tumor Segmentation with Partial Modalities',
+        authors: '<strong><u>Rahman, M. A.</u></strong>; Abian, A. I.; Alam, M. M.; Y., Mukta, S.; Shourav, S. A.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Under review at</strong> <i>Computers in Biology and Medicine</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
     },
     {
-        id: 'rahman2025finegrained_preprint',
-        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.5', accepted: 'Sun, Sept 7, 2025',
-        title: 'A Fine-Grained Attention and Geometric Correspondence Model for Musculoskeletal Risk Classification in Athletes Using Multimodal Visual and Skeletal Features',
-        authors: '<strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Raiaan, M. A. K.<sup>*</sup>; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
-        venue: '<strong>Submitted to</strong> <i>Expert Systems with Applications</i>',
-        doi: 'https://doi.org/10.48550/arXiv.2509.05913',
-        ga: 'graphical_abstract/rahman2025finegrained_preprint.png',
-        pdf: 'https://arxiv.org/pdf/2509.05913',
-        abstract: "Musculoskeletal disorders pose significant risks to athletes, and assessing risk early is important for prevention. However, most existing methods are designed for controlled settings and fail to reliably assess risk in complex environments due to their reliance on a single type of data. This research proposes ViSK-GAT (Visual-Skeletal Geometric Attention Transformer), a novel multimodal deep learning framework designed to classify musculoskeletal risk using visual and skeletal coordinate-based features. In addition, a custom multimodal dataset is constructed by combining visual data and skeletal coordinates for risk assessment. Each sample is labeled into eight risk categories based on the Rapid Entire Body Assessment system. ViSK-GAT combines a Residual Block with a Lightweight Transformer Block to learn spatial and temporal dependencies jointly. It incorporates two novel modules: the Fine-Grained Attention Module (FGAM), which enables precise inter-modal feature refinement through cross-attention between visual and skeletal inputs, and the Multimodal Geometric Correspondence Module (MGCM), which enhances cross-modal coherence by aligning image features with coordinate-based representations. ViSK-GAT achieved strong performance with validation and test accuracies of 93.55% and 93.89%, respectively; a precision of 93.86%; an F1 score of 93.85%; and Cohen's Kappa and Matthews Correlation Coefficient of 93%. The regression results also indicated a low Root Mean Square Error of the predicted probability distribution of 0.1205 and a corresponding Mean Absolute Error of 0.0156. Compared to nine popular transfer learning backbones, ViSK-GAT consistently outperformed previous methods. The ViSK-GAT model advances artificial intelligence implementation and application, transforming musculoskeletal risk classification and enabling impactful early interventions in sports.",
-        bibtex: `@article{rahman2025fine,
-  title={A Fine-Grained Attention and Geometric Correspondence Model for Musculoskeletal Risk Classification in Athletes Using Multimodal Visual and Skeletal Features},
-  author={Rahman, Md Abdur and Raiaan, Mohaimenul Azam Khan and Shermin, Tamanna and Islam, Md Rafiqul and Hussain, Mukhtar and Azam, Sami},
-  journal={arXiv preprint arXiv:2509.05913},
-  year={2025}
-}`
-    },
-    {
-        id: 'rahman2025arionet_preprint',
+id: 'rahman2025arionet',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.6', accepted: 'Wed, 1 Oct, 2025',
         title: 'ARIONet: An Advanced Self-supervised Contrastive Representation Network for Birdsong Classification and Future Frame Prediction',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Thuseethan, S.; Yeo, K. C.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>Applied Acoustics</i>',
+        venue: '<strong>Under review at</strong> <i>Applied Acoustics</i>',
         doi: 'https://doi.org/10.48550/arXiv.2510.00522',
-        ga: 'graphical_abstract/rahman2025arionet_preprint.png',
+        ga: 'graphical_abstract/rahman2025arionet.png',
         pdf: 'https://arxiv.org/pdf/2510.00522',
         abstract: "Automated birdsong classification is essential for advancing ecological monitoring and biodiversity studies. Despite recent progress, existing methods often depend heavily on labeled data, use limited feature representations, and overlook temporal dynamics essential for accurate species identification. In this work, we propose a self-supervised contrastive network, ARIONet (Acoustic Representation for Interframe Objective Network), that jointly optimizes contrastive classification and future frame prediction using augmented audio representations. The model simultaneously integrates multiple complementary audio features within a transformer-based encoder model. Our framework is designed with two key objectives: (1) to learn discriminative species-specific representations for contrastive learning through maximizing similarity between augmented views of the same audio segment while pushing apart different samples, and (2) to model temporal dynamics by predicting future audio frames, both without requiring large-scale annotations. We validate our framework on four diverse birdsong datasets, including the British Birdsong Dataset, Bird Song Dataset, and two extended Xeno-Canto subsets (A-M and N-Z). Our method consistently outperforms existing baselines and achieves classification accuracies of 98.41%, 93.07%, 91.89%, and 91.58%, and F1-scores of 97.84%, 94.10%, 91.29%, and 90.94%, respectively. Furthermore, it demonstrates low mean absolute errors and high cosine similarity, up to 95%, in future frame prediction tasks. Extensive experiments further confirm the effectiveness of our self-supervised learning strategy in capturing complex acoustic patterns and temporal dependencies, as well as its potential for real-world applicability in ecological conservation and monitoring.",
-        bibtex: `@airticle{rahman2025arionet_preprint,
+        bibtex: `@airticle{rahman2025arionet,
 	title={ARIONet: An Advanced Self-supervised Contrastive Representation Network for Birdsong Classification and Future Frame Prediction}, 
 	author={Md. Abdur Rahman and Selvarajah Thuseethan and Kheng Cher Yeo and Reem E. Mohamed and Sami Azam},
 	year={2025},
@@ -341,30 +177,52 @@ const publications = [
 }`
     },
     {
-        id: 'rahman2025hallucination_preprint',
-        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Tue, Aug 5, 2025',
-        title: 'Hallucination to truth: A review of fact-checking and factuality evaluation in large language models',
-        authors: 'Rahman, S. S.; Islam, M. A.; Alam, M. M.; Zeba, M.; <strong><u>Rahman, M. A.</u></strong>; Chowa, S. S.; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>Artificial Intelligence Review</i>',
-        doi: 'https://doi.org/10.48550/arXiv.2508.03860',
-        ga: 'graphical_abstract/rahman2025hallucination_preprint.png',
-        pdf: 'https://arxiv.org/pdf/2508.03860',
-        abstract: 'Large Language Models (LLMs) are trained on vast and diverse internet corpora that often include inaccurate or misleading content. Consequently, LLMs can generate misinformation, making robust fact-checking essential. This review systematically analyzes how LLM-generated content is evaluated for factual accuracy by exploring key challenges such as hallucinations, dataset limitations, and the reliability of evaluation metrics. The review emphasizes the need for strong fact-checking frameworks that integrate advanced prompting strategies, domain-specific fine-tuning, and retrieval-augmented generation (RAG) methods. It proposes five research questions that guide the analysis of the recent literature from 2020 to 2025, focusing on evaluation methods and mitigation techniques. The review also discusses the role of instruction tuning, multi-agent reasoning, and external knowledge access via RAG frameworks. Key findings highlight the limitations of current metrics, the value of grounding outputs with validated external evidence, and the importance of domain-specific customization to improve factual consistency. Overall, the review underlines the importance of building LLMs that are not only accurate and explainable but also tailored for domain-specific fact-checking. These insights contribute to the advancement of research toward more trustworthy and context-aware language models.',
-        bibtex: `@article{rahman2025hallucination,
-  title={Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models},
-  author={Rahman, Subhey Sadi and Islam, Md Adnanul and Alam, Md Mahbub and Zeba, Musarrat and Rahman, Md Abdur and Chowa, Sadia Sultana and Raiaan, Mohaimenul Azam Khan and Azam, Sami},
-  journal={arXiv preprint arXiv:2508.03860},
+        id: 'rahman2025finegrained',
+        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.5', accepted: 'Sun, Sept 7, 2025',
+        title: 'A Fine-Grained Attention and Geometric Correspondence Model for Musculoskeletal Risk Classification in Athletes Using Multimodal Visual and Skeletal Features',
+        authors: '<strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Raiaan, M. A. K.<sup>*</sup>; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
+        venue: '<strong>Under review at</strong> <i>Expert Systems with Applications</i>',
+        doi: 'https://doi.org/10.48550/arXiv.2509.05913',
+        ga: 'graphical_abstract/rahman2025finegrained.png',
+        pdf: 'https://arxiv.org/pdf/2509.05913',
+        abstract: "Musculoskeletal disorders pose significant risks to athletes, and assessing risk early is important for prevention. However, most existing methods are designed for controlled settings and fail to reliably assess risk in complex environments due to their reliance on a single type of data. This research proposes ViSK-GAT (Visual-Skeletal Geometric Attention Transformer), a novel multimodal deep learning framework designed to classify musculoskeletal risk using visual and skeletal coordinate-based features. In addition, a custom multimodal dataset is constructed by combining visual data and skeletal coordinates for risk assessment. Each sample is labeled into eight risk categories based on the Rapid Entire Body Assessment system. ViSK-GAT combines a Residual Block with a Lightweight Transformer Block to learn spatial and temporal dependencies jointly. It incorporates two novel modules: the Fine-Grained Attention Module (FGAM), which enables precise inter-modal feature refinement through cross-attention between visual and skeletal inputs, and the Multimodal Geometric Correspondence Module (MGCM), which enhances cross-modal coherence by aligning image features with coordinate-based representations. ViSK-GAT achieved strong performance with validation and test accuracies of 93.55% and 93.89%, respectively; a precision of 93.86%; an F1 score of 93.85%; and Cohen's Kappa and Matthews Correlation Coefficient of 93%. The regression results also indicated a low Root Mean Square Error of the predicted probability distribution of 0.1205 and a corresponding Mean Absolute Error of 0.0156. Compared to nine popular transfer learning backbones, ViSK-GAT consistently outperformed previous methods. The ViSK-GAT model advances artificial intelligence implementation and application, transforming musculoskeletal risk classification and enabling impactful early interventions in sports.",
+        bibtex: `@article{rahman2025fine,
+  title={A Fine-Grained Attention and Geometric Correspondence Model for Musculoskeletal Risk Classification in Athletes Using Multimodal Visual and Skeletal Features},
+  author={Rahman, Md Abdur and Raiaan, Mohaimenul Azam Khan and Shermin, Tamanna and Islam, Md Rafiqul and Hussain, Mukhtar and Azam, Sami},
+  journal={arXiv preprint arXiv:2509.05913},
   year={2025}
 }`
     },
     {
-        id: 'abian2025hansnet_preprint',
+        id: 'sutradhar2025sourcefree',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.7',
+        title: 'A source-free approach for domain adaptation via multiview image transformation and latent space consistency',
+        authors: 'Sutradhar, D.<sup>*</sup>; <strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Raiaan, M. A. K.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
+        venue: '<strong>Under review at</strong> <i>IEEE Transactions on Image Processing</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
+    },
+    {
+        id: 'raiaan2025diffusion',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.3',
+        title: 'Diffusion-based knowledge distillation for effective multi-organ segmentation with reduced computational time',
+        authors: 'Raiaan, M. A. K.<sup>*</sup>; <strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Yeo, K. C.; Sebastian, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
+        venue: '<strong>Under review at</strong> <i>Computers in Biology and Medicine</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
+    },
+    {
+id: 'abian2025hansnet',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.5', accepted: 'Tue, Jul 15, 2025',
         title: 'HANS-Net: Hyperbolic convolution and adaptive temporal attention for accurate and generalizable liver and tumor segmentation in CT imaging',
         authors: 'Abian, A. I.; Debnath, R. K.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Karim, A.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
+        venue: '<strong>Under review at</strong> <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
         doi: 'https://doi.org/10.48550/arXiv.2507.11325',
-        ga: 'graphical_abstract/abian2025hans_preprint.png',
+        ga: 'graphical_abstract/abian2025hans.png',
         pdf: 'https://arxiv.org/pdf/2507.11325',
         abstract: 'Accurate liver and tumor segmentation on abdominal CT images is critical for reliable diagnosis and treatment planning, but remains challenging due to complex anatomical structures, variability in tumor appearance, and limited annotated data. To address these issues, we introduce Hyperbolic-convolutions Adaptive-temporal-attention with Neural-representation and Synaptic-plasticity Network (HANS-Net), a novel segmentation framework that synergistically combines hyperbolic convolutions for hierarchical geometric representation, a wavelet-inspired decomposition module for multi-scale texture learning, a biologically motivated synaptic plasticity mechanism for adaptive feature enhancement, and an implicit neural representation branch to model fine-grained and continuous anatomical boundaries. Additionally, we incorporate uncertainty-aware Monte Carlo dropout to quantify prediction confidence and lightweight temporal attention to improve inter-slice consistency without sacrificing efficiency. Extensive evaluations of the LiTS dataset demonstrate that HANS-Net achieves a mean Dice score of 93.26%, an IoU of 88.09%, an average symmetric surface distance (ASSD) of 0.72 mm, and a volume overlap error (VOE) of 11.91%. Furthermore, cross-dataset validation on the 3D-IRCADb-01 dataset obtains an average Dice of 87.45%, IoU of 80.30%, ASSD of 1.525 mm, and VOE of 19.71%, indicating strong generalization across different datasets. These results confirm the effectiveness and robustness of HANS-Net in providing anatomically consistent, accurate, and confident liver and tumor segmentation.',
         bibtex: `@article{abian2025hans,
@@ -375,13 +233,74 @@ const publications = [
 }`
     },
     {
-        id: 'chowa2025languageactionreviewlarge_preprint',
+        id: 'debnath2025ssmtconed',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.9',
+        title: 'SSMT-ConED: A semi-supervised student–teacher framework with contrastive learning and generative adversarial network-based augmentation for robust multi-organ segmentation across CT and MRI modalities',
+        authors: 'Debnath, R. K.; Raiaan, M. A. K.; <strong><u>Rahman, M. A.</u></strong>; Selvarajah, T.; Yeo, K. C.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Under review at</strong> <i>Biomedical Signal Processing and Control</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
+    },
+    {
+id: 'rahman2025hallucination',
+        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Tue, Aug 5, 2025',
+        title: 'Hallucination to truth: A review of fact-checking and factuality evaluation in large language models',
+        authors: 'Rahman, S. S.; Islam, M. A.; Alam, M. M.; Zeba, M.; <strong><u>Rahman, M. A.</u></strong>; Chowa, S. S.; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Under review at</strong> <i>Artificial Intelligence Review</i>',
+        doi: 'https://doi.org/10.48550/arXiv.2508.03860',
+        ga: 'graphical_abstract/rahman2025hallucination.png',
+        pdf: 'https://arxiv.org/pdf/2508.03860',
+        abstract: 'Large Language Models (LLMs) are trained on vast and diverse internet corpora that often include inaccurate or misleading content. Consequently, LLMs can generate misinformation, making robust fact-checking essential. This review systematically analyzes how LLM-generated content is evaluated for factual accuracy by exploring key challenges such as hallucinations, dataset limitations, and the reliability of evaluation metrics. The review emphasizes the need for strong fact-checking frameworks that integrate advanced prompting strategies, domain-specific fine-tuning, and retrieval-augmented generation (RAG) methods. It proposes five research questions that guide the analysis of the recent literature from 2020 to 2025, focusing on evaluation methods and mitigation techniques. The review also discusses the role of instruction tuning, multi-agent reasoning, and external knowledge access via RAG frameworks. Key findings highlight the limitations of current metrics, the value of grounding outputs with validated external evidence, and the importance of domain-specific customization to improve factual consistency. Overall, the review underlines the importance of building LLMs that are not only accurate and explainable but also tailored for domain-specific fact-checking. These insights contribute to the advancement of research toward more trustworthy and context-aware language models.',
+        bibtex: `@article{rahman2025hallucination,
+  title={Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models},
+  author={Rahman, Subhey Sadi and Islam, Md Adnanul and Alam, Md Mahbub and Zeba, Musarrat and Rahman, Md Abdur and Chowa, Sadia Sultana and Raiaan, Mohaimenul Azam Khan and Azam, Sami},
+  journal={arXiv preprint arXiv:2508.03860},
+  year={2025}
+}`
+    },
+    {
+        id: 'fahad2024dualstage',
+        type: 'under-review', year: 2025, quartile: 'Q2', imf: 'Impact Factor: 2.1',
+        title: 'A Dual-Stage Framework for Cardiovascular Abnormalities Diagnosis from ECG Signals Using CA-GNN and Semi-Supervised Autoencoders',
+        authors: 'Fahad, N. M.; <strong><u>Rahman, M. A.</u></strong>; Jakarea, M.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Under review at</strong> <i>Signal, Image and Video Processing</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
+    },
+    {
+        id: 'sutradhar2025cade',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: '',
+        title: 'CADE: A lightweight change-adaptive dual-path encoder framework for predicting and generating future changes in satellite imagery using semi-supervised learning',
+        authors: 'Sutradhar, D.; <strong><u>Rahman, M. A.</u></strong>; Mannan, Z. I.; Azid, S. I.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Under review at</strong> <i>Neural Computing and Applications</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
+    },
+    {
+        id: 'alam2025parkinson',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.7',
+        title: 'Quantitative measurement of Parkinson disease progression using DaTscan radiomics and clinical features with a machine learning based approach',
+        authors: 'Alam, M. M.; Rahman, S. S.; Chowa, S. S.; <strong><u>Rahman, M. A.</u></strong>; Islam, M. R.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Under review at</strong> <i>International Journal of Intelligent Systems</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
+    },
+    {
+id: 'chowa2025languageactionreviewlarge',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Tue, Aug 24, 2025',
         title: 'From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users',
         authors: 'Chowa, S. S.; Alvi, R.;  Rahman, S. S.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Hussain, M; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Submitted to</strong> <i>Artificial Intelligence Review</i>',
+        venue: '<strong>Under review at</strong> <i>Artificial Intelligence Review</i>',
         doi: 'https://doi.org/10.48550/arXiv.2508.17281',
-        ga: 'graphical_abstract/chowa2025languageactionreviewlarge_preprint.png',
+        ga: 'graphical_abstract/chowa2025languageactionreviewlarge.png',
         pdf: 'https://arxiv.org/pdf/2508.17281',
         abstract: "The pursuit of human-level artificial intelligence (AI) has significantly advanced the development of autonomous agents and Large Language Models (LLMs). LLMs are now widely utilized as decision-making agents for their ability to interpret instructions, manage sequential tasks, and adapt through feedback. This review examines recent developments in employing LLMs as autonomous agents and tool users and comprises seven research questions. We only used the papers published between 2023 and 2025 in conferences of the A* and A rank and Q1 journals. A structured analysis of the LLM agents' architectural design principles, dividing their applications into single-agent and multi-agent systems, and strategies for integrating external tools is presented. In addition, the cognitive mechanisms of LLM, including reasoning, planning, and memory, and the impact of prompting methods and fine-tuning procedures on agent performance are also investigated. Furthermore, we evaluated current benchmarks and assessment protocols and have provided an analysis of 68 publicly available datasets to assess the performance of LLM-based agents in various tasks. In conducting this review, we have identified critical findings on verifiable reasoning of LLMs, the capacity for self-improvement, and the personalization of LLM-based agents. Finally, we have discussed ten future research directions to overcome these gaps.",
         bibtex: `@misc{chowa2025languageactionreviewlarge,
@@ -393,6 +312,18 @@ const publications = [
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2508.17281}, 
 }}`
+    },
+    {
+        id: 'fahad2025dinvestigating',
+        type: 'under-review', year: 2025,
+        // quartile: 'Q1', imf: 'Impact Factor: 3.7',
+        title: 'Investigating Dementia Patterns by Machine Learning and Graph-Based Marker Analysis Integrating Deterministic Finite Automata for Multiclass Dementia Diagnosis',
+        authors: 'Fahad, N. M.; Sutradhar, D.<sup>*</sup>; <strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Sakib, S.<sup>*</sup>; Islam, M. R.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Equal contribution<sup>*</sup>)',
+        venue: '<strong>Under review at</strong> <i>Discover Computing</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
     }
 ];
 
@@ -450,7 +381,8 @@ function render(filter = 'all', query = '') {
                 <p><strong>Status:</strong> On-going</p>
             </div>
         </div>
-    `;} else if (p.type === 'under-review') {
+    `;
+        } else if (p.type === 'under-review') {
             details.innerHTML = `<div class="pub-details-grid"><div><p><strong>Status:</strong> Under review</p></div></div>`;
         } else if (p.type === 'preprint') {
             details.innerHTML = `
