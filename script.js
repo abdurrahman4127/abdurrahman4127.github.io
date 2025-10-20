@@ -139,6 +139,17 @@ const publications = [
         bibtex: ``
     },
     {
+        id: 'rahman2025metal',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.3',
+        title: 'METAL: An Advanced Meta-Enhanced Tumor Adaptive Learning Framework for Brain Tumor Segmentation with Partial Modalities',
+        authors: '<strong><u>Rahman, M. A.</u></strong>; Abian, A. I.; Alam, M. M.; Y., Mukta, S.; Shourav, S. A.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Submitted to</strong> <i>Computers in Biology and Medicine</i>',
+        doi: '#',
+        pdf: '#',
+        abstract: '',
+        bibtex: ``
+    },
+    {
         id: 'rahman2025arionet',
         type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.6',
         title: 'ARIONet: An Advanced Self-supervised Contrastive Representation Network for Birdsong Classification and Future Frame Prediction',
@@ -282,7 +293,15 @@ const publications = [
         ga: 'graphical_abstract/rahman2025weckd_preprint.png',
         pdf: 'https://arxiv.org/pdf/2510.14668',
         abstract: "Knowledge distillation (KD) has traditionally relied on a static teacher-student framework, where a large, well-trained teacher transfers knowledge to a single student model. However, these approaches often suffer from knowledge degradation, inefficient supervision, and reliance on either a very strong teacher model or large labeled datasets, which limits their effectiveness in real-world, limited-data scenarios. To address these, we present the first-ever Weakly-supervised Chain-based KD network (WeCKD) that redefines knowledge transfer through a structured sequence of interconnected models. Unlike conventional KD, it forms a progressive distillation chain, where each model not only learns from its predecessor but also refines the knowledge before passing it forward. This structured knowledge transfer further enhances feature learning, reduces data dependency, and mitigates the limitations of one-step KD. Each model in the distillation chain is trained on only a fraction of the dataset and demonstrates that effective learning can be achieved with minimal supervision. Extensive evaluations across four otoscopic imaging datasets demonstrate that it not only matches but in many cases surpasses the performance of existing supervised methods. Experimental results on two other datasets further underscore its generalization across diverse medical imaging modalities, including microscopic and magnetic resonance imaging. Furthermore, our evaluations resulted in cumulative accuracy gains of up to +23% over a single backbone trained on the same limited data, which highlights its potential for real-world adoption.",
-        bibtex: ``
+        bibtex: `@misc{rahman2025weckdweaklysupervisedchaineddistillation,
+      title={WeCKD: Weakly-supervised Chained Distillation Network for Efficient Multimodal Medical Imaging}, 
+      author={Md. Abdur Rahman and Mohaimenul Azam Khan Raiaan and Sami Azam and Asif Karim and Jemima Beissbarth and Amanda Leach},
+      year={2025},
+      eprint={2510.14668},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.14668}, 
+}`
     },
     {
         id: 'rahman2025finegrained_preprint',
