@@ -155,7 +155,7 @@ const publications = [
     },
     {
 id: 'rahman2025arionet',
-        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7/5', accepted: 'Wed, 1 Oct, 2025',
+        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.5', accepted: 'Wed, 1 Oct, 2025',
         title: 'ARIONet: An Advanced Self-supervised Contrastive Representation Network for Birdsong Classification and Future Frame Prediction',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Thuseethan, S.; Yeo, K. C.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<strong>Under review at</strong> <i>Expert Systems with Applications</i>',
