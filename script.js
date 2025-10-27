@@ -187,10 +187,10 @@ const publications = [
     },
     {
         id: 'rahman2025finegrained',
-        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.5', accepted: 'Sun, Sept 7, 2025',
+        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.8', accepted: 'Sun, Sept 7, 2025',
         title: 'A Fine-Grained Attention and Geometric Correspondence Model for Musculoskeletal Risk Classification in Athletes Using Multimodal Visual and Skeletal Features',
         authors: '<strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Raiaan, M. A. K.<sup>*</sup>; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
-        venue: '<strong>Under review at</strong> <i>Expert Systems with Applications</i>',
+        venue: '<strong>Under review at</strong> <i>Information Sciences</i>',
         doi: 'https://doi.org/10.48550/arXiv.2509.05913',
         ga: 'graphical_abstract/rahman2025finegrained.png',
         pdf: 'https://arxiv.org/pdf/2509.05913',
