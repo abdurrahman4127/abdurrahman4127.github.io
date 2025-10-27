@@ -93,6 +93,18 @@ const publications = [
         abstract: "Colorectal liver metastases (CRLM) are a significant challenge in oncology, as recurrence after liver resection is frequently observed. Accurate prediction of CRLM recurrence is important to guide specific treatment strategies and improve clinical outcomes. To address this issue, this study proposes a novel framework. To the best of our knowledge, we are the first to integrate Graph Neural Networks (GNNs) and causal inference to predict post-resection CRLM recurrence using clinical and pathological characteristics. In addition, a GNNExplainer framework is also utilized for the interpretability of the models beyond predictive accuracy. Our proposed framework identifies the factors of recurrence and their impact on patient outcomes, not only providing predictions to clinicians but also explaining the underlying reasons. Furthermore, causal inference strengthened the model by confirming factors. The relevance of these variables is also shown through counterfactual and interventional analyses, allowing for more evidence-based choices. The GCN model of our framework exhibits high performance with test accuracy of 99.40%, F1-score of 99.21%, and receiver operating characteristic area under the curve (ROC AUC) of 99.97%. An extensive evaluation shows the clinical applicability of the proposed framework.",
         bibtex: `Manuscript is accepted on 9 Oct, 2025, and is now under the production team.`
     },
+    {
+        id: 'raiaan2025diffusion',
+        type: 'in-production', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.3', accepted: 'Mon, Oct 27, 2025',
+        title: 'Diffusion-based knowledge distillation for effective multi-organ segmentation with reduced computational time',
+        authors: 'Raiaan, M. A. K.<sup>*</sup>; <strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Yeo, K. C.; Sebastian, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
+        venue: '<i>Computers in Biology and Medicine</i>',
+        doi: '',
+        pdf: '',
+        ga: 'graphical_abstract/raiaan2025diffusion.png',
+        abstract: 'Accurate and efficient multi-organ segmentation is crucial for clinical workflows, requiring high accuracy and reduced computational time. In this research, we propose a 3D diffusion-based knowledge distillation framework (3DKD-DiffuseNet) for multi-organ segmentation to achieve higher accuracy with reduced computational time. The core idea is to enhance the training of a lightweight student model by integrating a diffusion mechanism that guides feature learning during knowledge transfer from a high-capacity teacher model. Unlike conventional distillation approaches that rely solely on soft label supervision, our framework incorporates a diffusion consistency loss that encourages the student to learn stable and spatially coherent representations. To further improve computational efficiency, we introduce an organ-specific intensity thresholding strategy, which localizes regions of interest and reduces unnecessary processing without sacrificing critical anatomical detail. The model is validated on both MRI and CT modalities for brain tumor segmentation (BraTS benchmark) and abdominal organ segmentation (RAOS) tasks. On the BraTS benchmark datasets, it achieved outstanding Dice scores for high-grade and low-grade tumors, outperforming the teacher model by 3-5% across all modalities. On the RAOS dataset, it similarly delivered excellent Dice scores, with improvements of 3-6% for critical organs compared to other state-of-the-art (SOTA) models. Experiment shows that the model also achieved a 2-3× reduction in computational time due to strategic preprocessing. Our diffusion-based student model, supported by strategic preprocessing, offers enhanced segmentation accuracy and computational efficiency, making it suitable for clinical applications that require fast and reliable analysis.',
+        bibtex: `Manuscript is accepted on 27 Oct, 2025, and is now under the production team.`
+    },
 
     // --- Conferences ---
     {
@@ -154,7 +166,7 @@ const publications = [
         bibtex: ``
     },
     {
-id: 'rahman2025arionet',
+        id: 'rahman2025arionet',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.5', accepted: 'Wed, 1 Oct, 2025',
         title: 'ARIONet: An Advanced Self-supervised Contrastive Representation Network for Birdsong Classification and Future Frame Prediction',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Thuseethan, S.; Yeo, K. C.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
@@ -202,18 +214,7 @@ id: 'rahman2025arionet',
         bibtex: ``
     },
     {
-        id: 'raiaan2025diffusion',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.3',
-        title: 'Diffusion-based knowledge distillation for effective multi-organ segmentation with reduced computational time',
-        authors: 'Raiaan, M. A. K.<sup>*</sup>; <strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Yeo, K. C.; Sebastian, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
-        venue: '<strong>Under review at</strong> <i>Computers in Biology and Medicine</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-id: 'abian2025hansnet',
+        id: 'abian2025hansnet',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.5', accepted: 'Tue, Jul 15, 2025',
         title: 'HANS-Net: Hyperbolic convolution and adaptive temporal attention for accurate and generalizable liver and tumor segmentation in CT imaging',
         authors: 'Abian, A. I.; Debnath, R. K.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Karim, A.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
@@ -241,7 +242,7 @@ id: 'abian2025hansnet',
         bibtex: ``
     },
     {
-id: 'rahman2025hallucination',
+        id: 'rahman2025hallucination',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Tue, Aug 5, 2025',
         title: 'Hallucination to truth: A review of fact-checking and factuality evaluation in large language models',
         authors: 'Rahman, S. S.; Islam, M. A.; Alam, M. M.; Zeba, M.; <strong><u>Rahman, M. A.</u></strong>; Chowa, S. S.; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
@@ -291,7 +292,7 @@ id: 'rahman2025hallucination',
         bibtex: ``
     },
     {
-id: 'chowa2025languageactionreviewlarge',
+        id: 'chowa2025languageactionreviewlarge',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Tue, Aug 24, 2025',
         title: 'From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users',
         authors: 'Chowa, S. S.; Alvi, R.;  Rahman, S. S.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Hussain, M; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
