@@ -82,16 +82,23 @@ const publications = [
     },
     {
         id: 'ahmed2025colorectal',
-        type: 'in-production', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.1', accepted: 'Thu, Oct 9, 2025',
+        type: 'journal', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.1', accepted: 'Thu, Oct 9, 2025',
         title: 'Predicting Post-Resection Colorectal Liver Metastases Recurrence using Advanced Graph Neural Networks with Explainability and Causal Inference',
         authors: 'Ahmed, J.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<i>Advanced Intelligent Systems</i>',
-        doi: '',
-        // https://doi.org/10.1002/aisy.202500596
-        pdf: '',
+        doi: 'https://doi.org/10.1002/aisy.202500596',
+        pdf: 'https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/aisy.202500596',
         ga: 'graphical_abstract/jubair2025predicting.png',
         abstract: "Colorectal liver metastases (CRLM) are a significant challenge in oncology, as recurrence after liver resection is frequently observed. Accurate prediction of CRLM recurrence is important to guide specific treatment strategies and improve clinical outcomes. To address this issue, this study proposes a novel framework. To the best of our knowledge, we are the first to integrate Graph Neural Networks (GNNs) and causal inference to predict post-resection CRLM recurrence using clinical and pathological characteristics. In addition, a GNNExplainer framework is also utilized for the interpretability of the models beyond predictive accuracy. Our proposed framework identifies the factors of recurrence and their impact on patient outcomes, not only providing predictions to clinicians but also explaining the underlying reasons. Furthermore, causal inference strengthened the model by confirming factors. The relevance of these variables is also shown through counterfactual and interventional analyses, allowing for more evidence-based choices. The GCN model of our framework exhibits high performance with test accuracy of 99.40%, F1-score of 99.21%, and receiver operating characteristic area under the curve (ROC AUC) of 99.97%. An extensive evaluation shows the clinical applicability of the proposed framework.",
-        bibtex: `Manuscript is accepted on 9 Oct, 2025, and is now under the production team.`
+        bibtex: `@article{ahmed2025predicting,
+	author    = {Jubair Ahmed and Md. Abdur Rahman and Mohaimenul Azam Khan Raiaan and Sami Azam},
+	title     = {Predicting Postresection Colorectal Liver Metastases Recurrence Using Advanced Graph Neural Networks with Explainability and Causal Inference},
+	journal   = {Advanced Intelligent Systems},
+	issn      = {2640-4567},
+	doi       = {10.1002/aisy.202500596},
+	year      = {2025},
+	publisher={Wiley Online Library}
+}`
     },
     {
         id: 'raiaan2025diffusion',
