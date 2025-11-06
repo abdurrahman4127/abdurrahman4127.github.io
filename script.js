@@ -102,15 +102,23 @@ const publications = [
     },
     {
         id: 'raiaan2025diffusion',
-        type: 'in-production', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.3', accepted: 'Mon, Oct 27, 2025',
+        type: 'journal', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.3', accepted: 'Mon, Oct 27, 2025',
         title: 'Diffusion-based knowledge distillation for effective multi-organ segmentation with reduced computational time',
         authors: 'Raiaan, M. A. K.<sup>*</sup>; <strong><u>Rahman, M. A.<sup>*</sup></u></strong>; Yeo, K. C.; Sebastian, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>*</sup>)',
         venue: '<i>Computers in Biology and Medicine</i>',
-        doi: '',
-        pdf: '',
+        doi: 'https://doi.org/10.1016/j.compbiomed.2025.111265',
+        pdf: "https://pdf.sciencedirectassets.com/271150/1-s2.0-S0010482525X00184/1-s2.0-S0010482525016191/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQC7zv4sZe40GJZ6bE55c3hOvEUDU8S9x32B86%2Fqwz%2BUUQIhAOwgEQHBDLhwZXaCSKO0k4Mq3FXIcdQsnxS%2BJiWZt02OKrsFCKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDU5MDAzNTQ2ODY1IgxTgkbaoZFDIKSX2V0qjwXnR2EhsvSRtADFbUh5IQW%2FazO3Dq6h9weKQjwJxpKNWl39UXQQO3O1rvVh5v7CKOlWgmeD%2FhLLTicLVDzvU7UZBLdrLUjck6dQNdMp%2BgpqpF57liv2Y0KRUPX7qqSu%2BPkZGGm3LLvmL%2BuFj5kr1wUwzHYTg%2FsqtNMvqhGV3HhifYGkixp3VSYQFdVNMzeCj2oO9JNdMndITvyMieGTteVIPxqjMohMgJmvbMHXwQYWE5mP47wDF80XY51Dmm8ckoU%2FVeOaXyeQigw1M8dCqekMTBqgbKGLCAVG6pnIwjxm4ZmpGh8u6lxrazwk%2BrgqnJodm6BxXu1sSzOHrCkG3B%2FImhZA5N8SgHHZ1sr17rT%2BrEkA3jO4pAL7pIo7U%2F1%2BRl%2FWDk1Gb2N99oWvLJPwB42MIziwNkoQMVSbDEh3SvA%2BRC5f0KaOWkIMgp37HAX2e2IVD13tbLBdaDNa6XsEJs89Sk8lqHyBqQXRgsoqXPYkzVwsmoKtCA6OjxWOfP5wgw2FxxODS5xVk%2FIYhGDX8gONbkMAkpCSCGFXxuhKZVkh4QQ9QqqJ5K9rrWoU652rVA2DWNlLGwmA4feoSh2gkxWZPmVuV%2B%2BUDSu6pja%2FXj8byKpTtKjIfmdeFYC%2BsH78E9LLytPk586IrXX11BWa1tgFOdfyPtX3M8%2F8urtbQRELegu53GHZE%2FC0X9zH1bX%2FpGQckbLdUH75LuZd7cCCqxF89dG%2FiHr0YqnFQhiz3EsgL9kmYn9O%2BmcKDCfu%2BwJMzYFAHlRO1jtbcfTg%2FNXN%2BN9r0npakkyPP9wDhz85Ut4vvJdpYsqsvY%2FHfgF2IFqJp%2BqXxZuUTIYIADONnHwmA7FTxkpsiScvBDCi3JiCIQCYMLLMs8gGOrAB2N9rou3DOGC47fkyemfQA%2FxE8vLROd79dJ1TbBb88Gf11JC5esDN6rrZD2uxvm0EREp3tGg%2BN3HG%2FA%2BO9paWoqtfC2YSJelS63B%2B445XuRJ0q%2Fs6Xpqz%2F3IBe6euPxwZxnLiOcss2eq6SqLh4H1j3VBAT7Oi7cweiBYQgMGKaB7Jy8RRkt7BIN49Hm8V3R%2FFcEtfWmx1%2Fj82nzpmtBjsUjnQgaeR8GKzcZwWCgzY58o%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251106T185227Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYU32V7V7H%2F20251106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=af934a1343983d53d8dc1ad9531fa035e18c3292f1321b74c1deb9b1b7860695&hash=ea4832c8dfba3df58d0f1459b7306fed584c8ce8fb971fb8542039bf7f73dd0a&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0010482525016191&tid=spdf-5ff1fb77-7938-4a66-8183-ef351d5b8ec1&sid=daf0ae3c54e0f34c709a151083a55b0d3b42gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=00035c5d015505560c&rr=99a6c9bd3c4f6dbe&cc=bd",
         ga: 'graphical_abstract/raiaan2025diffusion.png',
         abstract: 'Accurate and efficient multi-organ segmentation is crucial for clinical workflows, requiring high accuracy and reduced computational time. In this research, we propose a 3D diffusion-based knowledge distillation framework (3DKD-DiffuseNet) for multi-organ segmentation to achieve higher accuracy with reduced computational time. The core idea is to enhance the training of a lightweight student model by integrating a diffusion mechanism that guides feature learning during knowledge transfer from a high-capacity teacher model. Unlike conventional distillation approaches that rely solely on soft label supervision, our framework incorporates a diffusion consistency loss that encourages the student to learn stable and spatially coherent representations. To further improve computational efficiency, we introduce an organ-specific intensity thresholding strategy, which localizes regions of interest and reduces unnecessary processing without sacrificing critical anatomical detail. The model is validated on both MRI and CT modalities for brain tumor segmentation (BraTS benchmark) and abdominal organ segmentation (RAOS) tasks. On the BraTS benchmark datasets, it achieved outstanding Dice scores for high-grade and low-grade tumors, outperforming the teacher model by 3-5% across all modalities. On the RAOS dataset, it similarly delivered excellent Dice scores, with improvements of 3-6% for critical organs compared to other state-of-the-art (SOTA) models. Experiment shows that the model also achieved a 2-3× reduction in computational time due to strategic preprocessing. Our diffusion-based student model, supported by strategic preprocessing, offers enhanced segmentation accuracy and computational efficiency, making it suitable for clinical applications that require fast and reliable analysis.',
-        bibtex: `Manuscript is accepted on 27 Oct, 2025, and is now under the production team.`
+        bibtex: `@article{raiaan2025diffusion,
+author = {Mohaimenul Azam Khan Raiaan and Md. Abdur Rahman and Sami Azam and Kheng Cher Yeo and Yakub Sebastian and Mirjam Jonkman},
+title = {Diffusion-based knowledge distillation for effective multi-organ segmentation with reduced computational time},
+journal = {Computers in Biology and Medicine},
+volume = {198},
+pages = {111265},
+year = {2025},
+issn = {0010-4825}
+}`
     },
 
     // --- Conferences ---
