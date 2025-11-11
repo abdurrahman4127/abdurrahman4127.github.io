@@ -354,7 +354,13 @@ function render(filter = 'all', query = '') {
     //     .filter(p => !q || [p.title, p.venue, p.authors, p.year].join(' ').toLowerCase().includes(q))
     //     .sort((a, b) => b.year - a.year);
     const items = publications
-        .filter(p => filter === 'all' || p.type === filter)
+        // .filter(p => filter === 'all' || p.type === filter)
+        .filter(p => {
+            if (filter === 'all') return true;
+            if (filter === 'under-review') return p.type === 'under-review' || p.type === 'preprint';
+            return p.type === filter;
+        })
+
         // Only remove duplicates when viewing "all"
         .filter(p => {
             if (filter === 'all' && p.type === 'preprint') {
