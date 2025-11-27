@@ -155,10 +155,10 @@ issn = {0010-4825}
     },
     {
         id: 'rahman2025weckd',
-        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.2', accepted: 'Fri, Oct 17, 2025',
+        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.9', accepted: 'Fri, Oct 17, 2025',
         title: 'WeCKD: Weakly-supervised Chained Distillation Network for Efficient Multimodal Medical Imaging',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>; Karim, A.; Beissbarth, J.; & Leach, A.',
-        venue: '<strong>Under review at</strong> <i>Artificial Intelligence In Medicine</i>',
+        venue: '<strong>Under review at</strong> <i>Biomedical Signal Processing and Control</i>',
         doi: 'https://doi.org/10.48550/arXiv.2510.14668',
         ga: 'graphical_abstract/rahman2025weckd.png',
         pdf: 'https://arxiv.org/pdf/2510.14668',
@@ -171,10 +171,10 @@ issn = {0010-4825}
 }`},
     {
         id: 'rahman2025metal',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.8',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.2',
         title: 'METAL: An Advanced Meta-Enhanced Tumor Adaptive Learning Framework for Brain Tumor Segmentation with Partial Modalities',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Abian, A. I.; Alam, M. M.; Y., Mukta, S.; Shourav, S. A.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Under review at</strong> <i>Information Sciences</i>',
+        venue: '<strong>Under review at</strong> <i>Image and Vision Computing</i>',
         doi: '#',
         pdf: '#',
         abstract: '',
@@ -202,10 +202,10 @@ issn = {0010-4825}
     },
     {
         id: 'rahman2025finegrained',
-        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.8', accepted: 'Sun, Sept 7, 2025',
+        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.9', accepted: 'Sun, Sept 7, 2025',
         title: 'A Fine-Grained Attention and Geometric Correspondence Model for Musculoskeletal Risk Classification in Athletes Using Multimodal Visual and Skeletal Features',
         authors: '<strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Raiaan, M. A. K.<sup>†</sup>; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>†</sup>)',
-        venue: '<strong>Under review at</strong> <i>Information Sciences</i>',
+        venue: '<strong>Under review at</strong> <i>Computers and Electrical Engineering</i>',
         doi: 'https://doi.org/10.48550/arXiv.2509.05913',
         ga: 'graphical_abstract/rahman2025finegrained.png',
         pdf: 'https://arxiv.org/pdf/2509.05913',
@@ -269,7 +269,7 @@ issn = {0010-4825}
     },
     {
         id: 'rahman2025hallucination',
-        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Tue, Aug 5, 2025',
+        type: 'in-production', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Tue, Nov 25, 2025',
         title: 'Hallucination to truth: A review of fact-checking and factuality evaluation in large language models',
         authors: 'Rahman, S. S.; Islam, M. A.; Alam, M. M.; Zeba, M.; <strong><u>Rahman, M. A.</u></strong>; Chowa, S. S.; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<strong>Under review at</strong> <i>Artificial Intelligence Review</i>',
@@ -277,12 +277,13 @@ issn = {0010-4825}
         ga: 'graphical_abstract/rahman2025hallucination.png',
         pdf: 'https://arxiv.org/pdf/2508.03860',
         abstract: 'Large Language Models (LLMs) are trained on vast and diverse internet corpora that often include inaccurate or misleading content. Consequently, LLMs can generate misinformation, making robust fact-checking essential. This review systematically analyzes how LLM-generated content is evaluated for factual accuracy by exploring key challenges such as hallucinations, dataset limitations, and the reliability of evaluation metrics. The review emphasizes the need for strong fact-checking frameworks that integrate advanced prompting strategies, domain-specific fine-tuning, and retrieval-augmented generation (RAG) methods. It proposes five research questions that guide the analysis of the recent literature from 2020 to 2025, focusing on evaluation methods and mitigation techniques. The review also discusses the role of instruction tuning, multi-agent reasoning, and external knowledge access via RAG frameworks. Key findings highlight the limitations of current metrics, the value of grounding outputs with validated external evidence, and the importance of domain-specific customization to improve factual consistency. Overall, the review underlines the importance of building LLMs that are not only accurate and explainable but also tailored for domain-specific fact-checking. These insights contribute to the advancement of research toward more trustworthy and context-aware language models.',
-        bibtex: `@article{rahman2025hallucination,
-  title={Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models},
-  author={Rahman, Subhey Sadi and Islam, Md Adnanul and Alam, Md Mahbub and Zeba, Musarrat and Rahman, Md Abdur and Chowa, Sadia Sultana and Raiaan, Mohaimenul Azam Khan and Azam, Sami},
-  journal={arXiv preprint arXiv:2508.03860},
-  year={2025}
-}`
+        bibtex: `The manuscript is accepted for publication on 25th Nov at Artificial Intelligence Review and is currently in production.`,
+//         bibtex: `@article{rahman2025hallucination,
+//   title={Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models},
+//   author={Rahman, Subhey Sadi and Islam, Md Adnanul and Alam, Md Mahbub and Zeba, Musarrat and Rahman, Md Abdur and Chowa, Sadia Sultana and Raiaan, Mohaimenul Azam Khan and Azam, Sami},
+//   journal={arXiv preprint arXiv:2508.03860},
+//   year={2025}
+// }`
     },
     {
         id: 'fahad2024dualstage',
