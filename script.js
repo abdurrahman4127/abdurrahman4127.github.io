@@ -120,6 +120,18 @@ year = {2025},
 issn = {0010-4825}
 }`
     },
+    {
+        id: 'fahad2024dualstage',
+        type: 'in-production', year: 2025, quartile: 'Q2', imf: 'Impact Factor: 2.1', accepted: 'Tue, Dec 9, 2025',
+        title: 'A Dual-Stage Framework for Cardiovascular Abnormalities Diagnosis from ECG Signals Using CA-GNN and Semi-Supervised Autoencoders',
+        authors: 'Fahad, N. M.; <strong><u>Rahman, M. A.</u></strong>; Jakarea, M.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<i>Signal, Image and Video Processing</i>',
+        doi: '#',
+        pdf: '#',
+        ga: 'graphical_abstract/fahad2024dualstage.png',
+        abstract: "Cardiovascular diseases (CVDs) cause global mortality, highlighting the need for effective strategies. Artificial intelligence (AI)-based applications have been used to diagnose myocardial infarction (MI) using automatic ECG signals. This study mainly introduces an effective MI diagnostic technique that incorporates advanced techniques. Signal processing, denoising, and analysis are performed sequentially to extract relevant features from electrocardiogram (ECG) signals. Clinicians can gain insight by understanding the patterns of these features. The relation of features is represented in a graph-based dataset. A novel compact attentional graph neural network (CA-GNN) model has been developed to classify cardiovascular diseases affected patients. The proposed model achieves an accuracy of 98.32% in the PTB dataset, indicating its robustness in diagnosing MI. However, to show the effectiveness and generalizability, the model was further experimented on two other datasets: MIT-BIH and PTB-XL; and achieved accuracies of 96.89%, 92.74%, respectively. This extension highlights the advantages of the proposed framework for diagnosing different types of cardiovascular disease abnormalities. In addition, this compact framework accelerates the training process, reduces the computation cost, and improves efficiency. This study also investigated a semisupervised autoencoder model to assess the performance of unlabeled data. The model obtains an accuracy of 89.43% on unlabeled PTB datasets and minimizes the loss to 0.095.  The outcome of this study conveys an effective automated computer diagnostic system in cardiovascular classification abnormalities and paves the way for future endeavors to practice the classification of heart diseases from ECG signals.",
+        bibtex: `The manuscript (ID: 2a60a30f-8ca9-45c0-af3e-4d60c7fff414) is accepted for publication on 9th Dec, 2025 at Signal, Image and Video Processing and is currently in production.`
+    },
 
     // --- Conferences ---
     {
@@ -278,23 +290,12 @@ issn = {0010-4825}
         pdf: 'https://arxiv.org/pdf/2508.03860',
         abstract: 'Large Language Models (LLMs) are trained on vast and diverse internet corpora that often include inaccurate or misleading content. Consequently, LLMs can generate misinformation, making robust fact-checking essential. This review systematically analyzes how LLM-generated content is evaluated for factual accuracy by exploring key challenges such as hallucinations, dataset limitations, and the reliability of evaluation metrics. The review emphasizes the need for strong fact-checking frameworks that integrate advanced prompting strategies, domain-specific fine-tuning, and retrieval-augmented generation (RAG) methods. It proposes five research questions that guide the analysis of the recent literature from 2020 to 2025, focusing on evaluation methods and mitigation techniques. The review also discusses the role of instruction tuning, multi-agent reasoning, and external knowledge access via RAG frameworks. Key findings highlight the limitations of current metrics, the value of grounding outputs with validated external evidence, and the importance of domain-specific customization to improve factual consistency. Overall, the review underlines the importance of building LLMs that are not only accurate and explainable but also tailored for domain-specific fact-checking. These insights contribute to the advancement of research toward more trustworthy and context-aware language models.',
         bibtex: `The manuscript is accepted for publication on 25th Nov at Artificial Intelligence Review and is currently in production.`,
-//         bibtex: `@article{rahman2025hallucination,
-//   title={Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models},
-//   author={Rahman, Subhey Sadi and Islam, Md Adnanul and Alam, Md Mahbub and Zeba, Musarrat and Rahman, Md Abdur and Chowa, Sadia Sultana and Raiaan, Mohaimenul Azam Khan and Azam, Sami},
-//   journal={arXiv preprint arXiv:2508.03860},
-//   year={2025}
-// }`
-    },
-    {
-        id: 'fahad2024dualstage',
-        type: 'under-review', year: 2025, quartile: 'Q2', imf: 'Impact Factor: 2.1',
-        title: 'A Dual-Stage Framework for Cardiovascular Abnormalities Diagnosis from ECG Signals Using CA-GNN and Semi-Supervised Autoencoders',
-        authors: 'Fahad, N. M.; <strong><u>Rahman, M. A.</u></strong>; Jakarea, M.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Under review at</strong> <i>Signal, Image and Video Processing</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
+        //         bibtex: `@article{rahman2025hallucination,
+        //   title={Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models},
+        //   author={Rahman, Subhey Sadi and Islam, Md Adnanul and Alam, Md Mahbub and Zeba, Musarrat and Rahman, Md Abdur and Chowa, Sadia Sultana and Raiaan, Mohaimenul Azam Khan and Azam, Sami},
+        //   journal={arXiv preprint arXiv:2508.03860},
+        //   year={2025}
+        // }`
     },
     {
         id: 'sutradhar2025cade',
