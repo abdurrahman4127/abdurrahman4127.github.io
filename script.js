@@ -166,15 +166,20 @@ issn = {0010-4825}
     // --- Under Review Papers ---
     {
         id: 'rahman2025refrm3d',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.6',
+        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.6', accepted: 'Sat, Dec 27, 2025',
         title: 'ReFRM3D: A radiomics-enhanced fused residual multiparametric 3D network with multi-scale feature fusion for glioma characterization',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Abian, A. I.; Zhang, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<strong>Under review at</strong> <i>Knowledge-Based Systems</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
+        doi: 'https://doi.org/10.48550/arXiv.2512.22570',
+        ga: 'graphical_abstract/rahman2025refrm3d.png',
+        pdf: 'https://arxiv.org/pdf/2512.22570',
+        abstract: "Gliomas are among the most aggressive cancers, characterized by high mortality rates and complex diagnostic processes. Existing studies on glioma diagnosis and classification often describe issues such as high variability in imaging data, inadequate optimization of computational resources, and inefficient segmentation and classification of gliomas. To address these challenges, we propose novel techniques utilizing multi-parametric MRI data to enhance tumor segmentation and classification efficiency. Our work introduces the first-ever radiomics-enhanced fused residual multiparametric 3D network (ReFRM3D) for brain tumor characterization, which is based on a 3D U-Net architecture and features multi-scale feature fusion, hybrid upsampling, and an extended residual skip mechanism. Additionally, we propose a multi-feature tumor marker-based classifier that leverages radiomic features extracted from the segmented regions. Experimental results demonstrate significant improvements in segmentation performance across the BraTS2019, BraTS2020, and BraTS2021 datasets, achieving high Dice Similarity Coefficients (DSC) of 94.04%, 92.68%, and 93.64% for whole tumor (WT), enhancing tumor (ET), and tumor core (TC) respectively in BraTS2019; 94.09%, 92.91%, and 93.84% in BraTS2020; and 93.70%, 90.36%, and 92.13% in BraTS2021.",
+        bibtex: `@article{rahman2025refrm3d,
+  title={ReFRM3D: A radiomics-enhanced fused residual multiparametric 3D network with multi-scale feature fusion for glioma characterization},
+  author={Rahman, Md Abdur and Raiaan, Mohaimenul Azam Khan and Abian, A. I. and Zhang, Y. and Jonkman, M. and Azam, Sami},
+  journal={arXiv preprint arXiv:2512.22570},
+  year={2025}
+}`},
     {
         id: 'rahman2025weckd',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.9', accepted: 'Fri, Oct 17, 2025',
@@ -341,14 +346,14 @@ issn = {0010-4825}
         abstract: "The pursuit of human-level artificial intelligence (AI) has significantly advanced the development of autonomous agents and Large Language Models (LLMs). LLMs are now widely utilized as decision-making agents for their ability to interpret instructions, manage sequential tasks, and adapt through feedback. This review examines recent developments in employing LLMs as autonomous agents and tool users and comprises seven research questions. We only used the papers published between 2023 and 2025 in conferences of the A* and A rank and Q1 journals. A structured analysis of the LLM agents' architectural design principles, dividing their applications into single-agent and multi-agent systems, and strategies for integrating external tools is presented. In addition, the cognitive mechanisms of LLM, including reasoning, planning, and memory, and the impact of prompting methods and fine-tuning procedures on agent performance are also investigated. Furthermore, we evaluated current benchmarks and assessment protocols and have provided an analysis of 68 publicly available datasets to assess the performance of LLM-based agents in various tasks. In conducting this review, we have identified critical findings on verifiable reasoning of LLMs, the capacity for self-improvement, and the personalization of LLM-based agents. Finally, we have discussed ten future research directions to overcome these gaps.",
         bibtex: `The manuscript is accepted for publication on 14th Dec, 2025 at Artificial Intelligence Review and is currently in production.`,
         //         bibtex: `@misc{chowa2025languageactionreviewlarge,
-//       title={From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users}, 
-//       author={Sadia Sultana Chowa and Riasad Alvi and Subhey Sadi Rahman and Md Abdur Rahman and Mohaimenul Azam Khan Raiaan and Md Rafiqul Islam and Mukhtar Hussain and Sami Azam},
-//       year={2025},
-//       eprint={2508.17281},
-//       archivePrefix={arXiv},
-//       primaryClass={cs.CL},
-//       url={https://arxiv.org/abs/2508.17281}, 
-// }}`
+        //       title={From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users}, 
+        //       author={Sadia Sultana Chowa and Riasad Alvi and Subhey Sadi Rahman and Md Abdur Rahman and Mohaimenul Azam Khan Raiaan and Md Rafiqul Islam and Mukhtar Hussain and Sami Azam},
+        //       year={2025},
+        //       eprint={2508.17281},
+        //       archivePrefix={arXiv},
+        //       primaryClass={cs.CL},
+        //       url={https://arxiv.org/abs/2508.17281}, 
+        // }}`
     },
     {
         id: 'fahad2025dinvestigating',
