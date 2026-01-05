@@ -142,6 +142,23 @@ issn = {0010-4825}
 }
 `
     },
+    {
+        id: 'rahman2025hallucination',
+        type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Sun, Jan 3, 2026',
+        title: 'Hallucination to truth: A review of fact-checking and factuality evaluation in large language models',
+        authors: 'Rahman, S. S.; Islam, M. A.; Alam, M. M.; Zeba, M.; <strong><u>Rahman, M. A.</u></strong>; Chowa, S. S.; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Under review at</strong> <i>Artificial Intelligence Review</i>',
+        doi: 'https://doi.org/10.1007/s10462-025-11454-w',
+        ga: 'graphical_abstract/rahman2025hallucination.png',
+        pdf: 'https://arxiv.org/pdf/2508.03860',
+        abstract: "Large language models (LLMs) are trained on vast and diverse internet corpora that often include inaccurate or misleading content. Consequently, LLMs can generate misinformation, making robust fact-checking essential. This review systematically analyzes how LLM-generated content is evaluated for factual accuracy by exploring key challenges such as hallucinations, dataset limitations, and the reliability of evaluation metrics. The review emphasizes the need for strong fact-checking frameworks that integrate advanced prompting strategies, domain-specific fine-tuning, and retrieval-augmented generation (RAG) methods. It proposes five research questions that guide the analysis of the recent literature from 2020 to 2025, focusing on evaluation methods and mitigation techniques. Instruction tuning, multi-agent reasoning, and RAG frameworks for external knowledge access are also reviewed. The key findings demonstrate the limitations of current metrics, the importance of validated external evidence, and the improvement of factual consistency through domain-specific customization. The review underscores the importance of building more accurate, understandable, and context-aware fact-checking. These insights contribute to the advancement of research toward more trustworthy models.",
+        bibtex: `@article{rahman2025hallucination,
+  title={Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models},
+  author={Rahman, Subhey Sadi and Islam, Md Adnanul and Alam, Md Mahbub and Zeba, Musarrat and Rahman, Md Abdur and Chowa, Sadia Sultana and Raiaan, Mohaimenul Azam Khan and Azam, Sami},
+  journal={arXiv preprint arXiv:2508.03860},
+  year={2025}
+}`
+    },
 
     // --- Conferences ---
     {
@@ -295,24 +312,6 @@ issn = {0010-4825}
         bibtex: ``
     },
     {
-        id: 'rahman2025hallucination',
-        type: 'in-production', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Tue, Nov 25, 2025',
-        title: 'Hallucination to truth: A review of fact-checking and factuality evaluation in large language models',
-        authors: 'Rahman, S. S.; Islam, M. A.; Alam, M. M.; Zeba, M.; <strong><u>Rahman, M. A.</u></strong>; Chowa, S. S.; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Under review at</strong> <i>Artificial Intelligence Review</i>',
-        doi: 'https://doi.org/10.48550/arXiv.2508.03860',
-        ga: 'graphical_abstract/rahman2025hallucination.png',
-        pdf: 'https://arxiv.org/pdf/2508.03860',
-        abstract: 'Large Language Models (LLMs) are trained on vast and diverse internet corpora that often include inaccurate or misleading content. Consequently, LLMs can generate misinformation, making robust fact-checking essential. This review systematically analyzes how LLM-generated content is evaluated for factual accuracy by exploring key challenges such as hallucinations, dataset limitations, and the reliability of evaluation metrics. The review emphasizes the need for strong fact-checking frameworks that integrate advanced prompting strategies, domain-specific fine-tuning, and retrieval-augmented generation (RAG) methods. It proposes five research questions that guide the analysis of the recent literature from 2020 to 2025, focusing on evaluation methods and mitigation techniques. The review also discusses the role of instruction tuning, multi-agent reasoning, and external knowledge access via RAG frameworks. Key findings highlight the limitations of current metrics, the value of grounding outputs with validated external evidence, and the importance of domain-specific customization to improve factual consistency. Overall, the review underlines the importance of building LLMs that are not only accurate and explainable but also tailored for domain-specific fact-checking. These insights contribute to the advancement of research toward more trustworthy and context-aware language models.',
-        bibtex: `The manuscript is accepted for publication on 25th Nov at Artificial Intelligence Review and is currently in production.`,
-        //         bibtex: `@article{rahman2025hallucination,
-        //   title={Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models},
-        //   author={Rahman, Subhey Sadi and Islam, Md Adnanul and Alam, Md Mahbub and Zeba, Musarrat and Rahman, Md Abdur and Chowa, Sadia Sultana and Raiaan, Mohaimenul Azam Khan and Azam, Sami},
-        //   journal={arXiv preprint arXiv:2508.03860},
-        //   year={2025}
-        // }`
-    },
-    {
         id: 'sutradhar2025cade',
         type: 'under-review', year: 2025, quartile: 'Q1', imf: '',
         title: 'CADE: A lightweight change-adaptive dual-path encoder framework for predicting and generating future changes in satellite imagery using semi-supervised learning',
@@ -399,7 +398,7 @@ function render(filter = 'all', query = '') {
             return true;
         })
         .filter(p => !q || [p.title, p.venue, p.authors, p.year].join(' ').toLowerCase().includes(q))
-        .sort((a, b) => b.year - a.year);
+        // .sort((a, b) => b.year - a.year);
 
 
 
