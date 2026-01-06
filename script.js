@@ -143,6 +143,23 @@ issn = {0010-4825}
 `
     },
     {
+        id: 'chowa2025languageactionreviewlarge',
+        type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Tue, Jan 6, 2026',
+        title: 'From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users',
+        authors: 'Chowa, S. S.; Alvi, R.;  Rahman, S. S.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Hussain, M; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<i>Artificial Intelligence Review</i>',
+        doi: 'https://doi.org/10.1007/s10462-025-11471-9',
+        ga: 'graphical_abstract/chowa2025languageactionreviewlarge.png',
+        pdf: 'https://arxiv.org/pdf/2508.17281',
+        abstract: "The pursuit of human-level artificial intelligence (AI) has significantly advanced the development of autonomous agents and Large Language Models (LLMs). LLMs are now widely utilized as decision-making agents for their ability to interpret instructions, manage sequential tasks, and adapt through feedback. This review examines recent developments in employing LLMs as autonomous agents and tool users and comprises seven research questions. We only used the papers published between 2023 and 2025 in conferences of the A* and A rank and Q1 journals. A structured analysis of the LLM agents' architectural design principles, dividing their applications into single-agent and multi-agent systems, and strategies for integrating external tools is presented. In addition, the cognitive mechanisms of LLM, including reasoning, planning, and memory, and the impact of prompting methods and fine-tuning procedures on agent performance are also investigated. Furthermore, we evaluated current benchmarks and assessment protocols and have provided an analysis of 68 publicly available datasets to assess the performance of LLM-based agents in various tasks. In conducting this review, we have identified critical findings on verifiable reasoning of LLMs, the capacity for self-improvement, and the personalization of LLM-based agents. Finally, we have discussed ten future research directions to overcome these gaps.",
+        bibtex: `@article{chowa2025language,
+  title={From language to action: A review of large language models as autonomous agents and tool users},
+  author={Chowa, Sadia Sultana and Alvi, Riasad and Rahman, Subhey Sadi and Rahman, Md Abdur and Raiaan, Mohaimenul Azam Khan and Islam, Md Rafiqul and Hussain, Mukhtar and Azam, Sami},
+  journal={arXiv preprint arXiv:2508.17281},
+  year={2025}
+}`
+    },
+    {
         id: 'rahman2025hallucination',
         type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Sun, Jan 3, 2026',
         title: 'Hallucination to truth: A review of fact-checking and factuality evaluation in large language models',
@@ -334,27 +351,6 @@ issn = {0010-4825}
         bibtex: ``
     },
     {
-        id: 'chowa2025languageactionreviewlarge',
-        type: 'in-production', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Sun, Dec 14, 2025',
-        title: 'From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users',
-        authors: 'Chowa, S. S.; Alvi, R.;  Rahman, S. S.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Hussain, M; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Under review at</strong> <i>Artificial Intelligence Review</i>',
-        doi: 'https://doi.org/10.48550/arXiv.2508.17281',
-        ga: 'graphical_abstract/chowa2025languageactionreviewlarge.png',
-        pdf: 'https://arxiv.org/pdf/2508.17281',
-        abstract: "The pursuit of human-level artificial intelligence (AI) has significantly advanced the development of autonomous agents and Large Language Models (LLMs). LLMs are now widely utilized as decision-making agents for their ability to interpret instructions, manage sequential tasks, and adapt through feedback. This review examines recent developments in employing LLMs as autonomous agents and tool users and comprises seven research questions. We only used the papers published between 2023 and 2025 in conferences of the A* and A rank and Q1 journals. A structured analysis of the LLM agents' architectural design principles, dividing their applications into single-agent and multi-agent systems, and strategies for integrating external tools is presented. In addition, the cognitive mechanisms of LLM, including reasoning, planning, and memory, and the impact of prompting methods and fine-tuning procedures on agent performance are also investigated. Furthermore, we evaluated current benchmarks and assessment protocols and have provided an analysis of 68 publicly available datasets to assess the performance of LLM-based agents in various tasks. In conducting this review, we have identified critical findings on verifiable reasoning of LLMs, the capacity for self-improvement, and the personalization of LLM-based agents. Finally, we have discussed ten future research directions to overcome these gaps.",
-        bibtex: `The manuscript is accepted for publication on 14th Dec, 2025 at Artificial Intelligence Review and is currently in production.`,
-        //         bibtex: `@misc{chowa2025languageactionreviewlarge,
-        //       title={From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users}, 
-        //       author={Sadia Sultana Chowa and Riasad Alvi and Subhey Sadi Rahman and Md Abdur Rahman and Mohaimenul Azam Khan Raiaan and Md Rafiqul Islam and Mukhtar Hussain and Sami Azam},
-        //       year={2025},
-        //       eprint={2508.17281},
-        //       archivePrefix={arXiv},
-        //       primaryClass={cs.CL},
-        //       url={https://arxiv.org/abs/2508.17281}, 
-        // }}`
-    },
-    {
         id: 'fahad2025dinvestigating',
         type: 'under-review', year: 2025,
         // quartile: 'Q1', imf: 'Impact Factor: 3.7',
@@ -398,7 +394,7 @@ function render(filter = 'all', query = '') {
             return true;
         })
         .filter(p => !q || [p.title, p.venue, p.authors, p.year].join(' ').toLowerCase().includes(q))
-        // .sort((a, b) => b.year - a.year);
+    // .sort((a, b) => b.year - a.year);
 
 
 
