@@ -164,7 +164,7 @@ issn = {0010-4825}
         type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Sun, Jan 3, 2026',
         title: 'Hallucination to truth: A review of fact-checking and factuality evaluation in large language models',
         authors: 'Rahman, S. S.; Islam, M. A.; Alam, M. M.; Zeba, M.; <strong><u>Rahman, M. A.</u></strong>; Chowa, S. S.; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Under review at</strong> <i>Artificial Intelligence Review</i>',
+        venue: '<i>Artificial Intelligence Review</i>',
         doi: 'https://doi.org/10.1007/s10462-025-11454-w',
         ga: 'graphical_abstract/rahman2025hallucination.png',
         pdf: 'https://arxiv.org/pdf/2508.03860',
@@ -176,6 +176,32 @@ issn = {0010-4825}
   year={2025}
 }`
     },
+    {
+        id: 'abian2025hansnet',
+        type: 'in-production', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.5', accepted: 'Tue, Jul 15, 2025',
+        title: 'HANS-Net: Hyperbolic convolution and adaptive temporal attention for accurate and generalizable liver and tumor segmentation in CT imaging',
+        authors: 'Abian, A. I.; Debnath, R. K.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Karim, A.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
+        doi: 'https://doi.org/10.48550/arXiv.2507.11325',
+        ga: 'graphical_abstract/abian2025hans.png',
+        pdf: 'https://arxiv.org/pdf/2507.11325',
+        abstract: 'Accurate liver and tumor segmentation on abdominal CT images is critical for reliable diagnosis and treatment planning, but remains challenging due to complex anatomical structures, variability in tumor appearance, and limited annotated data. To address these issues, we introduce Hyperbolic-convolutions Adaptive-temporal-attention with Neural-representation and Synaptic-plasticity Network (HANS-Net), a novel segmentation framework that synergistically combines hyperbolic convolutions for hierarchical geometric representation, a wavelet-inspired decomposition module for multi-scale texture learning, a biologically motivated synaptic plasticity mechanism for adaptive feature enhancement, and an implicit neural representation branch to model fine-grained and continuous anatomical boundaries. Additionally, we incorporate uncertainty-aware Monte Carlo dropout to quantify prediction confidence and lightweight temporal attention to improve inter-slice consistency without sacrificing efficiency. Extensive evaluations of the LiTS dataset demonstrate that HANS-Net achieves a mean Dice score of 93.26%, an IoU of 88.09%, an average symmetric surface distance (ASSD) of 0.72 mm, and a volume overlap error (VOE) of 11.91%. Furthermore, cross-dataset validation on the 3D-IRCADb-01 dataset obtains an average Dice of 87.45%, IoU of 80.30%, ASSD of 1.525 mm, and VOE of 19.71%, indicating strong generalization across different datasets. These results confirm the effectiveness and robustness of HANS-Net in providing anatomically consistent, accurate, and confident liver and tumor segmentation.',
+        bibtex: `Accepted on 7 Jan, 2026. Currently in production.`
+    },
+    {
+        id: 'alam2025parkinson',
+        type: 'in-production', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.7',
+        title: 'Quantitative measurement of Parkinson disease progression using DaTscan radiomics and clinical features with a machine learning based approach',
+        authors: 'Alam, M. M.; Rahman, S. S.; Chowa, S. S.; <strong><u>Rahman, M. A.</u></strong>; Islam, M. R.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<i>International Journal of Intelligent Systems</i>',
+        doi: '#',
+        ga: 'graphical_abstract/alam2025parkinson.png',
+        pdf: '#',
+        abstract: "Parkinson's disease (PD) is one of the fastest-growing neurodegenerative disorders, where timely diagnosis is essential for optimizing treatment. In this study, we created a Radiomics-MDS-UPDRS, a robust dataset by integrating DaTscan SPECT radiomics data with the clinical characteristics of MDS-UPDRS collected from Parkinson’s Progression Markers Initiative (PPMI) to monitor dopamine depletion in the striatum (caudate and putamen) and allow classification and progression analysis of PD. To construct the dataset, the striatum was segmented using a modified K-Means clustering algorithm, extracting 25 radiomics features combined with 59 clinical features. In addition, linear discriminant analysis was used to select 22 significant characteristics, and a four-way feature selection method was used to identify 30 significant clinical features, resulting in a refined set of 52. Classification with machine learning models improved performance after LDA, achieving over 91% accuracy. We evaluated feature behavior across six PD severity stages and four clinical visits for progression analysis. The clinical features of MDS-UPDRS were more sensitive to changes in the severity of the initial PD. At the same time, the integrated dataset, Radiomics-MDS-UPDRS, provided more balanced insights, showing a progression of 33.30% to 83.30% and 36.36% to 45.50% from the first visit to the fourth visit among the clinical and radiomics features and a progression of 73.33% to 96.67% and 13.64% to 54.55% between the Minimal vs Mild and Minimal vs Very Severe stage. Our analysis also revealed practical links between progression features and real-life scenarios, which highlights the practical value of our study for clinical decision-making.",
+        bibtex: `Accepted on 13 Jan, 2026. Currently in production.`
+
+    },
+
 
     // --- Conferences ---
     {
@@ -216,10 +242,10 @@ issn = {0010-4825}
 }`},
     {
         id: 'rahman2025weckd',
-        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.9', accepted: 'Fri, Oct 17, 2025',
+        type: 'preprint', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 7.6', accepted: 'Fri, Oct 17, 2025',
         title: 'WeCKD: Weakly-supervised Chained Distillation Network for Efficient Multimodal Medical Imaging',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>; Karim, A.; Beissbarth, J.; & Leach, A.',
-        venue: '<strong>Under review at</strong> <i>Biomedical Signal Processing and Control</i>',
+        venue: '<strong>Under review at</strong> <i>Pattern Recognition</i>',
         doi: 'https://doi.org/10.48550/arXiv.2510.14668',
         ga: 'graphical_abstract/rahman2025weckd.png',
         pdf: 'https://arxiv.org/pdf/2510.14668',
@@ -289,23 +315,18 @@ issn = {0010-4825}
         abstract: '',
         bibtex: ``
     },
-    {
-        id: 'abian2025hansnet',
-        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.5', accepted: 'Tue, Jul 15, 2025',
-        title: 'HANS-Net: Hyperbolic convolution and adaptive temporal attention for accurate and generalizable liver and tumor segmentation in CT imaging',
-        authors: 'Abian, A. I.; Debnath, R. K.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Karim, A.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Under review at</strong> <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
-        doi: 'https://doi.org/10.48550/arXiv.2507.11325',
-        ga: 'graphical_abstract/abian2025hans.png',
-        pdf: 'https://arxiv.org/pdf/2507.11325',
-        abstract: 'Accurate liver and tumor segmentation on abdominal CT images is critical for reliable diagnosis and treatment planning, but remains challenging due to complex anatomical structures, variability in tumor appearance, and limited annotated data. To address these issues, we introduce Hyperbolic-convolutions Adaptive-temporal-attention with Neural-representation and Synaptic-plasticity Network (HANS-Net), a novel segmentation framework that synergistically combines hyperbolic convolutions for hierarchical geometric representation, a wavelet-inspired decomposition module for multi-scale texture learning, a biologically motivated synaptic plasticity mechanism for adaptive feature enhancement, and an implicit neural representation branch to model fine-grained and continuous anatomical boundaries. Additionally, we incorporate uncertainty-aware Monte Carlo dropout to quantify prediction confidence and lightweight temporal attention to improve inter-slice consistency without sacrificing efficiency. Extensive evaluations of the LiTS dataset demonstrate that HANS-Net achieves a mean Dice score of 93.26%, an IoU of 88.09%, an average symmetric surface distance (ASSD) of 0.72 mm, and a volume overlap error (VOE) of 11.91%. Furthermore, cross-dataset validation on the 3D-IRCADb-01 dataset obtains an average Dice of 87.45%, IoU of 80.30%, ASSD of 1.525 mm, and VOE of 19.71%, indicating strong generalization across different datasets. These results confirm the effectiveness and robustness of HANS-Net in providing anatomically consistent, accurate, and confident liver and tumor segmentation.',
-        bibtex: `@article{abian2025hans,
-  title={HANS-Net: Hyperbolic Convolution and Adaptive Temporal Attention for Accurate and Generalizable Liver and Tumor Segmentation in CT Imaging},
-  author={Abian, Arefin Ittesafun and Debnath, Ripon Kumar and Rahman, Md Abdur and Raiaan, Mohaimenul Azam Khan and Islam, Md Rafiqul and Karim, Asif and Mohamed, Reem E and Azam, Sami},
-  journal={arXiv preprint arXiv:2507.11325},
-  year={2025}
-}`
-    },
+    // {
+    //     id: 'abian2025hansnet',
+    //     type: 'in-production', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.5', accepted: 'Tue, Jul 15, 2025',
+    //     title: 'HANS-Net: Hyperbolic convolution and adaptive temporal attention for accurate and generalizable liver and tumor segmentation in CT imaging',
+    //     authors: 'Abian, A. I.; Debnath, R. K.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Karim, A.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+    //     venue: '<strong>Under review at</strong> <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
+    //     doi: 'https://doi.org/10.48550/arXiv.2507.11325',
+    //     ga: 'graphical_abstract/abian2025hans.png',
+    //     pdf: 'https://arxiv.org/pdf/2507.11325',
+    //     abstract: 'Accurate liver and tumor segmentation on abdominal CT images is critical for reliable diagnosis and treatment planning, but remains challenging due to complex anatomical structures, variability in tumor appearance, and limited annotated data. To address these issues, we introduce Hyperbolic-convolutions Adaptive-temporal-attention with Neural-representation and Synaptic-plasticity Network (HANS-Net), a novel segmentation framework that synergistically combines hyperbolic convolutions for hierarchical geometric representation, a wavelet-inspired decomposition module for multi-scale texture learning, a biologically motivated synaptic plasticity mechanism for adaptive feature enhancement, and an implicit neural representation branch to model fine-grained and continuous anatomical boundaries. Additionally, we incorporate uncertainty-aware Monte Carlo dropout to quantify prediction confidence and lightweight temporal attention to improve inter-slice consistency without sacrificing efficiency. Extensive evaluations of the LiTS dataset demonstrate that HANS-Net achieves a mean Dice score of 93.26%, an IoU of 88.09%, an average symmetric surface distance (ASSD) of 0.72 mm, and a volume overlap error (VOE) of 11.91%. Furthermore, cross-dataset validation on the 3D-IRCADb-01 dataset obtains an average Dice of 87.45%, IoU of 80.30%, ASSD of 1.525 mm, and VOE of 19.71%, indicating strong generalization across different datasets. These results confirm the effectiveness and robustness of HANS-Net in providing anatomically consistent, accurate, and confident liver and tumor segmentation.',
+    //     bibtex: `Accepted on 7 Jan, 2026. Currently in production.`
+    // },
     {
         id: 'debnath2025ssmtconed',
         type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.9',
@@ -334,17 +355,6 @@ issn = {0010-4825}
         title: 'CADE: A lightweight change-adaptive dual-path encoder framework for predicting and generating future changes in satellite imagery using semi-supervised learning',
         authors: 'Sutradhar, D.; <strong><u>Rahman, M. A.</u></strong>; Mannan, Z. I.; Azid, S. I.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<strong>Under review at</strong> <i>Neural Computing and Applications</i>',
-        doi: '#',
-        pdf: '#',
-        abstract: '',
-        bibtex: ``
-    },
-    {
-        id: 'alam2025parkinson',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.7',
-        title: 'Quantitative measurement of Parkinson disease progression using DaTscan radiomics and clinical features with a machine learning based approach',
-        authors: 'Alam, M. M.; Rahman, S. S.; Chowa, S. S.; <strong><u>Rahman, M. A.</u></strong>; Islam, M. R.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Under review at</strong> <i>International Journal of Intelligent Systems</i>',
         doi: '#',
         pdf: '#',
         abstract: '',
