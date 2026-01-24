@@ -169,13 +169,13 @@ const publications = [
     },
     {
         id: 'rahman2025metal',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.2',
-        title: 'METAL: An Advanced Meta-Enhanced Tumor Adaptive Learning Framework for Brain Tumor Segmentation with Partial Modalities',
+        type: 'under-review', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 8.0',
+        title: 'Meta Enhanced Brain Tumor Segmentation with Partial MRI Modalities Through Adaptive Fusion and Bi-Level Optimization',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Abian, A. I.; Alam, M. M.; Y., Mukta, S.; Shourav, S. A.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Under review in</strong> <i>Image and Vision Computing</i>',
+        venue: '<strong>Under review in</strong> <i>Engineering Applications of Artificial Intelligence</i>',
         doi: '#',
         pdf: '#',
-        abstract: ''
+        abstract: "Brain tumor segmentation is fundamental to clinical diagnosis; however, the frequent unavailability of certain Magnetic Resonance Imaging (MRI) modalities during training or inference poses a significant challenge. Existing studies typically employ all modalities, a practice often impractical in real-world scenarios due to acquisition errors, artifacts, time constraints, or protocol variations. To overcome this limitation, we propose a Meta-Enhanced Tumor Adaptive bi-Level (METAL) optimization framework that employs an adversarial modality discriminator to handle partial MRI modalities. The framework incorporates lightweight adapters for fast, sample-specific adjustments and adopts a bi-level training strategy to optimize the network with both partial- and full-modality inputs. We evaluated our model on three datasets, including BraTS2019 (high- and lower-grade gliomas), BraTS2020, and BraTS2021, achieving high Dice Similarity Coefficient (DSC) of 92.31%, 90.53%, and 88.37%; 90.62%, 88.71%, and 85.92%; 92.59%, 90.86%, and 87.12%; and 93.12%, 91.20%, and 88.29% for Whole Tumor (WT), Tumor Core (TC), and Enhancing Tumor (ET), respectively. Our method outperforms state-of-the-art transfer learning models by 5--10% and exceeds previously reported approaches in the current literature. These experimental results demonstrate the effectiveness and robustness of our proposed approach, confirming its reliability in practical applications."
     },
     {
         id: 'rahman2025arionet',
