@@ -375,16 +375,22 @@ body.light .srch input {
 }
 
 .pub-details-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  align-items: start;
+  display: block;
+  overflow: auto;
 }
 
 .pub-details-grid img.ga {
-  width: 100%;
+  float: left;
+  width: 70%;
   border-radius: 6px;
-  height: 300px;
+  height: 360px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.pub-details-grid > div:last-child {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .pub-details.collapsed {
@@ -417,6 +423,7 @@ body.light .srch input {
   text-align: left;
   text-indent: 0;
   margin-left: 0;
+  display: none;
 }
 
 

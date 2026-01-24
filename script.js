@@ -29,17 +29,7 @@ const publications = [
         doi: 'https://doi.org/10.1049/cit2.12410',
         pdf: 'https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cit2.12410',
         ga: 'graphical_abstract/rahman2025advancing.png',
-        abstract: 'Skin cancer, a severe health threat, can spread rapidly if undetected. Therefore, early detection can lead to an advanced and efficient diagnosis, thus reducing mortality. Unsupervised classification techniques analyse extensive skin image datasets, identifying patterns and anomalies without prior labelling, facilitating early detection and effective diagnosis and potentially saving lives. In this study, the authors aim to explore the potential of unsupervised learning methods in classifying different types of skin lesions in dermatoscopic images. The authors aim to bridge the gap in dermatological research by introducing innovative techniques that enhance image quality and improve feature extraction. To achieve this, enhanced super-resolution generative adversarial networks (ESRGAN) was fine-tuned to strengthen the resolution of skin lesion images, making critical features more visible. The authors extracted histogram features to capture essential colour characteristics and used the Davies–Bouldin index and silhouette score to determine optimal clusters. Fine-tuned k-means clustering with Euclidean distance in the histogram feature space achieved 87.77% and 90.5% test accuracies on the ISIC2019 and HAM10000 datasets, respectively. The unsupervised approach effectively categorises skin lesions, indicating that unsupervised learning can significantly advance dermatology by enabling early detection and classification without extensive manual annotation.',
-        bibtex: `@article{rahman2025advancing,
-  title={Advancing skin cancer detection integrating a novel unsupervised classification and enhanced imaging techniques},
-  author={Rahman, Md Abdur and Fahad, Nur Mohammad and Raiaan, Mohaimenul Azam Khan and Jonkman, Mirjam and De Boer, Friso and Azam, Sami},
-  journal={CAAI Transactions on Intelligence Technology},
-  volume={10},
-  number={2},
-  pages={474--493},
-  year={2025},
-  publisher={Wiley Online Library}
-}`
+        abstract: 'Skin cancer, a severe health threat, can spread rapidly if undetected. Therefore, early detection can lead to an advanced and efficient diagnosis, thus reducing mortality. Unsupervised classification techniques analyse extensive skin image datasets, identifying patterns and anomalies without prior labelling, facilitating early detection and effective diagnosis and potentially saving lives. In this study, the authors aim to explore the potential of unsupervised learning methods in classifying different types of skin lesions in dermatoscopic images. The authors aim to bridge the gap in dermatological research by introducing innovative techniques that enhance image quality and improve feature extraction. To achieve this, enhanced super-resolution generative adversarial networks (ESRGAN) was fine-tuned to strengthen the resolution of skin lesion images, making critical features more visible. The authors extracted histogram features to capture essential colour characteristics and used the Davies–Bouldin index and silhouette score to determine optimal clusters. Fine-tuned k-means clustering with Euclidean distance in the histogram feature space achieved 87.77% and 90.5% test accuracies on the ISIC2019 and HAM10000 datasets, respectively. The unsupervised approach effectively categorises skin lesions, indicating that unsupervised learning can significantly advance dermatology by enabling early detection and classification without extensive manual annotation.'
     },
     {
         id: 'rahman2025ufoil',
@@ -50,14 +40,7 @@ const publications = [
         doi: 'https://doi.org/10.1109/ACCESS.2025.3542417',
         pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10890958',
         ga: 'graphical_abstract/rahman2025ufoil.png',
-        abstract: 'In academic institutions, processing and evaluating documents such as exam scripts remains a labor-intensive process susceptible to human error. Traditional digitization systems face significant challenges in handling the complexities of mixed handwritten and printed text and varying document structures. These challenges are exacerbated by the absence of annotated datasets due to privacy concerns, particularly in contexts involving sensitive exam evaluations. To address these issues, this study introduces uFOIL, an unsupervised ensemble-based framework that integrates advanced image and language processing techniques to automate the extraction and validation of key information. The framework employs a majority voting mechanism that combines four state-of-the-art optical character recognition systems. Furthermore, a transformer architecture is incorporated to enhance contextual understanding and the structured formatting of extracted text that follows a post-processing confidence scoring mechanism. The proposed framework achieves high performance, with accuracies of 95.77% and 96.48% for student names and IDs, respectively; and 95.07% for total mark validation based on a dataset of exam script samples. Additionally, experiments on the benchmark ICDAR2013 dataset suggest the framework’s strong applicability achieving precision, recall, and F1-scores of 95.89%, 97.86%, and 96.87%, respectively.',
-        bibtex: `@article{rahman2025ufoil,
-  title={uFOIL: An Unsupervised Fusion of Image Processing and Language Understanding},
-  author={Rahman, Md Abdur and Hasan, Md Tanzimul and Howlader, Umar Farooq and Kader, Md Abdul and Islam, Md Motaharul and Pham, Phuoc Hung and Hassan, Mohammad Mehedi},
-  journal={IEEE Access},
-  year={2025},
-  publisher={IEEE}
-}`
+        abstract: 'In academic institutions, processing and evaluating documents such as exam scripts remains a labor-intensive process susceptible to human error. Traditional digitization systems face significant challenges in handling the complexities of mixed handwritten and printed text and varying document structures. These challenges are exacerbated by the absence of annotated datasets due to privacy concerns, particularly in contexts involving sensitive exam evaluations. To address these issues, this study introduces uFOIL, an unsupervised ensemble-based framework that integrates advanced image and language processing techniques to automate the extraction and validation of key information. The framework employs a majority voting mechanism that combines four state-of-the-art optical character recognition systems. Furthermore, a transformer architecture is incorporated to enhance contextual understanding and the structured formatting of extracted text that follows a post-processing confidence scoring mechanism. The proposed framework achieves high performance, with accuracies of 95.77% and 96.48% for student names and IDs, respectively; and 95.07% for total mark validation based on a dataset of exam script samples. Additionally, experiments on the benchmark ICDAR2013 dataset suggest the framework’s strong applicability achieving precision, recall, and F1-scores of 95.89%, 97.86%, and 96.87%, respectively.'
     },
     {
         id: 'debnath2025fssulivr',
@@ -68,17 +51,7 @@ const publications = [
         doi: 'https://doi.org/10.1007/s00432-025-06256-0',
         pdf: 'pdfs/debnath2025fssulivr.pdf',
         ga: 'graphical_abstract/debnath2025fss.png',
-        abstract: 'Precise liver segmentation is critical for accurate diagnosis and effective treatment planning, serving as a foundation for medical image analysis. However, existing methods struggle with limited labeled data, poor generalizability, and insufficient integration of anatomical and clinical features. To address these limitations, we propose a novel Few-Shot Segmentation model with Unified Liver Representation (FSS-ULivR), which employs a ResNet-based encoder enhanced with Squeeze-and-Excitation modules to improve feature learning, an enhanced prototype module that utilizes a transformer block and channel attention for dynamic feature refinement, and a decoder with improved attention gates and residual refinement strategies to recover spatial details from encoder skip connections. Through extensive experiments, our FSS-ULivR model achieved an outstanding Dice coefficient of 98.94%, Intersection over Union (IoU) of 97.44% and a specificity of 93.78% on the Liver Tumor Segmentation Challenge dataset. Cross-dataset evaluations further demonstrated its generalizability, with Dice scores of 95.43%, 92.98%, 90.72%, and 94.05% on 3DIRCADB01, Colorectal Liver Metastases, Computed Tomography Organs (CT-ORG), and Medical Segmentation Decathlon Task 3: Liver datasets, respectively. In multi-organ segmentation on CT-ORG, it delivered Dice scores ranging from 85.93% to 94.26% across bladder, bones, kidneys, and lungs. For brain tumor segmentation on BraTS 2019 and 2020 datasets, average Dice scores were 90.64% and 89.36% across whole tumor, tumor core, and enhancing tumor regions. These results emphasize the clinical importance of our model by demonstrating its ability to deliver precise and reliable segmentation through artificial intelligence techniques and engineering solutions, even in scenarios with scarce annotated data.',
-        bibtex: `@article{debnath2025fss,
-  title={FSS-ULivR: a clinically-inspired few-shot segmentation framework for liver imaging using unified representations and attention mechanisms},
-  author={Debnath, Ripon Kumar and Rahman, Md Abdur and Azam, Sami and Zhang, Yan and Jonkman, Mirjam},
-  journal={Journal of Cancer Research and Clinical Oncology},
-  volume={151},
-  number={7},
-  pages={1--23},
-  year={2025},
-  publisher={Springer}
-}`
+        abstract: 'Precise liver segmentation is critical for accurate diagnosis and effective treatment planning, serving as a foundation for medical image analysis. However, existing methods struggle with limited labeled data, poor generalizability, and insufficient integration of anatomical and clinical features. To address these limitations, we propose a novel Few-Shot Segmentation model with Unified Liver Representation (FSS-ULivR), which employs a ResNet-based encoder enhanced with Squeeze-and-Excitation modules to improve feature learning, an enhanced prototype module that utilizes a transformer block and channel attention for dynamic feature refinement, and a decoder with improved attention gates and residual refinement strategies to recover spatial details from encoder skip connections. Through extensive experiments, our FSS-ULivR model achieved an outstanding Dice coefficient of 98.94%, Intersection over Union (IoU) of 97.44% and a specificity of 93.78% on the Liver Tumor Segmentation Challenge dataset. Cross-dataset evaluations further demonstrated its generalizability, with Dice scores of 95.43%, 92.98%, 90.72%, and 94.05% on 3DIRCADB01, Colorectal Liver Metastases, Computed Tomography Organs (CT-ORG), and Medical Segmentation Decathlon Task 3: Liver datasets, respectively. In multi-organ segmentation on CT-ORG, it delivered Dice scores ranging from 85.93% to 94.26% across bladder, bones, kidneys, and lungs. For brain tumor segmentation on BraTS 2019 and 2020 datasets, average Dice scores were 90.64% and 89.36% across whole tumor, tumor core, and enhancing tumor regions. These results emphasize the clinical importance of our model by demonstrating its ability to deliver precise and reliable segmentation through artificial intelligence techniques and engineering solutions, even in scenarios with scarce annotated data.'
     },
     {
         id: 'ahmed2025colorectal',
@@ -89,16 +62,7 @@ const publications = [
         doi: 'https://doi.org/10.1002/aisy.202500596',
         pdf: 'https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/aisy.202500596',
         ga: 'graphical_abstract/jubair2025predicting.png',
-        abstract: "Colorectal liver metastases (CRLM) are a significant challenge in oncology, as recurrence after liver resection is frequently observed. Accurate prediction of CRLM recurrence is important to guide specific treatment strategies and improve clinical outcomes. To address this issue, this study proposes a novel framework. To the best of our knowledge, we are the first to integrate Graph Neural Networks (GNNs) and causal inference to predict post-resection CRLM recurrence using clinical and pathological characteristics. In addition, a GNNExplainer framework is also utilized for the interpretability of the models beyond predictive accuracy. Our proposed framework identifies the factors of recurrence and their impact on patient outcomes, not only providing predictions to clinicians but also explaining the underlying reasons. Furthermore, causal inference strengthened the model by confirming factors. The relevance of these variables is also shown through counterfactual and interventional analyses, allowing for more evidence-based choices. The GCN model of our framework exhibits high performance with test accuracy of 99.40%, F1-score of 99.21%, and receiver operating characteristic area under the curve (ROC AUC) of 99.97%. An extensive evaluation shows the clinical applicability of the proposed framework.",
-        bibtex: `@article{ahmed2025predicting,
-	author    = {Jubair Ahmed and Md. Abdur Rahman and Mohaimenul Azam Khan Raiaan and Sami Azam},
-	title     = {Predicting Postresection Colorectal Liver Metastases Recurrence Using Advanced Graph Neural Networks with Explainability and Causal Inference},
-	journal   = {Advanced Intelligent Systems},
-	issn      = {2640-4567},
-	doi       = {10.1002/aisy.202500596},
-	year      = {2025},
-	publisher={Wiley Online Library}
-}`
+        abstract: "Colorectal liver metastases (CRLM) are a significant challenge in oncology, as recurrence after liver resection is frequently observed. Accurate prediction of CRLM recurrence is important to guide specific treatment strategies and improve clinical outcomes. To address this issue, this study proposes a novel framework. To the best of our knowledge, we are the first to integrate Graph Neural Networks (GNNs) and causal inference to predict post-resection CRLM recurrence using clinical and pathological characteristics. In addition, a GNNExplainer framework is also utilized for the interpretability of the models beyond predictive accuracy. Our proposed framework identifies the factors of recurrence and their impact on patient outcomes, not only providing predictions to clinicians but also explaining the underlying reasons. Furthermore, causal inference strengthened the model by confirming factors. The relevance of these variables is also shown through counterfactual and interventional analyses, allowing for more evidence-based choices. The GCN model of our framework exhibits high performance with test accuracy of 99.40%, F1-score of 99.21%, and receiver operating characteristic area under the curve (ROC AUC) of 99.97%. An extensive evaluation shows the clinical applicability of the proposed framework."
     },
     {
         id: 'raiaan2025diffusion',
@@ -109,16 +73,7 @@ const publications = [
         doi: 'https://doi.org/10.1016/j.compbiomed.2025.111265',
         pdf: "pdfs/raiaan2025diffusion.pdf",
         ga: 'graphical_abstract/raiaan2025diffusion.png',
-        abstract: 'Accurate and efficient multi-organ segmentation is crucial for clinical workflows, requiring high accuracy and reduced computational time. In this research, we propose a 3D diffusion-based knowledge distillation framework (3DKD-DiffuseNet) for multi-organ segmentation to achieve higher accuracy with reduced computational time. The core idea is to enhance the training of a lightweight student model by integrating a diffusion mechanism that guides feature learning during knowledge transfer from a high-capacity teacher model. Unlike conventional distillation approaches that rely solely on soft label supervision, our framework incorporates a diffusion consistency loss that encourages the student to learn stable and spatially coherent representations. To further improve computational efficiency, we introduce an organ-specific intensity thresholding strategy, which localizes regions of interest and reduces unnecessary processing without sacrificing critical anatomical detail. The model is validated on both MRI and CT modalities for brain tumor segmentation (BraTS benchmark) and abdominal organ segmentation (RAOS) tasks. On the BraTS benchmark datasets, it achieved outstanding Dice scores for high-grade and low-grade tumors, outperforming the teacher model by 3-5% across all modalities. On the RAOS dataset, it similarly delivered excellent Dice scores, with improvements of 3-6% for critical organs compared to other state-of-the-art (SOTA) models. Experiment shows that the model also achieved a 2-3× reduction in computational time due to strategic preprocessing. Our diffusion-based student model, supported by strategic preprocessing, offers enhanced segmentation accuracy and computational efficiency, making it suitable for clinical applications that require fast and reliable analysis.',
-        bibtex: `@article{raiaan2025diffusion,
-author = {Mohaimenul Azam Khan Raiaan and Md. Abdur Rahman and Sami Azam and Kheng Cher Yeo and Yakub Sebastian and Mirjam Jonkman},
-title = {Diffusion-based knowledge distillation for effective multi-organ segmentation with reduced computational time},
-journal = {Computers in Biology and Medicine},
-volume = {198},
-pages = {111265},
-year = {2025},
-issn = {0010-4825}
-}`
+        abstract: 'Accurate and efficient multi-organ segmentation is crucial for clinical workflows, requiring high accuracy and reduced computational time. In this research, we propose a 3D diffusion-based knowledge distillation framework (3DKD-DiffuseNet) for multi-organ segmentation to achieve higher accuracy with reduced computational time. The core idea is to enhance the training of a lightweight student model by integrating a diffusion mechanism that guides feature learning during knowledge transfer from a high-capacity teacher model. Unlike conventional distillation approaches that rely solely on soft label supervision, our framework incorporates a diffusion consistency loss that encourages the student to learn stable and spatially coherent representations. To further improve computational efficiency, we introduce an organ-specific intensity thresholding strategy, which localizes regions of interest and reduces unnecessary processing without sacrificing critical anatomical detail. The model is validated on both MRI and CT modalities for brain tumor segmentation (BraTS benchmark) and abdominal organ segmentation (RAOS) tasks. On the BraTS benchmark datasets, it achieved outstanding Dice scores for high-grade and low-grade tumors, outperforming the teacher model by 3-5% across all modalities. On the RAOS dataset, it similarly delivered excellent Dice scores, with improvements of 3-6% for critical organs compared to other state-of-the-art (SOTA) models. Experiment shows that the model also achieved a 2-3× reduction in computational time due to strategic preprocessing. Our diffusion-based student model, supported by strategic preprocessing, offers enhanced segmentation accuracy and computational efficiency, making it suitable for clinical applications that require fast and reliable analysis.'
     },
     {
         id: 'fahad2024dualstage',
@@ -129,18 +84,7 @@ issn = {0010-4825}
         doi: 'https://doi.org/10.1007/s11760-025-05042-2',
         pdf: 'pdfs/fahad2024dualstage.pdf',
         ga: 'graphical_abstract/fahad2024dualstage.png',
-        abstract: "Cardiovascular diseases (CVDs) cause global mortality, highlighting the need for effective strategies. Artificial intelligence (AI)-based applications have been used to diagnose myocardial infarction (MI) using automatic ECG signals. This study mainly introduces an effective MI diagnostic technique that incorporates advanced techniques. Signal processing, denoising, and analysis are performed sequentially to extract relevant features from electrocardiogram (ECG) signals. Clinicians can gain insight by understanding the patterns of these features. The relation of features is represented in a graph-based dataset. A novel compact attentional graph neural network (CA-GNN) model has been developed to classify cardiovascular diseases affected patients. The proposed model achieves an accuracy of 98.32% in the PTB dataset, indicating its robustness in diagnosing MI. However, to show the effectiveness and generalizability, the model was further experimented on two other datasets: MIT-BIH and PTB-XL; and achieved accuracies of 96.89%, 92.74%, respectively. This extension highlights the advantages of the proposed framework for diagnosing different types of cardiovascular disease abnormalities. In addition, this compact framework accelerates the training process, reduces the computation cost, and improves efficiency. This study also investigated a semisupervised autoencoder model to assess the performance of unlabeled data. The model obtains an accuracy of 89.43% on unlabeled PTB datasets and minimizes the loss to 0.095. The outcome of this study conveys an effective automated computer diagnostic system in cardiovascular classification abnormalities and paves the way for future endeavors to practice the classification of heart diseases from ECG signals.",
-        bibtex: `@article{fahad2025dualstage,
-  author  = {Fahad, N. M. and Rahman, M. A. and Jakarea, M. and others},
-  title   = {A dual-stage framework for cardiovascular abnormalities diagnosis from ECG signals using CA-GNN and semi-supervised autoencoders},
-  journal = {Signal, Image and Video Processing},
-  volume  = {19},
-  pages   = {1450},
-  year    = {2025},
-  doi     = {10.1007/s11760-025-05042-2},
-  publisher = {Springer}
-}
-`
+        abstract: "Cardiovascular diseases (CVDs) cause global mortality, highlighting the need for effective strategies. Artificial intelligence (AI)-based applications have been used to diagnose myocardial infarction (MI) using automatic ECG signals. This study mainly introduces an effective MI diagnostic technique that incorporates advanced techniques. Signal processing, denoising, and analysis are performed sequentially to extract relevant features from electrocardiogram (ECG) signals. Clinicians can gain insight by understanding the patterns of these features. The relation of features is represented in a graph-based dataset. A novel compact attentional graph neural network (CA-GNN) model has been developed to classify cardiovascular diseases affected patients. The proposed model achieves an accuracy of 98.32% in the PTB dataset, indicating its robustness in diagnosing MI. However, to show the effectiveness and generalizability, the model was further experimented on two other datasets: MIT-BIH and PTB-XL; and achieved accuracies of 96.89%, 92.74%, respectively. This extension highlights the advantages of the proposed framework for diagnosing different types of cardiovascular disease abnormalities. In addition, this compact framework accelerates the training process, reduces the computation cost, and improves efficiency. This study also investigated a semisupervised autoencoder model to assess the performance of unlabeled data. The model obtains an accuracy of 89.43% on unlabeled PTB datasets and minimizes the loss to 0.095. The outcome of this study conveys an effective automated computer diagnostic system in cardiovascular classification abnormalities and paves the way for future endeavors to practice the classification of heart diseases from ECG signals."
     },
     {
         id: 'chowa2025languageactionreviewlarge',
@@ -151,13 +95,7 @@ issn = {0010-4825}
         doi: 'https://doi.org/10.1007/s10462-025-11471-9',
         ga: 'graphical_abstract/chowa2025languageactionreviewlarge.png',
         pdf: 'https://arxiv.org/pdf/2508.17281',
-        abstract: "The pursuit of human-level artificial intelligence (AI) has significantly advanced the development of autonomous agents and Large Language Models (LLMs). LLMs are now widely utilized as decision-making agents for their ability to interpret instructions, manage sequential tasks, and adapt through feedback. This review examines recent developments in employing LLMs as autonomous agents and tool users and comprises seven research questions. We only used the papers published between 2023 and 2025 in conferences of the A* and A rank and Q1 journals. A structured analysis of the LLM agents' architectural design principles, dividing their applications into single-agent and multi-agent systems, and strategies for integrating external tools is presented. In addition, the cognitive mechanisms of LLM, including reasoning, planning, and memory, and the impact of prompting methods and fine-tuning procedures on agent performance are also investigated. Furthermore, we evaluated current benchmarks and assessment protocols and have provided an analysis of 68 publicly available datasets to assess the performance of LLM-based agents in various tasks. In conducting this review, we have identified critical findings on verifiable reasoning of LLMs, the capacity for self-improvement, and the personalization of LLM-based agents. Finally, we have discussed ten future research directions to overcome these gaps.",
-        bibtex: `@article{chowa2025language,
-  title={From language to action: A review of large language models as autonomous agents and tool users},
-  author={Chowa, Sadia Sultana and Alvi, Riasad and Rahman, Subhey Sadi and Rahman, Md Abdur and Raiaan, Mohaimenul Azam Khan and Islam, Md Rafiqul and Hussain, Mukhtar and Azam, Sami},
-  journal={arXiv preprint arXiv:2508.17281},
-  year={2025}
-}`
+        abstract: "The pursuit of human-level artificial intelligence (AI) has significantly advanced the development of autonomous agents and Large Language Models (LLMs). LLMs are now widely utilized as decision-making agents for their ability to interpret instructions, manage sequential tasks, and adapt through feedback. This review examines recent developments in employing LLMs as autonomous agents and tool users and comprises seven research questions. We only used the papers published between 2023 and 2025 in conferences of the A* and A rank and Q1 journals. A structured analysis of the LLM agents' architectural design principles, dividing their applications into single-agent and multi-agent systems, and strategies for integrating external tools is presented. In addition, the cognitive mechanisms of LLM, including reasoning, planning, and memory, and the impact of prompting methods and fine-tuning procedures on agent performance are also investigated. Furthermore, we evaluated current benchmarks and assessment protocols and have provided an analysis of 68 publicly available datasets to assess the performance of LLM-based agents in various tasks. In conducting this review, we have identified critical findings on verifiable reasoning of LLMs, the capacity for self-improvement, and the personalization of LLM-based agents. Finally, we have discussed ten future research directions to overcome these gaps."
     },
     {
         id: 'rahman2025hallucination',
@@ -168,13 +106,7 @@ issn = {0010-4825}
         doi: 'https://doi.org/10.1007/s10462-025-11454-w',
         ga: 'graphical_abstract/rahman2025hallucination.png',
         pdf: 'https://arxiv.org/pdf/2508.03860',
-        abstract: "Large language models (LLMs) are trained on vast and diverse internet corpora that often include inaccurate or misleading content. Consequently, LLMs can generate misinformation, making robust fact-checking essential. This review systematically analyzes how LLM-generated content is evaluated for factual accuracy by exploring key challenges such as hallucinations, dataset limitations, and the reliability of evaluation metrics. The review emphasizes the need for strong fact-checking frameworks that integrate advanced prompting strategies, domain-specific fine-tuning, and retrieval-augmented generation (RAG) methods. It proposes five research questions that guide the analysis of the recent literature from 2020 to 2025, focusing on evaluation methods and mitigation techniques. Instruction tuning, multi-agent reasoning, and RAG frameworks for external knowledge access are also reviewed. The key findings demonstrate the limitations of current metrics, the importance of validated external evidence, and the improvement of factual consistency through domain-specific customization. The review underscores the importance of building more accurate, understandable, and context-aware fact-checking. These insights contribute to the advancement of research toward more trustworthy models.",
-        bibtex: `@article{rahman2025hallucination,
-  title={Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models},
-  author={Rahman, Subhey Sadi and Islam, Md Adnanul and Alam, Md Mahbub and Zeba, Musarrat and Rahman, Md Abdur and Chowa, Sadia Sultana and Raiaan, Mohaimenul Azam Khan and Azam, Sami},
-  journal={arXiv preprint arXiv:2508.03860},
-  year={2025}
-}`
+        abstract: "Large language models (LLMs) are trained on vast and diverse internet corpora that often include inaccurate or misleading content. Consequently, LLMs can generate misinformation, making robust fact-checking essential. This review systematically analyzes how LLM-generated content is evaluated for factual accuracy by exploring key challenges such as hallucinations, dataset limitations, and the reliability of evaluation metrics. The review emphasizes the need for strong fact-checking frameworks that integrate advanced prompting strategies, domain-specific fine-tuning, and retrieval-augmented generation (RAG) methods. It proposes five research questions that guide the analysis of the recent literature from 2020 to 2025, focusing on evaluation methods and mitigation techniques. Instruction tuning, multi-agent reasoning, and RAG frameworks for external knowledge access are also reviewed. The key findings demonstrate the limitations of current metrics, the importance of validated external evidence, and the improvement of factual consistency through domain-specific customization. The review underscores the importance of building more accurate, understandable, and context-aware fact-checking. These insights contribute to the advancement of research toward more trustworthy models."
     },
     {
         id: 'abian2025hansnet',
@@ -185,27 +117,18 @@ issn = {0010-4825}
         doi: 'https://doi.org/10.1109/TRPMS.2026.3654628',
         ga: 'graphical_abstract/abian2025hans.png',
         pdf: 'https://arxiv.org/pdf/2507.11325',
-        abstract: "Accurate liver and tumor segmentation on abdominal CT images is critical for reliable diagnosis and treatment planning, but remains challenging due to complex anatomical structures, variability in tumor appearance, and limited annotated data. To address these issues, we introduce Hyperbolic-convolutions Adaptive-temporal-attention with Neural-representation and Synaptic-plasticity Network (HANS-Net), a novel segmentation framework that synergistically combines hyperbolic convolutions for hierarchical geometric representation, a wavelet-inspired decomposition module for multi-scale texture learning, a biologically motivated synaptic plasticity mechanism for adaptive feature enhancement, and an implicit neural representation branch to model fine-grained and continuous anatomical boundaries. Additionally, we incorporate uncertainty-aware Monte Carlo dropout to quantify prediction confidence and lightweight temporal attention to improve inter-slice consistency without sacrificing efficiency. Extensive evaluations of the LiTS dataset demonstrate that HANS-Net achieves a mean Dice score of 93.26%, an IoU of 88.09%, an average symmetric surface distance (ASSD) of 0.72 mm, and a volume overlap error (VOE) of 11.91%. Furthermore, cross-dataset validation on the AMOS 2022 dataset obtains an average Dice of 85.09%, IoU of 76.66%, ASSD of 19.49 mm, and VOE of 23.34%, indicating strong generalization across different datasets. These results confirm the effectiveness and robustness of HANS-Net in providing anatomically consistent, accurate, and confident liver and tumor segmentation.",
-        bibtex: `@article{abian2026hans,
-  author={Abian, Arefin Ittesafun and Debnath, Ripon Kumar and Rahman, Md Abdur and Raiaan, Mohaimenul Azam Khan and Islam, Md Rafiqul and Karim, Asif and Mohamed, Reem E and Azam, Sami},
-  journal={IEEE Transactions on Radiation and Plasma Medical Sciences}, 
-  title={HANS-Net: Hyperbolic Convolution and Adaptive Temporal Attention for Accurate and Generalizable Liver and Tumor Segmentation in CT Imaging}, 
-  year={2026},
-  doi={10.1109/TRPMS.2026.3654628}
-}`
+        abstract: "Accurate liver and tumor segmentation on abdominal CT images is critical for reliable diagnosis and treatment planning, but remains challenging due to complex anatomical structures, variability in tumor appearance, and limited annotated data. To address these issues, we introduce Hyperbolic-convolutions Adaptive-temporal-attention with Neural-representation and Synaptic-plasticity Network (HANS-Net), a novel segmentation framework that synergistically combines hyperbolic convolutions for hierarchical geometric representation, a wavelet-inspired decomposition module for multi-scale texture learning, a biologically motivated synaptic plasticity mechanism for adaptive feature enhancement, and an implicit neural representation branch to model fine-grained and continuous anatomical boundaries. Additionally, we incorporate uncertainty-aware Monte Carlo dropout to quantify prediction confidence and lightweight temporal attention to improve inter-slice consistency without sacrificing efficiency. Extensive evaluations of the LiTS dataset demonstrate that HANS-Net achieves a mean Dice score of 93.26%, an IoU of 88.09%, an average symmetric surface distance (ASSD) of 0.72 mm, and a volume overlap error (VOE) of 11.91%. Furthermore, cross-dataset validation on the AMOS 2022 dataset obtains an average Dice of 85.09%, IoU of 76.66%, ASSD of 19.49 mm, and VOE of 23.34%, indicating strong generalization across different datasets. These results confirm the effectiveness and robustness of HANS-Net in providing anatomically consistent, accurate, and confident liver and tumor segmentation."
     },
     {
         id: 'alam2025parkinson',
-        type: 'in-production', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.7',
+        type: 'in-production', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.7', accepted: 'Tue, Jan 13, 2026',
         title: 'Quantitative measurement of Parkinson disease progression using DaTscan radiomics and clinical features with a machine learning based approach',
         authors: 'Alam, M. M.; Rahman, S. S.; Chowa, S. S.; <strong><u>Rahman, M. A.</u></strong>; Islam, M. R.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<i>International Journal of Intelligent Systems</i>',
         doi: '#',
         ga: 'graphical_abstract/alam2025parkinson.png',
         pdf: '#',
-        abstract: "Parkinson's disease (PD) is one of the fastest-growing neurodegenerative disorders, where timely diagnosis is essential for optimizing treatment. In this study, we created a Radiomics-MDS-UPDRS, a robust dataset by integrating DaTscan SPECT radiomics data with the clinical characteristics of MDS-UPDRS collected from Parkinson’s Progression Markers Initiative (PPMI) to monitor dopamine depletion in the striatum (caudate and putamen) and allow classification and progression analysis of PD. To construct the dataset, the striatum was segmented using a modified K-Means clustering algorithm, extracting 25 radiomics features combined with 59 clinical features. In addition, linear discriminant analysis was used to select 22 significant characteristics, and a four-way feature selection method was used to identify 30 significant clinical features, resulting in a refined set of 52. Classification with machine learning models improved performance after LDA, achieving over 91% accuracy. We evaluated feature behavior across six PD severity stages and four clinical visits for progression analysis. The clinical features of MDS-UPDRS were more sensitive to changes in the severity of the initial PD. At the same time, the integrated dataset, Radiomics-MDS-UPDRS, provided more balanced insights, showing a progression of 33.30% to 83.30% and 36.36% to 45.50% from the first visit to the fourth visit among the clinical and radiomics features and a progression of 73.33% to 96.67% and 13.64% to 54.55% between the Minimal vs Mild and Minimal vs Very Severe stage. Our analysis also revealed practical links between progression features and real-life scenarios, which highlights the practical value of our study for clinical decision-making.",
-        bibtex: `Accepted on 13 Jan, 2026. Currently in production.`
-
+        abstract: "Parkinson's disease (PD) is one of the fastest-growing neurodegenerative disorders, where timely diagnosis is essential for optimizing treatment. In this study, we created a Radiomics-MDS-UPDRS, a robust dataset by integrating DaTscan SPECT radiomics data with the clinical characteristics of MDS-UPDRS collected from Parkinson’s Progression Markers Initiative (PPMI) to monitor dopamine depletion in the striatum (caudate and putamen) and allow classification and progression analysis of PD. To construct the dataset, the striatum was segmented using a modified K-Means clustering algorithm, extracting 25 radiomics features combined with 59 clinical features. In addition, linear discriminant analysis was used to select 22 significant characteristics, and a four-way feature selection method was used to identify 30 significant clinical features, resulting in a refined set of 52. Classification with machine learning models improved performance after LDA, achieving over 91% accuracy. We evaluated feature behavior across six PD severity stages and four clinical visits for progression analysis. The clinical features of MDS-UPDRS were more sensitive to changes in the severity of the initial PD. At the same time, the integrated dataset, Radiomics-MDS-UPDRS, provided more balanced insights, showing a progression of 33.30% to 83.30% and 36.36% to 45.50% from the first visit to the fourth visit among the clinical and radiomics features and a progression of 73.33% to 96.67% and 13.64% to 54.55% between the Minimal vs Mild and Minimal vs Very Severe stage. Our analysis also revealed practical links between progression features and real-life scenarios, which highlights the practical value of our study for clinical decision-making."
     },
 
 
@@ -218,15 +141,7 @@ issn = {0010-4825}
         venue: '<i>2023 26th International Conference on Computer and Information Technology (ICCIT)</i>',
         doi: 'https://doi.org/10.1109/ICCIT60459.2023.10441078',
         pdf: 'pdfs/hasan2023data.pdf',
-        abstract: 'Unsupervised learning is also known as learning by observation in machine learning which groups the data instances based on their similarities. k-Means clustering technique is one of the most commonly used partition-based clustering methods that continuously relocate data instances from one cluster to another cluster to ameliorate the cluster validation. In this paper, we have introduced a new approach to improve the data clustering performance of the k-Means clustering algorithm. The proposed approach significantly reduces the number of iterations. Initially, we need to set the value of k, the number of clusters, and randomly select k number of instances from data as initial cluster centers. Then rest of the instances are assigned to the clusters based on the minimum Euclidean value. In the traditional k-means clustering method, each data instance is compared with each cluster center. But, in this proposed method we assign an instance into a cluster based on the average value of all instances that are already assigned to the cluster instead of the cluster center. The primary innovation lies in this modification of the assignment of instances into a cluster, which diverges significantly from conventional methodologies. By harnessing the in-place-mean of cluster instances calculation during assignments, the proposed approach significantly curtails the number of iterations required for convergence.',
-        bibtex: `@inproceedings{hasan2023data,
-  title={Data Segmentation with Improved K-Means Clustering Algorithm},
-  author={Hasan, Emam and Rahman, Md Abdur and Talukder, MD Shojib and Utsho, Md Farnas and Shakhan, Md and Farid, Dewan Md},
-  booktitle={2023 26th International Conference on Computer and Information Technology (ICCIT)},
-  pages={1--5},
-  year={2023},
-  organization={IEEE}
-}`
+        abstract: 'Unsupervised learning is also known as learning by observation in machine learning which groups the data instances based on their similarities. k-Means clustering technique is one of the most commonly used partition-based clustering methods that continuously relocate data instances from one cluster to another cluster to ameliorate the cluster validation. In this paper, we have introduced a new approach to improve the data clustering performance of the k-Means clustering algorithm. The proposed approach significantly reduces the number of iterations. Initially, we need to set the value of k, the number of clusters, and randomly select k number of instances from data as initial cluster centers. Then rest of the instances are assigned to the clusters based on the minimum Euclidean value. In the traditional k-means clustering method, each data instance is compared with each cluster center. But, in this proposed method we assign an instance into a cluster based on the average value of all instances that are already assigned to the cluster instead of the cluster center. The primary innovation lies in this modification of the assignment of instances into a cluster, which diverges significantly from conventional methodologies. By harnessing the in-place-mean of cluster instances calculation during assignments, the proposed approach significantly curtails the number of iterations required for convergence.'
     },
 
     // --- Under Review Papers ---
@@ -239,13 +154,8 @@ issn = {0010-4825}
         doi: 'https://doi.org/10.48550/arXiv.2512.22570',
         ga: 'graphical_abstract/rahman2025refrm3d.png',
         pdf: 'https://arxiv.org/pdf/2512.22570',
-        abstract: "Gliomas are among the most aggressive cancers, characterized by high mortality rates and complex diagnostic processes. Existing studies on glioma diagnosis and classification often describe issues such as high variability in imaging data, inadequate optimization of computational resources, and inefficient segmentation and classification of gliomas. To address these challenges, we propose novel techniques utilizing multi-parametric MRI data to enhance tumor segmentation and classification efficiency. Our work introduces the first-ever radiomics-enhanced fused residual multiparametric 3D network (ReFRM3D) for brain tumor characterization, which is based on a 3D U-Net architecture and features multi-scale feature fusion, hybrid upsampling, and an extended residual skip mechanism. Additionally, we propose a multi-feature tumor marker-based classifier that leverages radiomic features extracted from the segmented regions. Experimental results demonstrate significant improvements in segmentation performance across the BraTS2019, BraTS2020, and BraTS2021 datasets, achieving high Dice Similarity Coefficients (DSC) of 94.04%, 92.68%, and 93.64% for whole tumor (WT), enhancing tumor (ET), and tumor core (TC) respectively in BraTS2019; 94.09%, 92.91%, and 93.84% in BraTS2020; and 93.70%, 90.36%, and 92.13% in BraTS2021.",
-        bibtex: `@article{rahman2025refrm3d,
-  title={ReFRM3D: A radiomics-enhanced fused residual multiparametric 3D network with multi-scale feature fusion for glioma characterization},
-  author={Rahman, Md Abdur and Raiaan, Mohaimenul Azam Khan and Abian, A. I. and Zhang, Y. and Jonkman, M. and Azam, Sami},
-  journal={arXiv preprint arXiv:2512.22570},
-  year={2025}
-}`},
+        abstract: "Gliomas are among the most aggressive cancers, characterized by high mortality rates and complex diagnostic processes. Existing studies on glioma diagnosis and classification often describe issues such as high variability in imaging data, inadequate optimization of computational resources, and inefficient segmentation and classification of gliomas. To address these challenges, we propose novel techniques utilizing multi-parametric MRI data to enhance tumor segmentation and classification efficiency. Our work introduces the first-ever radiomics-enhanced fused residual multiparametric 3D network (ReFRM3D) for brain tumor characterization, which is based on a 3D U-Net architecture and features multi-scale feature fusion, hybrid upsampling, and an extended residual skip mechanism. Additionally, we propose a multi-feature tumor marker-based classifier that leverages radiomic features extracted from the segmented regions. Experimental results demonstrate significant improvements in segmentation performance across the BraTS2019, BraTS2020, and BraTS2021 datasets, achieving high Dice Similarity Coefficients (DSC) of 94.04%, 92.68%, and 93.64% for whole tumor (WT), enhancing tumor (ET), and tumor core (TC) respectively in BraTS2019; 94.09%, 92.91%, and 93.84% in BraTS2020; and 93.70%, 90.36%, and 92.13% in BraTS2021."
+    },
     {
         id: 'rahman2025weckd',
         type: 'preprint', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 7.6', accepted: 'Fri, Oct 17, 2025',
@@ -255,13 +165,8 @@ issn = {0010-4825}
         doi: 'https://doi.org/10.48550/arXiv.2510.14668',
         ga: 'graphical_abstract/rahman2025weckd.png',
         pdf: 'https://arxiv.org/pdf/2510.14668',
-        abstract: "Knowledge distillation (KD) has traditionally relied on a static teacher-student framework, where a large, well-trained teacher transfers knowledge to a single student model. However, these approaches often suffer from knowledge degradation, inefficient supervision, and reliance on either a very strong teacher model or large labeled datasets, which limits their effectiveness in real-world, limited-data scenarios. To address these, we present the first-ever Weakly-supervised Chain-based KD network (WeCKD) that redefines knowledge transfer through a structured sequence of interconnected models. Unlike conventional KD, it forms a progressive distillation chain, where each model not only learns from its predecessor but also refines the knowledge before passing it forward. This structured knowledge transfer further enhances feature learning, reduces data dependency, and mitigates the limitations of one-step KD. Each model in the distillation chain is trained on only a fraction of the dataset and demonstrates that effective learning can be achieved with minimal supervision. Extensive evaluations across four otoscopic imaging datasets demonstrate that it not only matches but in many cases surpasses the performance of existing supervised methods. Experimental results on two other datasets further underscore its generalization across diverse medical imaging modalities, including microscopic and magnetic resonance imaging. Furthermore, our evaluations resulted in cumulative accuracy gains of up to +23% over a single backbone trained on the same limited data, which highlights its potential for real-world adoption.",
-        bibtex: `@article{rahman2025weckd,
-  title={WeCKD: Weakly-supervised Chained Distillation Network for Efficient Multimodal Medical Imaging},
-  author={Rahman, Md Abdur and Raiaan, Mohaimenul Azam Khan and Azam, Sami and Karim, Asif and Beissbarth, Jemima and Leach, Amanda},
-  journal={arXiv preprint arXiv:2510.14668},
-  year={2025}
-}`},
+        abstract: "Knowledge distillation (KD) has traditionally relied on a static teacher-student framework, where a large, well-trained teacher transfers knowledge to a single student model. However, these approaches often suffer from knowledge degradation, inefficient supervision, and reliance on either a very strong teacher model or large labeled datasets, which limits their effectiveness in real-world, limited-data scenarios. To address these, we present the first-ever Weakly-supervised Chain-based KD network (WeCKD) that redefines knowledge transfer through a structured sequence of interconnected models. Unlike conventional KD, it forms a progressive distillation chain, where each model not only learns from its predecessor but also refines the knowledge before passing it forward. This structured knowledge transfer further enhances feature learning, reduces data dependency, and mitigates the limitations of one-step KD. Each model in the distillation chain is trained on only a fraction of the dataset and demonstrates that effective learning can be achieved with minimal supervision. Extensive evaluations across four otoscopic imaging datasets demonstrate that it not only matches but in many cases surpasses the performance of existing supervised methods. Experimental results on two other datasets further underscore its generalization across diverse medical imaging modalities, including microscopic and magnetic resonance imaging. Furthermore, our evaluations resulted in cumulative accuracy gains of up to +23% over a single backbone trained on the same limited data, which highlights its potential for real-world adoption."
+    },
     {
         id: 'rahman2025metal',
         type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.2',
@@ -270,8 +175,7 @@ issn = {0010-4825}
         venue: '<strong>Under review in</strong> <i>Image and Vision Computing</i>',
         doi: '#',
         pdf: '#',
-        abstract: '',
-        bibtex: ``
+        abstract: ''
     },
     {
         id: 'rahman2025arionet',
@@ -282,16 +186,7 @@ issn = {0010-4825}
         doi: 'https://doi.org/10.48550/arXiv.2510.00522',
         ga: 'graphical_abstract/rahman2025arionet.png',
         pdf: 'https://arxiv.org/pdf/2510.00522',
-        abstract: "Automated birdsong classification is essential for advancing ecological monitoring and biodiversity studies. Despite recent progress, existing methods often depend heavily on labeled data, use limited feature representations, and overlook temporal dynamics essential for accurate species identification. In this work, we propose a self-supervised contrastive network, ARIONet (Acoustic Representation for Interframe Objective Network), that jointly optimizes contrastive classification and future frame prediction using augmented audio representations. The model simultaneously integrates multiple complementary audio features within a transformer-based encoder model. Our framework is designed with two key objectives: (1) to learn discriminative species-specific representations for contrastive learning through maximizing similarity between augmented views of the same audio segment while pushing apart different samples, and (2) to model temporal dynamics by predicting future audio frames, both without requiring large-scale annotations. We validate our framework on four diverse birdsong datasets, including the British Birdsong Dataset, Bird Song Dataset, and two extended Xeno-Canto subsets (A-M and N-Z). Our method consistently outperforms existing baselines and achieves classification accuracies of 98.41%, 93.07%, 91.89%, and 91.58%, and F1-scores of 97.84%, 94.10%, 91.29%, and 90.94%, respectively. Furthermore, it demonstrates low mean absolute errors and high cosine similarity, up to 95%, in future frame prediction tasks. Extensive experiments further confirm the effectiveness of our self-supervised learning strategy in capturing complex acoustic patterns and temporal dependencies, as well as its potential for real-world applicability in ecological conservation and monitoring.",
-        bibtex: `@airticle{rahman2025arionet,
-	title={ARIONet: An Advanced Self-supervised Contrastive Representation Network for Birdsong Classification and Future Frame Prediction}, 
-	author={Md. Abdur Rahman and Selvarajah Thuseethan and Kheng Cher Yeo and Reem E. Mohamed and Sami Azam},
-	year={2025},
-	eprint={2510.00522},
-	archivePrefix={arXiv},
-	primaryClass={cs.SD},
-	url={https://arxiv.org/abs/2510.00522}, 
-}`
+        abstract: "Automated birdsong classification is essential for advancing ecological monitoring and biodiversity studies. Despite recent progress, existing methods often depend heavily on labeled data, use limited feature representations, and overlook temporal dynamics essential for accurate species identification. In this work, we propose a self-supervised contrastive network, ARIONet (Acoustic Representation for Interframe Objective Network), that jointly optimizes contrastive classification and future frame prediction using augmented audio representations. The model simultaneously integrates multiple complementary audio features within a transformer-based encoder model. Our framework is designed with two key objectives: (1) to learn discriminative species-specific representations for contrastive learning through maximizing similarity between augmented views of the same audio segment while pushing apart different samples, and (2) to model temporal dynamics by predicting future audio frames, both without requiring large-scale annotations. We validate our framework on four diverse birdsong datasets, including the British Birdsong Dataset, Bird Song Dataset, and two extended Xeno-Canto subsets (A-M and N-Z). Our method consistently outperforms existing baselines and achieves classification accuracies of 98.41%, 93.07%, 91.89%, and 91.58%, and F1-scores of 97.84%, 94.10%, 91.29%, and 90.94%, respectively. Furthermore, it demonstrates low mean absolute errors and high cosine similarity, up to 95%, in future frame prediction tasks. Extensive experiments further confirm the effectiveness of our self-supervised learning strategy in capturing complex acoustic patterns and temporal dependencies, as well as its potential for real-world applicability in ecological conservation and monitoring."
     },
     {
         id: 'rahman2025finegrained',
@@ -302,13 +197,7 @@ issn = {0010-4825}
         doi: 'https://doi.org/10.48550/arXiv.2509.05913',
         ga: 'graphical_abstract/rahman2025finegrained.png',
         pdf: 'https://arxiv.org/pdf/2509.05913',
-        abstract: "Musculoskeletal disorders pose significant risks to athletes, and assessing risk early is important for prevention. However, most existing methods are designed for controlled settings and fail to reliably assess risk in complex environments due to their reliance on a single type of data. This research proposes ViSK-GAT (Visual-Skeletal Geometric Attention Transformer), a novel multimodal deep learning framework designed to classify musculoskeletal risk using visual and skeletal coordinate-based features. In addition, a custom multimodal dataset is constructed by combining visual data and skeletal coordinates for risk assessment. Each sample is labeled into eight risk categories based on the Rapid Entire Body Assessment system. ViSK-GAT combines a Residual Block with a Lightweight Transformer Block to learn spatial and temporal dependencies jointly. It incorporates two novel modules: the Fine-Grained Attention Module (FGAM), which enables precise inter-modal feature refinement through cross-attention between visual and skeletal inputs, and the Multimodal Geometric Correspondence Module (MGCM), which enhances cross-modal coherence by aligning image features with coordinate-based representations. ViSK-GAT achieved strong performance with validation and test accuracies of 93.55% and 93.89%, respectively; a precision of 93.86%; an F1 score of 93.85%; and Cohen's Kappa and Matthews Correlation Coefficient of 93%. The regression results also indicated a low Root Mean Square Error of the predicted probability distribution of 0.1205 and a corresponding Mean Absolute Error of 0.0156. Compared to nine popular transfer learning backbones, ViSK-GAT consistently outperformed previous methods. The ViSK-GAT model advances artificial intelligence implementation and application, transforming musculoskeletal risk classification and enabling impactful early interventions in sports.",
-        bibtex: `@article{rahman2025fine,
-  title={A Fine-Grained Attention and Geometric Correspondence Model for Musculoskeletal Risk Classification in Athletes Using Multimodal Visual and Skeletal Features},
-  author={Rahman, Md Abdur and Raiaan, Mohaimenul Azam Khan and Shermin, Tamanna and Islam, Md Rafiqul and Hussain, Mukhtar and Azam, Sami},
-  journal={arXiv preprint arXiv:2509.05913},
-  year={2025}
-}`
+        abstract: "Musculoskeletal disorders pose significant risks to athletes, and assessing risk early is important for prevention. However, most existing methods are designed for controlled settings and fail to reliably assess risk in complex environments due to their reliance on a single type of data. This research proposes ViSK-GAT (Visual-Skeletal Geometric Attention Transformer), a novel multimodal deep learning framework designed to classify musculoskeletal risk using visual and skeletal coordinate-based features. In addition, a custom multimodal dataset is constructed by combining visual data and skeletal coordinates for risk assessment. Each sample is labeled into eight risk categories based on the Rapid Entire Body Assessment system. ViSK-GAT combines a Residual Block with a Lightweight Transformer Block to learn spatial and temporal dependencies jointly. It incorporates two novel modules: the Fine-Grained Attention Module (FGAM), which enables precise inter-modal feature refinement through cross-attention between visual and skeletal inputs, and the Multimodal Geometric Correspondence Module (MGCM), which enhances cross-modal coherence by aligning image features with coordinate-based representations. ViSK-GAT achieved strong performance with validation and test accuracies of 93.55% and 93.89%, respectively; a precision of 93.86%; an F1 score of 93.85%; and Cohen's Kappa and Matthews Correlation Coefficient of 93%. The regression results also indicated a low Root Mean Square Error of the predicted probability distribution of 0.1205 and a corresponding Mean Absolute Error of 0.0156. Compared to nine popular transfer learning backbones, ViSK-GAT consistently outperformed previous methods. The ViSK-GAT model advances artificial intelligence implementation and application, transforming musculoskeletal risk classification and enabling impactful early interventions in sports."
     },
     {
         id: 'sutradhar2025sourcefree',
@@ -318,21 +207,8 @@ issn = {0010-4825}
         venue: '<strong>Under review in</strong> <i>IEEE Transactions on Image Processing</i>',
         doi: '#',
         pdf: '#',
-        abstract: '',
-        bibtex: ``
+        abstract: ''
     },
-    // {
-    //     id: 'abian2025hansnet',
-    //     type: 'in-production', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.5', accepted: 'Tue, Jul 15, 2025',
-    //     title: 'HANS-Net: Hyperbolic convolution and adaptive temporal attention for accurate and generalizable liver and tumor segmentation in CT imaging',
-    //     authors: 'Abian, A. I.; Debnath, R. K.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Karim, A.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-    //     venue: '<strong>Under review in</strong> <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
-    //     doi: 'https://doi.org/10.48550/arXiv.2507.11325',
-    //     ga: 'graphical_abstract/abian2025hans.png',
-    //     pdf: 'https://arxiv.org/pdf/2507.11325',
-    //     abstract: 'Accurate liver and tumor segmentation on abdominal CT images is critical for reliable diagnosis and treatment planning, but remains challenging due to complex anatomical structures, variability in tumor appearance, and limited annotated data. To address these issues, we introduce Hyperbolic-convolutions Adaptive-temporal-attention with Neural-representation and Synaptic-plasticity Network (HANS-Net), a novel segmentation framework that synergistically combines hyperbolic convolutions for hierarchical geometric representation, a wavelet-inspired decomposition module for multi-scale texture learning, a biologically motivated synaptic plasticity mechanism for adaptive feature enhancement, and an implicit neural representation branch to model fine-grained and continuous anatomical boundaries. Additionally, we incorporate uncertainty-aware Monte Carlo dropout to quantify prediction confidence and lightweight temporal attention to improve inter-slice consistency without sacrificing efficiency. Extensive evaluations of the LiTS dataset demonstrate that HANS-Net achieves a mean Dice score of 93.26%, an IoU of 88.09%, an average symmetric surface distance (ASSD) of 0.72 mm, and a volume overlap error (VOE) of 11.91%. Furthermore, cross-dataset validation on the 3D-IRCADb-01 dataset obtains an average Dice of 87.45%, IoU of 80.30%, ASSD of 1.525 mm, and VOE of 19.71%, indicating strong generalization across different datasets. These results confirm the effectiveness and robustness of HANS-Net in providing anatomically consistent, accurate, and confident liver and tumor segmentation.',
-    //     bibtex: `Accepted on 7 Jan, 2026. Currently in production.`
-    // },
     {
         id: 'debnath2025ssmtconed',
         type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.9',
@@ -341,8 +217,7 @@ issn = {0010-4825}
         venue: '<strong>Under review in</strong> <i>Biomedical Signal Processing and Control</i>',
         doi: '#',
         pdf: '#',
-        abstract: '',
-        bibtex: ``
+        abstract: ''
     },
     {
         id: 'haque2025structured',
@@ -352,8 +227,7 @@ issn = {0010-4825}
         venue: '<strong>Under review in</strong> <i>Engineering Applications of Artificial Intelligence</i>',
         doi: '#',
         pdf: '#',
-        abstract: '',
-        bibtex: ``
+        abstract: ''
     },
     {
         id: 'sutradhar2025cade',
@@ -363,8 +237,7 @@ issn = {0010-4825}
         venue: '<strong>Under review in</strong> <i>Neural Computing and Applications</i>',
         doi: '#',
         pdf: '#',
-        abstract: '',
-        bibtex: ``
+        abstract: ''
     },
     {
         id: 'fahad2025dinvestigating',
@@ -375,8 +248,7 @@ issn = {0010-4825}
         venue: '<strong>Under review in</strong> <i>Discover Computing</i>',
         doi: '#',
         pdf: '#',
-        abstract: '',
-        bibtex: ``
+        abstract: ''
     }
 ];
 
@@ -446,20 +318,16 @@ function render(filter = 'all', query = '') {
         } else if (p.type === 'preprint') {
             details.innerHTML = `
             <div class="pub-details-grid">
+                <img class="ga" src="${p.ga}" alt="Graphical Abstract"
+                    onerror="this.style.background='repeating-linear-gradient(45deg,#202a53,#202a53 10px,#253061 10px,#253061 20px)'">
                 <div style="flex:1">
-                    <img class="ga" src="${p.ga}" alt="Graphical Abstract"
-                        onerror="this.style.background='repeating-linear-gradient(45deg,#202a53,#202a53 10px,#253061 10px,#253061 20px)'">
-                </div>
-                <div style="flex:1">
-                    <p style="margin-top:0; margin-bottom:10px;"><strong>arXived on:</strong> ${p.accepted || '—'}</p>
-
-                    <div class="pub-actions">
-                    <button class="btn show-abstract" data-abstract="${encodeURIComponent(p.abstract || 'Abstract not available')}">Abstract</button>
-                        <a href="${p.doi}" class="btn primary" target="_blank">Open DOI</a>
-                        <a href="${p.pdf}" class="btn" target="_blank">Open PDF</a>
-                        <button class="btn copy-bib">Copy BibTeX</button>
+                    <h4 style="margin: 0 0 8px 0;">Abstract</h4>
+                    <p style="font-size:0.95rem; line-height:1.5; margin:0; color: var(--muted);">${p.abstract || 'Abstract not available'}</p>
+                    <div class="pub-actions" style="margin-top:10px;">
+                        ${p.doi && p.doi !== '#' ? `<a href="${p.doi}" class="btn" target="_blank">DOI: ${p.doi.replace('https://doi.org/', '')}</a>` : ''}
+                        ${p.pdf && p.pdf !== '#' ? `<a href="${p.pdf}" class="btn" target="_blank">OPEN PDF</a>` : ''}
+                        <span class="btn" style="background: transparent; cursor: default; font-weight: 600;">arXived ON: ${p.accepted || '—'}</span>
                     </div>
-                    <div class="bib">${p.bibtex}</div>
                 </div>
             </div>
         `;
@@ -467,16 +335,16 @@ function render(filter = 'all', query = '') {
         } else if (p.type === 'in-production') {
             details.innerHTML = `
             <div class="pub-details-grid">
+                <img class="ga" src="${p.ga}" alt="Graphical Abstract"
+                    onerror="this.style.background='repeating-linear-gradient(45deg,#202a53,#202a53 10px,#253061 10px,#253061 20px)'">
                 <div style="flex:1">
-                    <img class="ga" src="${p.ga}" alt="Graphical Abstract"
-                        onerror="this.style.background='repeating-linear-gradient(45deg,#202a53,#202a53 10px,#253061 10px,#253061 20px)'">
-                </div>
-                <div style="flex:1">
-                    <p style="margin-top:0; margin-bottom:10px;"><strong>Accepted for publication on:</strong> ${p.accepted || '—'}</p>
-                    <div class="pub-actions">
-                    <button class="btn show-abstract" data-abstract="${encodeURIComponent(p.abstract || 'Abstract not available')}">Abstract</button>
+                    <h4 style="margin: 0 0 8px 0;">Abstract</h4>
+                    <p style="font-size:0.95rem; line-height:1.5; margin:0; color: var(--muted);">${p.abstract || 'Abstract not available'}</p>
+                    <div class="pub-actions" style="margin-top:10px;">
+                        ${p.doi && p.doi !== '#' ? `<a href="${p.doi}" class="btn" target="_blank">DOI: ${p.doi.replace('https://doi.org/', '')}</a>` : ''}
+                        ${p.pdf && p.pdf !== '#' ? `<a href="${p.pdf}" class="btn" target="_blank">OPEN PDF</a>` : ''}
+                        <span class="btn" style="background: transparent; cursor: default; font-weight: 600;">IN PRESS; ACCEPTED ON: ${p.accepted || '—'}</span>
                     </div>
-                    <div class="bib">${p.bibtex}</div>
                 </div>
             </div>
         `;
@@ -485,33 +353,29 @@ function render(filter = 'all', query = '') {
             details.innerHTML = `
         <div class="pub-details-grid">
             <div style="flex:1">
-                <p><strong>Accepted on:</strong> ${p.accepted || '—'}</p>
+                <h4 style="margin: 0 0 8px 0;">Abstract</h4>
+                <p style="font-size:0.95rem; line-height:1.5; margin:0 0 10px 0; color: var(--muted);">${p.abstract || 'Abstract not available'}</p>
                 <div class="pub-actions">
-                    <button class="btn show-abstract" data-abstract="${encodeURIComponent(p.abstract || 'Abstract not available')}">Abstract</button>
-                    <a href="${p.doi}" class="btn primary" target="_blank">Open DOI</a>
-                    <a href="${p.pdf}" class="btn" target="_blank">Open PDF</a>
-                    <button class="btn copy-bib">Copy BibTeX</button>
+                    ${p.doi && p.doi !== '#' ? `<a href="${p.doi}" class="btn" target="_blank">DOI: ${p.doi.replace('https://doi.org/', '')}</a>` : ''}
+                    ${p.pdf && p.pdf !== '#' ? `<a href="${p.pdf}" class="btn" target="_blank">OPEN PDF</a>` : ''}
+                    <span class="btn" style="background: transparent; cursor: default; font-weight: 600;">ACCEPTED ON: ${p.accepted || '—'}</span>
                 </div>
-                <div class="bib">${p.bibtex}</div>
             </div>
         </div>
     `;
         } else {
             details.innerHTML = `
         <div class="pub-details-grid">
+            <img class="ga" src="${p.ga}" alt="Graphical Abstract"
+                onerror="this.style.background='repeating-linear-gradient(45deg,#202a53,#202a53 10px,#253061 10px,#253061 20px)'">
             <div style="flex:1">
-                <img class="ga" src="${p.ga}" alt="Graphical Abstract"
-                    onerror="this.style.background='repeating-linear-gradient(45deg,#202a53,#202a53 10px,#253061 10px,#253061 20px)'">
-            </div>
-            <div style="flex:1">
-                <p style="margin-top:0; margin-bottom:10px;"><strong>Accepted on:</strong> ${p.accepted || '—'}</p>
+                <h4 style="margin: 0 0 8px 0;">Abstract</h4>
+                <p style="font-size:0.95rem; line-height:1.5; margin:0 0 10px 0; color: var(--muted);">${p.abstract || 'Abstract not available'}</p>
                 <div class="pub-actions">
-                    <button class="btn show-abstract" data-abstract="${encodeURIComponent(p.abstract || 'Abstract not available')}">Abstract</button>
-                    <a href="${p.doi}" class="btn primary" target="_blank">Open DOI</a>
-                    <a href="${p.pdf}" class="btn" target="_blank">Open PDF</a>
-                    <button class="btn copy-bib">Copy BibTeX</button>
+                    ${p.doi && p.doi !== '#' ? `<a href="${p.doi}" class="btn" target="_blank">DOI: ${p.doi.replace('https://doi.org/', '')}</a>` : ''}
+                    ${p.pdf && p.pdf !== '#' ? `<a href="${p.pdf}" class="btn" target="_blank">OPEN PDF</a>` : ''}
+                    <span class="btn" style="background: transparent; cursor: default; font-weight: 600;">ACCEPTED ON: ${p.accepted || '—'}</span>
                 </div>
-                <div class="bib">${p.bibtex}</div>
             </div>
         </div>
     `;
