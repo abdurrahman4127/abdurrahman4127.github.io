@@ -331,9 +331,9 @@ function render(filter = 'all', query = '') {
                     <h4 style="margin: 0 0 8px 0;">Abstract</h4>
                     <p style="font-size:0.95rem; line-height:1.5; margin:0; color: var(--muted);">${p.abstract || 'Abstract not available'}</p>
                     <div class="pub-actions" style="margin-top:10px;">
+                    <span class="btn" style="background: transparent; cursor: default; font-weight: 600;">arXived ON: ${p.accepted || '—'}</span>
                         ${p.doi && p.doi !== '#' ? `<a href="${p.doi}" class="btn" target="_blank">DOI: ${p.doi.replace('https://doi.org/', '')}</a>` : ''}
                         ${p.pdf && p.pdf !== '#' ? `<a href="${p.pdf}" class="btn" target="_blank">OPEN PDF</a>` : ''}
-                        <span class="btn" style="background: transparent; cursor: default; font-weight: 600;">arXived ON: ${p.accepted || '—'}</span>
                     </div>
                 </div>
             </div>
@@ -348,9 +348,9 @@ function render(filter = 'all', query = '') {
                     <h4 style="margin: 0 0 8px 0;">Abstract</h4>
                     <p style="font-size:0.95rem; line-height:1.5; margin:0; color: var(--muted);">${p.abstract || 'Abstract not available'}</p>
                     <div class="pub-actions" style="margin-top:10px;">
+                    <span class="btn" style="background: transparent; cursor: default; font-weight: 600;">IN PRESS; ACCEPTED ON: ${p.accepted || '—'}</span>
                         ${p.doi && p.doi !== '#' ? `<a href="${p.doi}" class="btn" target="_blank">DOI: ${p.doi.replace('https://doi.org/', '')}</a>` : ''}
                         ${p.pdf && p.pdf !== '#' ? `<a href="${p.pdf}" class="btn" target="_blank">OPEN PDF</a>` : ''}
-                        <span class="btn" style="background: transparent; cursor: default; font-weight: 600;">IN PRESS; ACCEPTED ON: ${p.accepted || '—'}</span>
                     </div>
                 </div>
             </div>
@@ -363,9 +363,9 @@ function render(filter = 'all', query = '') {
                 <h4 style="margin: 0 0 8px 0;">Abstract</h4>
                 <p style="font-size:0.95rem; line-height:1.5; margin:0 0 10px 0; color: var(--muted);">${p.abstract || 'Abstract not available'}</p>
                 <div class="pub-actions">
+                <span class="btn" style="background: transparent; cursor: default; font-weight: 600;">ACCEPTED ON: ${p.accepted || '—'}</span>
                     ${p.doi && p.doi !== '#' ? `<a href="${p.doi}" class="btn" target="_blank">DOI: ${p.doi.replace('https://doi.org/', '')}</a>` : ''}
                     ${p.pdf && p.pdf !== '#' ? `<a href="${p.pdf}" class="btn" target="_blank">OPEN PDF</a>` : ''}
-                    <span class="btn" style="background: transparent; cursor: default; font-weight: 600;">ACCEPTED ON: ${p.accepted || '—'}</span>
                 </div>
             </div>
         </div>
@@ -379,9 +379,9 @@ function render(filter = 'all', query = '') {
                 <h4 style="margin: 0 0 8px 0;">Abstract</h4>
                 <p style="font-size:0.95rem; line-height:1.5; margin:0 0 10px 0; color: var(--muted);">${p.abstract || 'Abstract not available'}</p>
                 <div class="pub-actions">
+                <span class="btn" style="background: transparent; cursor: default; font-weight: 600;">ACCEPTED ON: ${p.accepted || '—'}</span>
                     ${p.doi && p.doi !== '#' ? `<a href="${p.doi}" class="btn" target="_blank">DOI: ${p.doi.replace('https://doi.org/', '')}</a>` : ''}
                     ${p.pdf && p.pdf !== '#' ? `<a href="${p.pdf}" class="btn" target="_blank">OPEN PDF</a>` : ''}
-                    <span class="btn" style="background: transparent; cursor: default; font-weight: 600;">ACCEPTED ON: ${p.accepted || '—'}</span>
                 </div>
             </div>
         </div>
@@ -399,7 +399,7 @@ function render(filter = 'all', query = '') {
                 const abs = decodeURIComponent(e.target.dataset.abstract);
                 const modal = document.getElementById('abstractModal');
                 const modalText = document.getElementById('abstractText');
-                modalText.textContent = abs;
+                modalText.innerHTML = `<span>${abs.replace(/\n/g, ' ')}</span>`;
                 modal.style.display = 'block';
             });
         }
@@ -412,7 +412,7 @@ function render(filter = 'all', query = '') {
         document.addEventListener('click', (e) => {
             if (e.target.classList.contains('show-abstract')) {
                 const abs = decodeURIComponent(e.target.dataset.abstract);
-                modalText.textContent = abs;
+                modalText.innerHTML = `<span>${abs.replace(/\n/g, ' ')}</span>`;
                 modal.style.display = 'block';
             }
         });
@@ -481,6 +481,45 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
             target.scrollIntoView({ behavior: 'smooth' });
         }
     });
+});
+
+// Adjust timeline line heights to match content
+function adjustTimelineHeights() {
+    document.querySelectorAll('.timeline').forEach(timeline => {
+        const items = timeline.querySelectorAll('.t-item');
+        if (items.length === 0) return;
+        
+        const lastItem = items[items.length - 1];
+        const timelineRect = timeline.getBoundingClientRect();
+        const lastItemRect = lastItem.getBoundingClientRect();
+        
+        // Calculate height from top of timeline to bottom of last item
+        const height = (lastItemRect.bottom - timelineRect.top) + 12; // 12px buffer
+        timeline.style.setProperty('--timeline-height', `${height}px`);
+    });
+}
+
+// Sync Experience and News heights
+function syncExperienceAndNewsHeights() {
+    const experienceTimeline = document.querySelector('#experience .timeline.list');
+    const insightsTimeline = document.querySelector('#insights .timeline.list');
+    
+    if (experienceTimeline && insightsTimeline) {
+        const experienceHeight = experienceTimeline.offsetHeight;
+        document.documentElement.style.setProperty('--experience-height', `${experienceHeight}px`);
+    }
+}
+
+// Call on load and when content changes
+adjustTimelineHeights();
+syncExperienceAndNewsHeights();
+window.addEventListener('resize', () => {
+    adjustTimelineHeights();
+    syncExperienceAndNewsHeights();
+});
+window.addEventListener('load', () => {
+    adjustTimelineHeights();
+    syncExperienceAndNewsHeights();
 });
 
 // Reveal on scroll

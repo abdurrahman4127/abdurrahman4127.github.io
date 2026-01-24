@@ -367,6 +367,7 @@ body.light .srch input {
 .timeline {
   position: relative;
   padding-left: 28px;
+  --timeline-height: auto;
 }
 
 .timeline::before {
@@ -374,10 +375,18 @@ body.light .srch input {
   position: absolute;
   left: 10px;
   top: 6px;
-  bottom: 6px;
+  height: var(--timeline-height);
   width: 2px;
-  background: linear-gradient(#3b82f6, #7aa2f7);
+  background: linear-gradient(to bottom, #3b82f6, #7aa2f7);
   opacity: .6;
+}
+
+#services .timeline {
+  padding-left: 0;
+}
+
+#services .timeline::before {
+  display: none;
 }
 
 .t-item {
@@ -394,6 +403,10 @@ body.light .srch input {
   border-radius: 999px;
   background: #7aa2f7;
   box-shadow: 0 0 0 4px #89b4fa40;
+}
+
+#services .t-item::before {
+  display: none;
 }
 
 /* === Publication Details === */
@@ -463,12 +476,12 @@ body.light .srch input {
   display: none;
 }
 
-
-
 .pub-actions {
   display: flex;
   gap: 10px;
   margin-top: 10px;
+  /* justify-content: center; */
+  flex-wrap: wrap;
 }
 
 .btn {
@@ -566,19 +579,15 @@ body.light .btn {
 
 
 #experience .timeline.list {
-  /* max-height: 300px; */
-  overflow-y: auto;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 8px;
   box-sizing: border-box;
   flex: 2 1 45%;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.2);
 }
 
 #insights .timeline.list {
-  max-height: 550px;
+  max-height: var(--experience-height, 550px);
   overflow-y: auto;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -586,7 +595,7 @@ body.light .btn {
   box-sizing: border-box;
   flex: 1 1 35%;
   scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.2);
+  scrollbar-color: rgba(59, 130, 246, 0.6);
 }
 
 
@@ -681,12 +690,25 @@ body.light .btn {
   margin: 10% auto;
   padding: 20px;
   width: 60%;
+  min-width: 500px;
+  max-width: 800px;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .close {
   float: right;
   font-size: 20px;
   cursor: pointer;
+}
+
+#abstractText {
+  text-align: justify;
+  text-justify: auto;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  line-height: 1.8;
 }
