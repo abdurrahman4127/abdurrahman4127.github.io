@@ -218,6 +218,43 @@ body.light .item {
   background: #ffffff;
 }
 
+.pub-summary {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 4px 8px;
+  min-width: 32px;
+  text-align: center;
+  transition: color 0.2s ease;
+  position: absolute;
+  top: 0;
+  right: 0;
+  flex-shrink: 0;
+}
+
+.toggle-btn:hover {
+  color: var(--link);
+}
+
+body.light .toggle-btn {
+  color: var(--accentL);
+}
+
+body.light .toggle-btn:hover {
+  color: var(--linkL);
+}
+
 /* === Publications Scroll === */
 #pubScroller {
   max-height: 600px;

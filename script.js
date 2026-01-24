@@ -244,7 +244,7 @@ const publications = [
         type: 'under-review', year: 2025,
         // quartile: 'Q1', imf: 'Impact Factor: 3.7',
         title: 'Investigating Dementia Patterns by Machine Learning and Graph-Based Marker Analysis Integrating Deterministic Finite Automata for Multiclass Dementia Diagnosis',
-        authors: 'Fahad, N. M.; Sutradhar, D.<sup>†</sup>; <strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Sakib, S.<sup>†</sup>; Islam, M. R.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Equal contribution<sup>†</sup>)',
+        authors: 'Sutradhar, D.<sup>†</sup>; <strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Fahad, N. M.<sup>†</sup>; Sakib, S.; Islam, M. R.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Equal contribution<sup>†</sup>)',
         venue: '<strong>Under review in</strong> <i>Discover Computing</i>',
         doi: '#',
         pdf: '#',
@@ -291,19 +291,26 @@ function render(filter = 'all', query = '') {
         item.className = 'item reveal';
         item.innerHTML = `
         <div class="pub-summary">
-            <div style="font-weight:700">${p.title}</div>
-            <div class="muted" style="margin:2px 0">${p.authors}</div>
-            <div class="muted">${p.venue} · 
-                <span class="tag">${p.type}</span> 
-                <span class="tag">${p.year}</span>
-                <span class="tag">${p.quartile || ''}</span>
-                <span class="tag">${p.imf || ''}</span>
+            <div style="flex:1">
+                <div style="font-weight:700">${p.title}</div>
+                <div class="muted" style="margin:2px 0">${p.authors}</div>
+                <div class="muted">${p.venue} · 
+                    <span class="tag">${p.type}</span> 
+                    <span class="tag">${p.year}</span>
+                    <span class="tag">${p.quartile || ''}</span>
+                    <span class="tag">${p.imf || ''}</span>
+                </div>
             </div>
         </div>
     `;
 
         const details = document.createElement('div');
         details.className = 'pub-details'; // visible by default
+        
+        // Add button to details with relative positioning
+        const toggleBtn = document.createElement('button');
+        toggleBtn.className = 'toggle-btn active';
+        toggleBtn.textContent = '−';
 
         if (p.venue.includes('NOT SUBMITTED')) {
             details.innerHTML = `
@@ -384,19 +391,6 @@ function render(filter = 'all', query = '') {
 
         item.appendChild(details);
 
-        // Copy BibTeX button
-        const copyBtn = details.querySelector('.copy-bib');
-        if (copyBtn) {
-            copyBtn.addEventListener('click', (e) => {
-                e.stopPropagation(); // Prevent toggling
-                const bib = e.target.closest('.pub-details').querySelector('.bib').textContent;
-                navigator.clipboard.writeText(bib).then(() => {
-                    e.target.textContent = 'Copied!';
-                    setTimeout(() => e.target.textContent = 'Copy BibTeX', 1200);
-                });
-            });
-        }
-
         // Show abstract button
         const absBtn = details.querySelector('.show-abstract');
         if (absBtn) {
@@ -426,45 +420,31 @@ function render(filter = 'all', query = '') {
         closeBtn.onclick = () => modal.style.display = 'none';
         window.onclick = (e) => { if (e.target === modal) modal.style.display = 'none'; };
 
-        // Toggle on click
-        item.addEventListener('click', () => {
-            details.classList.toggle('visible');
+        // Toggle on pub-summary click
+        const pubSummary = item.querySelector('.pub-summary');
+        pubSummary.addEventListener('click', (e) => {
+            e.stopPropagation();
+            details.classList.add('visible');
         });
+
+        // Only collapse on toggle button click
+        toggleBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            details.classList.remove('visible');
+        });
+
+        // Prepend button to details
+        details.style.position = 'relative';
+        details.insertAdjacentElement('afterbegin', toggleBtn);
 
         item.appendChild(details);
         pubList.appendChild(item);
     });
 }
 
-// Copy BibTeX button
-document.addEventListener('click', (e) => {
-    if (e.target.classList.contains('copy-bib')) {
-        e.stopPropagation(); // prevents item click toggle
-        const bib = e.target.closest('.pub-details').querySelector('.bib').textContent;
-        navigator.clipboard.writeText(bib).then(() => {
-            const btn = e.target;
-            btn.textContent = 'Copied!';
-            setTimeout(() => btn.textContent = 'Copy BibTeX', 1200);
-        });
-    }
-});
 
 
-// Toggle expand/collapse
-document.addEventListener('click', (e) => {
-    if (e.target.classList.contains('toggle-details')) {
-        const item = e.target.closest('.item');
-        const details = item.querySelector('.pub-details');
 
-        if (details.classList.contains('collapsed')) {
-            details.classList.remove('collapsed');
-            e.target.textContent = '–';
-        } else {
-            details.classList.add('collapsed');
-            e.target.textContent = '+';
-        }
-    }
-});
 
 
 // Initial render
