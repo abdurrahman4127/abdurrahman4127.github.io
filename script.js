@@ -73,14 +73,14 @@ const publications = [
         ga: 'graphical_abstract/raiaan2025diffusion.png'
     },
     {
-        id: 'fahad2024dualstage',
+        id: 'fahad2025dualstage',
         type: 'journal', year: 2025, quartile: 'Q2', imf: 'Impact Factor: 2.1', accepted: 'Tue, Dec 9, 2025',
         title: 'A Dual-Stage Framework for Cardiovascular Abnormalities Diagnosis from ECG Signals Using CA-GNN and Semi-Supervised Autoencoders',
         authors: 'Fahad, N. M.; <strong><u>Rahman, M. A.</u></strong>; Jakarea, M.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<i>Signal, Image and Video Processing</i>',
         doi: 'https://doi.org/10.1007/s11760-025-05042-2',
-        pdf: 'pdfs/fahad2024dualstage.pdf',
-        ga: 'graphical_abstract/fahad2024dualstage.png'
+        pdf: 'pdfs/fahad2025dualstage.pdf',
+        ga: 'graphical_abstract/fahad2025dualstage.png'
     },
     {
         id: 'chowa2026llmagent',
@@ -187,13 +187,13 @@ const publications = [
     },
     {
         id: 'sutradhar2025sourcefree',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.7',
+        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.7', accepted: 'Wed, 28 Jan, 2026',
         title: 'A source-free approach for domain adaptation via multiview image transformation and latent space consistency',
         authors: 'Sutradhar, D.<sup>†</sup>; <strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Raiaan, M. A. K.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>†</sup>)',
         venue: '<strong>Under review in</strong> <i>IEEE Transactions on Image Processing</i>',
-        doi: '#',
-        pdf: '#',
-
+        doi: 'https://doi.org/10.48550/arXiv.2601.20284',
+        ga: 'graphical_abstract/sutradhar2025sourcefree.png',
+        pdf: 'https://arxiv.org/pdf/2601.20284'
     },
     {
         id: 'debnath2025ssmtconed',
@@ -239,10 +239,22 @@ const publications = [
 ];
 
 
-
 const pubList = document.getElementById('pubList');
 const switches = [...document.querySelectorAll('.switch')];
 const input = document.getElementById('pubSearch');
+
+function publicationToSearchText(pub) {
+    return Object.values(pub)
+        .flat()
+        .map(v => {
+            if (v == null) return '';
+            return String(v)
+                .replace(/<[^>]*>/g, ' ') // strip HTML
+                .toLowerCase();
+        })
+        .join(' ');
+}
+
 
 function render(filter = 'all', query = '') {
     pubList.innerHTML = '';
@@ -267,7 +279,9 @@ function render(filter = 'all', query = '') {
             }
             return true;
         })
-        .filter(p => !q || [p.title, p.venue, p.authors, p.year].join(' ').toLowerCase().includes(q))
+        // .filter(p => !q || [p.title, p.venue, p.authors, p.year].join(' ').toLowerCase().includes(q))
+        .filter(p => !q || publicationToSearchText(p).includes(q))
+
     // .sort((a, b) => b.year - a.year);
 
 
@@ -292,7 +306,7 @@ function render(filter = 'all', query = '') {
 
         const details = document.createElement('div');
         details.className = 'pub-details'; // visible by default
-        
+
         // Add button to details with relative positioning
         const toggleBtn = document.createElement('button');
         toggleBtn.className = 'toggle-btn active';
@@ -428,13 +442,16 @@ function render(filter = 'all', query = '') {
     });
 }
 
+// Initial render — start with JOURNALS
+const DEFAULT_FILTER = 'journal';
 
+// set active button
+switches.forEach(b => b.classList.remove('active'));
+const defaultBtn = switches.find(b => b.dataset.filter === DEFAULT_FILTER);
+if (defaultBtn) defaultBtn.classList.add('active');
 
-
-
-
-// Initial render
-render();
+// render journals
+render(DEFAULT_FILTER, input.value);
 
 // Filters
 switches.forEach(btn => {
@@ -444,10 +461,23 @@ switches.forEach(btn => {
         render(btn.dataset.filter, input.value);
     });
 });
+// input.addEventListener('input', () => {
+//     const active = document.querySelector('.switch.active').dataset.filter;
+//     render(active, input.value);
+// });
+
 input.addEventListener('input', () => {
-    const active = document.querySelector('.switch.active').dataset.filter;
-    render(active, input.value);
+    const q = input.value.trim();
+    if (q) {
+        // Global search across all publications while typing
+        render('all', q);
+    } else {
+        // No search query — render the active tab
+        const active = document.querySelector('.switch.active').dataset.filter;
+        render(active, '');
+    }
 });
+
 
 // Ctrl+K search
 window.addEventListener('keydown', e => {
@@ -474,11 +504,11 @@ function adjustTimelineHeights() {
     document.querySelectorAll('.timeline').forEach(timeline => {
         const items = timeline.querySelectorAll('.t-item');
         if (items.length === 0) return;
-        
+
         const lastItem = items[items.length - 1];
         const timelineRect = timeline.getBoundingClientRect();
         const lastItemRect = lastItem.getBoundingClientRect();
-        
+
         // Calculate height from top of timeline to bottom of last item
         const height = (lastItemRect.bottom - timelineRect.top) + 12; // 12px buffer
         timeline.style.setProperty('--timeline-height', `${height}px`);
@@ -489,7 +519,7 @@ function adjustTimelineHeights() {
 function syncExperienceAndNewsHeights() {
     const experienceTimeline = document.querySelector('#experience .timeline.list');
     const insightsTimeline = document.querySelector('#insights .timeline.list');
-    
+
     if (experienceTimeline && insightsTimeline) {
         const experienceHeight = experienceTimeline.offsetHeight;
         document.documentElement.style.setProperty('--experience-height', `${experienceHeight}px`);
