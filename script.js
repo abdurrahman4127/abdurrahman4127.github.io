@@ -310,7 +310,7 @@ function render(filter = 'all', query = '') {
         // Add button to details with relative positioning
         const toggleBtn = document.createElement('button');
         toggleBtn.className = 'toggle-btn active';
-        toggleBtn.textContent = '−';
+        toggleBtn.innerHTML = '<span class="close">&times;</span>';
 
         if (p.venue.includes('NOT SUBMITTED')) {
             details.innerHTML = `
@@ -461,6 +461,7 @@ switches.forEach(btn => {
         render(btn.dataset.filter, input.value);
     });
 });
+
 // input.addEventListener('input', () => {
 //     const active = document.querySelector('.switch.active').dataset.filter;
 //     render(active, input.value);
@@ -479,13 +480,22 @@ input.addEventListener('input', () => {
 });
 
 
-// Ctrl+K search
 window.addEventListener('keydown', e => {
-    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+    // Ctrl + Shift + F → focus search
+    if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'f') {
         e.preventDefault();
         input.focus();
+        return;
+    }
+
+    // Escape → exit search
+    if (e.key === 'Escape') {
+        input.blur();          // remove focus
+        // optional: clear value
+        // input.value = '';
     }
 });
+
 
 // Smooth scroll
 document.querySelectorAll('a[href^="#"]').forEach(a => {
