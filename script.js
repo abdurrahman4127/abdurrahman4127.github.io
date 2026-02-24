@@ -114,13 +114,13 @@ const publications = [
     },
     {
         id: 'alam2026parkinson',
-        type: 'in-production', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 3.7', accepted: 'Tue, Jan 13, 2026',
+        type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 3.7', accepted: 'Tue, Jan 13, 2026',
         title: 'Quantitative measurement of Parkinson disease progression using DaTscan radiomics and clinical features with a machine learning based approach',
         authors: 'Alam, M. M.; Rahman, S. S.; Chowa, S. S.; <strong><u>Rahman, M. A.</u></strong>; Islam, M. R.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<i>International Journal of Intelligent Systems</i>',
-        doi: '#',
+        doi: 'https://doi.org/10.1155/int/5547118',
         ga: 'graphical_abstract/alam2026parkinson.png',
-        pdf: '#'
+        pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1155/int/5547118'
     },
 
 
