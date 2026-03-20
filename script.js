@@ -196,6 +196,17 @@ const publications = [
         pdf: 'https://arxiv.org/pdf/2601.20284'
     },
     {
+        id: 'adnan2026waste',
+        type: 'preprint', year: 2026,
+        quartile: 'Q1', imf: 'Impact Factor: 5.7', accepted: 'Sun, 1 Mar, 2026',
+        title: "Learning to Weigh Waste: A Physics-Informed Multimodal Fusion Framework and Large-Scale Dataset for Commercial and Industrial Applications",
+        authors: 'Islam, M. A.; Karim, W.; Alam, M. M.; Rahman, S. S.; <strong><u>Rahman, M. A.</u></strong>; Abian, A. I.; Raiaan, M. A. K.; Yeo, K. C.; Mathur, D.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<strong>Under review in</strong> <i>IEEE Transactions on Big Data</i>',
+        doi: 'https://doi.org/10.48550/arXiv.2603.00931',
+        ga: 'graphical_abstract/adnan2026waste.png',
+        pdf: 'https://arxiv.org/pdf/2603.00931'
+    },
+    {
         id: 'debnath2025ssmtconed',
         type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.9',
         title: 'SSMT-ConED: A semi-supervised student–teacher framework with contrastive learning and generative adversarial network-based augmentation for robust multi-organ segmentation across CT and MRI modalities',
@@ -234,7 +245,6 @@ const publications = [
         venue: '<strong>Under review in</strong> <i>Discover Computing</i>',
         doi: '#',
         pdf: '#'
-
     }
 ];
 
