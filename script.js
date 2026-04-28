@@ -66,7 +66,7 @@ const publications = [
         id: 'raiaan2025diffusion',
         type: 'journal', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.3', accepted: 'Mon, Oct 27, 2025',
         title: 'Diffusion-based knowledge distillation for effective multi-organ segmentation with reduced computational time',
-        authors: 'Raiaan, M. A. K.<sup>†</sup>; <strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Yeo, K. C.; Sebastian, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>†</sup>)',
+        authors: 'Raiaan, M. A. K.<sup>†</sup>; <strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Yeo, K. C.; Sebastian, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (joint-first author<sup>†</sup>)',
         venue: '<i>Computers in Biology and Medicine</i>',
         doi: 'https://doi.org/10.1016/j.compbiomed.2025.111265',
         pdf: "pdfs/raiaan2025diffusion.pdf",
@@ -122,6 +122,17 @@ const publications = [
         ga: 'graphical_abstract/alam2026parkinson.png',
         pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1155/int/5547118'
     },
+    {
+        id: 'sutradhar_rahman2026dementia',
+        type: 'in-production', year: 2026, accepted: 'Tue, April 28, 2026',
+        // quartile: 'Q1', imf: 'Impact Factor: 3.7',
+        title: 'Investigating Dementia Patterns by Machine Learning and Graph-Based Marker Analysis Integrating Deterministic Finite Automata for Multiclass Dementia Diagnosis',
+        authors: 'Sutradhar, D.<sup>†</sup>; <strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Fahad, N. M.<sup>†</sup>; Sakib, S.; Islam, M. R.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Equal contribution<sup>†</sup>)',
+        venue: '<strong>Under review in</strong> <i>Discover Computing</i>',
+        ga: 'graphical_abstract/sutradhar_rahman2026dementia.png',
+        doi: '#',
+        pdf: '#'
+    },
 
 
     // --- Conferences ---
@@ -160,8 +171,17 @@ const publications = [
         id: 'rahman2026metal',
         type: 'under-review', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 8.0',
         title: 'Meta Enhanced Brain Tumor Segmentation with Partial MRI Modalities Through Adaptive Fusion and Bi-Level Optimization',
-        authors: '<strong><u>Rahman, M. A.</u></strong>; Abian, A. I.; Alam, M. M.; Y., Mukta, S.; Shourav, S. A.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        authors: '<strong><u>Rahman, M. A.</u></strong>; Abian, A. I.; Alam, M. M.; Mukta, S.; Shourav, S. A.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<strong>Under review in</strong> <i>Engineering Applications of Artificial Intelligence</i>',
+        doi: '#',
+        pdf: '#'
+    },
+    {
+        id: 'rahman2026radiant',
+        type: 'under-review', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 9.3',
+        title: 'RADIANT: A Radiomics-Aware Domain-Informed Adversarial Network for High-Grade to Low-Grade Brain Tumor Adaptation',
+        authors: '<strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Abian, A. I.<sup>†</sup>; Mukta, S.; Shourav, S. A.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (joint-first author<sup>†</sup>)',
+        venue: '<strong>Under review in</strong> <i>International Journal of Computer Vision</i>',
         doi: '#',
         pdf: '#'
     },
@@ -179,7 +199,7 @@ const publications = [
         id: 'rahman2025finegrained',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.9', accepted: 'Sun, Sept 7, 2025',
         title: 'A Fine-Grained Attention and Geometric Correspondence Model for Musculoskeletal Risk Classification in Athletes Using Multimodal Visual and Skeletal Features',
-        authors: '<strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Raiaan, M. A. K.<sup>†</sup>; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>†</sup>)',
+        authors: '<strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Raiaan, M. A. K.<sup>†</sup>; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (joint-first author<sup>†</sup>)',
         venue: '<strong>Under review in</strong> <i>Computers and Electrical Engineering</i>',
         doi: 'https://doi.org/10.48550/arXiv.2509.05913',
         ga: 'graphical_abstract/rahman2025finegrained.png',
@@ -189,7 +209,7 @@ const publications = [
         id: 'sutradhar2025sourcefree',
         type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.7', accepted: 'Wed, 28 Jan, 2026',
         title: 'A source-free approach for domain adaptation via multiview image transformation and latent space consistency',
-        authors: 'Sutradhar, D.<sup>†</sup>; <strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Raiaan, M. A. K.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Joint first author<sup>†</sup>)',
+        authors: 'Sutradhar, D.<sup>†</sup>; <strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Raiaan, M. A. K.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (joint-first author<sup>†</sup>)',
         venue: '<strong>Under review in</strong> <i>IEEE Transactions on Image Processing</i>',
         doi: 'https://doi.org/10.48550/arXiv.2601.20284',
         ga: 'graphical_abstract/sutradhar2025sourcefree.png',
@@ -235,16 +255,6 @@ const publications = [
         doi: '#',
         pdf: '#'
 
-    },
-    {
-        id: 'fahad2025dinvestigating',
-        type: 'under-review', year: 2025,
-        // quartile: 'Q1', imf: 'Impact Factor: 3.7',
-        title: 'Investigating Dementia Patterns by Machine Learning and Graph-Based Marker Analysis Integrating Deterministic Finite Automata for Multiclass Dementia Diagnosis',
-        authors: 'Sutradhar, D.<sup>†</sup>; <strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Fahad, N. M.<sup>†</sup>; Sakib, S.; Islam, M. R.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Equal contribution<sup>†</sup>)',
-        venue: '<strong>Under review in</strong> <i>Discover Computing</i>',
-        doi: '#',
-        pdf: '#'
     }
 ];
 
