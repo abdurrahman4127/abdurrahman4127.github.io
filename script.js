@@ -123,15 +123,14 @@ const publications = [
         pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1155/int/5547118'
     },
     {
-        id: 'sutradhar_rahman2026dementia',
-        type: 'in-production', year: 2026, accepted: 'Tue, April 28, 2026',
-        // quartile: 'Q1', imf: 'Impact Factor: 3.7',
-        title: 'Investigating Dementia Patterns by Machine Learning and Graph-Based Marker Analysis Integrating Deterministic Finite Automata for Multiclass Dementia Diagnosis',
+        id: 'sutradhar2026dementia',
+        type: 'journal', year: 2026, accepted: 'Tue, April 28, 2026', quartile: 'Q2', imf: 'CiteScore: 3.2',
+        title: 'Investigating dementia patterns by machine learning and graph-based marker analysis for multiclass dementia diagnosis',
         authors: 'Sutradhar, D.<sup>†</sup>; <strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Fahad, N. M.<sup>†</sup>; Sakib, S.; Islam, M. R.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Equal contribution<sup>†</sup>)',
-        venue: '<strong>Under review in</strong> <i>Discover Computing</i>',
-        ga: 'graphical_abstract/sutradhar_rahman2026dementia.png',
-        doi: '#',
-        pdf: '#'
+        venue: '<i>Discover Computing</i>',
+        ga: 'graphical_abstract/sutradhar2026dementia.png',
+        doi: 'https://doi.org/10.1007/s10791-026-10153-6',
+        pdf: 'pdfs/sutradhar2026dementia.pdf'
     },
 
 
