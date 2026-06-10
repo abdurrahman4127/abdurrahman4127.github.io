@@ -53,6 +53,16 @@ const publications = [
         ga: 'graphical_abstract/debnath2025fss.png'
     },
     {
+        id: 'rahman2026visk',
+        type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 4.9', accepted: 'Sat, Jun 6, 2026',
+        title: 'A Fine-Grained Attention and Geometric Correspondence Model for Musculoskeletal Risk Classification in Athletes Using Multimodal Visual and Skeletal Features',
+        authors: '<strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Karim, W.<sup>†</sup>; Raiaan, M. A. K.<sup>†</sup>; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (joint-first author<sup>†</sup>)',
+        venue: '<strong>Under review in</strong> <i>Computers and Electrical Engineering</i>',
+        doi: 'https://doi.org/10.1016/j.compeleceng.2026.111281',
+        ga: 'graphical_abstract/rahman2026visk.png',
+        pdf: 'pdfs/rahman2026visk.pdf'
+    },
+    {
         id: 'ahmed2025colorectal',
         type: 'journal', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.1', accepted: 'Thu, Oct 9, 2025',
         title: 'Predicting Post-Resection Colorectal Liver Metastases Recurrence using Advanced Graph Neural Networks with Explainability and Causal Inference',
@@ -193,16 +203,6 @@ const publications = [
         doi: 'https://doi.org/10.48550/arXiv.2510.00522',
         ga: 'graphical_abstract/rahman2025arionet.png',
         pdf: 'https://arxiv.org/pdf/2510.00522'
-    },
-    {
-        id: 'rahman2025finegrained',
-        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.9', accepted: 'Sun, Sept 7, 2025',
-        title: 'A Fine-Grained Attention and Geometric Correspondence Model for Musculoskeletal Risk Classification in Athletes Using Multimodal Visual and Skeletal Features',
-        authors: '<strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Raiaan, M. A. K.<sup>†</sup>; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (joint-first author<sup>†</sup>)',
-        venue: '<strong>Under review in</strong> <i>Computers and Electrical Engineering</i>',
-        doi: 'https://doi.org/10.48550/arXiv.2509.05913',
-        ga: 'graphical_abstract/rahman2025finegrained.png',
-        pdf: 'https://arxiv.org/pdf/2509.05913'
     },
     {
         id: 'sutradhar2025sourcefree',
