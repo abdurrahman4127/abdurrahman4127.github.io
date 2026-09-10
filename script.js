@@ -178,19 +178,19 @@ const publications = [
     },
     {
         id: 'rahman2026metal',
-        type: 'under-review', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 8.0',
-        title: 'Meta Enhanced Brain Tumor Segmentation with Partial MRI Modalities Through Adaptive Fusion and Bi-Level Optimization',
+        type: 'under-review', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 5.5',
+        title: 'METAL: Meta Enhanced Brain Tumor Segmentation with Partial MRI Modalities Through Adaptive Fusion and Bi-Level Optimization',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Abian, A. I.; Alam, M. M.; Mukta, S.; Shourav, S. A.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Under review in</strong> <i>Engineering Applications of Artificial Intelligence</i>',
+        venue: '<strong>Under review in</strong> <i>Computers and Electrical Engineering</i>',
         doi: '#',
         pdf: '#'
     },
     {
         id: 'rahman2026radiant',
-        type: 'under-review', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 9.3',
+        type: 'under-review', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 4.5',
         title: 'RADIANT: A Radiomics-Aware Domain-Informed Adversarial Network for High-Grade to Low-Grade Brain Tumor Adaptation',
         authors: '<strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Abian, A. I.<sup>†</sup>; Mukta, S.; Shourav, S. A.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (joint-first author<sup>†</sup>)',
-        venue: '<strong>Under review in</strong> <i>International Journal of Computer Vision</i>',
+        venue: '<strong>Under review in</strong> <i>Complex & Intelligent Systems</i>',
         doi: '#',
         pdf: '#'
     },
