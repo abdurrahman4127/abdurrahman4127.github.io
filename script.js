@@ -142,6 +142,17 @@ const publications = [
         doi: 'https://doi.org/10.1007/s10791-026-10153-6',
         pdf: 'pdfs/sutradhar2026dementia.pdf'
     },
+    {
+        id: 'sutradhar2026cade',
+        type: 'in-production', year: 2026, quartile: 'Q1', accepted: 'Sun, Jul 12, 2026',
+        title: "CADE: A lightweight change-adaptive dual-path encoder framework for predicting and generating future changes in satellite imagery using semi-supervised learning",
+        authors: 'Sutradhar, D.; <strong><u>Rahman, M. A.</u></strong>; Mannan, Z. I.; Azid, S. I.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
+        venue: '<i>Neural Computing and Applications</i>',
+        ga: 'graphical_abstract/sutradhar2026cade.png',
+        doi: '#',
+        pdf: '#'
+
+    },
 
 
     // --- Conferences ---
@@ -241,16 +252,6 @@ const publications = [
         title: 'Structured Vision–Language Diffusion Framework for Synthetic Data Generation in Resource-Limited Deep Learning',
         authors: 'Haque, S. Y.; Jahan, E.; <strong><u>Rahman, M. A.</u></strong>; Fahad, N. M.; Raiaan, M. A. K.; Mukta, S.; Islam, M. R.; Azid, S. I.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<strong>Under review in</strong> <i>Engineering Applications of Artificial Intelligence</i>',
-        doi: '#',
-        pdf: '#'
-
-    },
-    {
-        id: 'sutradhar2025cade',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: '',
-        title: 'CADE: A lightweight change-adaptive dual-path encoder framework for predicting and generating future changes in satellite imagery using semi-supervised learning',
-        authors: 'Sutradhar, D.; <strong><u>Rahman, M. A.</u></strong>; Mannan, Z. I.; Azid, S. I.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Under review in</strong> <i>Neural Computing and Applications</i>',
         doi: '#',
         pdf: '#'
 
