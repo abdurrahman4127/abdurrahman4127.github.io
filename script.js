@@ -24,7 +24,7 @@ if (avatarInput) {
 const publications = [
     {
         id: 'rahman2025advancing',
-        type: 'journal', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 8.4', accepted: 'Thu, Sep 26, 2024',
+        type: 'journal', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 5.1', accepted: 'Sep 26, 2024',
         title: 'Advancing skin cancer detection integrating a novel unsupervised classification and enhanced imaging techniques',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Fahad, N. M.; Raiaan, M. A. K.; Jonkman, M.; De Boer, F.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<i>CAAI Transactions on Intelligence Technology</i>',
@@ -34,7 +34,7 @@ const publications = [
     },
     {
         id: 'rahman2025ufoil',
-        type: 'journal', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.6', accepted: 'Wed, Feb 12, 2025',
+        type: 'journal', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.2', accepted: 'Feb 12, 2025',
         title: 'uFOIL: An Unsupervised Fusion of Image Processing and Language Understanding',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Hasan, M. T.; Howlader, U. F.; Kader, M. A.; Islam, M. M.; Pham, P. H.; Hassan, M. M.<sup><a href="mailto:motaharul@cse.uiu.ac.bd"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<i>IEEE Access</i>',
@@ -44,7 +44,7 @@ const publications = [
     },
     {
         id: 'debnath2025fssulivr',
-        type: 'journal', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 2.8', accepted: 'Sun, Jun 22, 2025',
+        type: 'journal', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 3.3', accepted: 'Jun 22, 2025',
         title: 'FSS-ULivR: a clinically-inspired few-shot segmentation framework for liver imaging using unified representations and attention mechanisms',
         authors: 'Debnath, R. K.; <strong><u>Rahman, M. A.</u></strong>; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>; Zhang, Y.; Jonkman, M.',
         venue: '<i>Journal of Cancer Research and Clinical Oncology</i>',
@@ -54,17 +54,17 @@ const publications = [
     },
     {
         id: 'rahman2026visk',
-        type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 4.9', accepted: 'Sat, Jun 6, 2026',
+        type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 5.5', accepted: 'Jun 6, 2026',
         title: 'A Fine-Grained Attention and Geometric Correspondence Model for Musculoskeletal Risk Classification in Athletes Using Multimodal Visual and Skeletal Features',
         authors: '<strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Karim, W.<sup>†</sup>; Raiaan, M. A. K.<sup>†</sup>; Shermin, T.; Islam, M. R.; Hussain, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (joint-first author<sup>†</sup>)',
-        venue: '<strong>Under review in</strong> <i>Computers and Electrical Engineering</i>',
+        venue: '<i>Computers and Electrical Engineering</i>',
         doi: 'https://doi.org/10.1016/j.compeleceng.2026.111281',
         ga: 'graphical_abstract/rahman2026visk.png',
         pdf: 'pdfs/rahman2026visk.pdf'
     },
     {
         id: 'ahmed2025colorectal',
-        type: 'journal', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.1', accepted: 'Thu, Oct 9, 2025',
+        type: 'journal', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.7', accepted: 'Oct 9, 2025',
         title: 'Predicting Post-Resection Colorectal Liver Metastases Recurrence using Advanced Graph Neural Networks with Explainability and Causal Inference',
         authors: 'Ahmed, J.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<i>Advanced Intelligent Systems</i>',
@@ -74,7 +74,7 @@ const publications = [
     },
     {
         id: 'raiaan2025diffusion',
-        type: 'journal', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.3', accepted: 'Mon, Oct 27, 2025',
+        type: 'journal', year: 2025, quartile: 'Q1', imf: 'CiteScore: 13.1', accepted: 'Oct 27, 2025',
         title: 'Diffusion-based knowledge distillation for effective multi-organ segmentation with reduced computational time',
         authors: 'Raiaan, M. A. K.<sup>†</sup>; <strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Yeo, K. C.; Sebastian, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (joint-first author<sup>†</sup>)',
         venue: '<i>Computers in Biology and Medicine</i>',
@@ -84,7 +84,7 @@ const publications = [
     },
     {
         id: 'fahad2025dualstage',
-        type: 'journal', year: 2025, quartile: 'Q2', imf: 'Impact Factor: 2.1', accepted: 'Tue, Dec 9, 2025',
+        type: 'journal', year: 2025, quartile: 'Q2', imf: 'Impact Factor: 2.7', accepted: 'Dec 9, 2025',
         title: 'A Dual-Stage Framework for Cardiovascular Abnormalities Diagnosis from ECG Signals Using CA-GNN and Semi-Supervised Autoencoders',
         authors: 'Fahad, N. M.; <strong><u>Rahman, M. A.</u></strong>; Jakarea, M.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<i>Signal, Image and Video Processing</i>',
@@ -94,7 +94,7 @@ const publications = [
     },
     {
         id: 'chowa2026llmagent',
-        type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Sun, Dec 14, 2025',
+        type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 18.8', accepted: 'Dec 14, 2025',
         title: 'From language to action: a review of large language models as autonomous agents and tool users',
         authors: 'Chowa, S. S.; Alvi, R.;  Rahman, S. S.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Hussain, M; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<i>Artificial Intelligence Review</i>',
@@ -104,7 +104,7 @@ const publications = [
     },
     {
         id: 'rahman2026hallucination',
-        type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 13.9', accepted: 'Wed, Nov 26, 2025',
+        type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 18.8', accepted: 'Nov 26, 2025',
         title: 'Hallucination to truth: a review of fact-checking and factuality evaluation in large language models',
         authors: 'Rahman, S. S.; Islam, M. A.; Alam, M. M.; Zeba, M.; <strong><u>Rahman, M. A.</u></strong>; Chowa, S. S.; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<i>Artificial Intelligence Review</i>',
@@ -114,7 +114,7 @@ const publications = [
     },
     {
         id: 'abian2026hans',
-        type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 3.5', accepted: 'Fri, Jan 9, 2026',
+        type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 4.1', accepted: 'Jan 9, 2026',
         title: 'HANS-Net: Hyperbolic convolution and adaptive temporal attention for accurate and generalizable liver and tumor segmentation in CT imaging',
         authors: 'Abian, A. I.; Debnath, R. K.; <strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Islam, M. R.; Karim, A.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>',
@@ -124,7 +124,7 @@ const publications = [
     },
     {
         id: 'alam2026parkinson',
-        type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 3.7', accepted: 'Tue, Jan 13, 2026',
+        type: 'journal', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 4.8', accepted: 'Jan 13, 2026',
         title: 'Quantitative measurement of Parkinson disease progression using DaTscan radiomics and clinical features with a machine learning based approach',
         authors: 'Alam, M. M.; Rahman, S. S.; Chowa, S. S.; <strong><u>Rahman, M. A.</u></strong>; Islam, M. R.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<i>International Journal of Intelligent Systems</i>',
@@ -134,7 +134,7 @@ const publications = [
     },
     {
         id: 'sutradhar2026dementia',
-        type: 'journal', year: 2026, accepted: 'Tue, April 28, 2026', quartile: 'Q2', imf: 'CiteScore: 3.2',
+        type: 'journal', year: 2026, quartile: 'Q2', imf: 'CiteScore: 1.9', accepted: 'April 28, 2026',
         title: 'Investigating dementia patterns by machine learning and graph-based marker analysis for multiclass dementia diagnosis',
         authors: 'Sutradhar, D.<sup>†</sup>; <strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Fahad, N. M.<sup>†</sup>; Sakib, S.; Islam, M. R.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (Equal contribution<sup>†</sup>)',
         venue: '<i>Discover Computing</i>',
@@ -144,13 +144,13 @@ const publications = [
     },
     {
         id: 'sutradhar2026cade',
-        type: 'in-production', year: 2026, quartile: 'Q1', accepted: 'Sun, Jul 12, 2026',
+        type: 'journal', year: 2026, quartile: 'Q1', imf: 'CiteScore: 12.7', accepted: 'Sun, Jul 12, 2026',
         title: "CADE: A lightweight change-adaptive dual-path encoder framework for predicting and generating future changes in satellite imagery using semi-supervised learning",
         authors: 'Sutradhar, D.; <strong><u>Rahman, M. A.</u></strong>; Mannan, Z. I.; Azid, S. I.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<i>Neural Computing and Applications</i>',
         ga: 'graphical_abstract/sutradhar2026cade.png',
-        doi: '#',
-        pdf: '#'
+        doi: 'https://doi.org/10.1007/s00521-026-12429-w',
+        pdf: 'pdfs/sutradhar2026cade.pdf'
 
     },
 
@@ -169,17 +169,17 @@ const publications = [
     // --- Under Review Papers ---
     {
         id: 'rahman2025refrm3d',
-        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.6', accepted: 'Sat, Dec 27, 2025',
+        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.5', accepted: 'Dec 27, 2025',
         title: 'ReFRM3D: A radiomics-enhanced fused residual multiparametric 3D network with multi-scale feature fusion for glioma characterization',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Abian, A. I.; Zhang, Y.; Jonkman, M.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Under review in</strong> <i>Knowledge-Based Systems</i>',
+        venue: '<strong>Under review in</strong> <i>Complex & Intelligent Systems</i>',
         doi: 'https://doi.org/10.48550/arXiv.2512.22570',
         ga: 'graphical_abstract/rahman2025refrm3d.png',
         pdf: 'https://arxiv.org/pdf/2512.22570'
     },
     {
         id: 'rahman2026weckd',
-        type: 'preprint', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 7.6', accepted: 'Fri, Oct 17, 2025',
+        type: 'preprint', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 9.1', accepted: 'Oct 17, 2025',
         title: 'WeCKD: Weakly-supervised Chained Distillation Network for Efficient Multimodal Medical Imaging',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Raiaan, M. A. K.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>; Karim, A.; Beissbarth, J.; & Leach, A.',
         venue: '<strong>Under review in</strong> <i>Pattern Recognition</i>',
@@ -207,7 +207,7 @@ const publications = [
     },
     {
         id: 'rahman2025arionet',
-        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 7.5', accepted: 'Wed, 1 Oct, 2025',
+        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 9.4', accepted: '28 Jan, 2026',
         title: 'ARIONet: An Advanced Self-supervised Contrastive Representation Network for Birdsong Classification and Future Frame Prediction',
         authors: '<strong><u>Rahman, M. A.</u></strong>; Thuseethan, S.; Yeo, K. C.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<strong>Under review in</strong> <i>Expert Systems with Applications</i>',
@@ -217,10 +217,10 @@ const publications = [
     },
     {
         id: 'sutradhar2025sourcefree',
-        type: 'preprint', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 13.7', accepted: 'Wed, 28 Jan, 2026',
+        type: 'preprint', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 4.5', accepted: '20 Sept, 2026',
         title: 'A source-free approach for domain adaptation via multiview image transformation and latent space consistency',
         authors: 'Sutradhar, D.<sup>†</sup>; <strong><u>Rahman, M. A.<sup>†</sup></u></strong>; Raiaan, M. A. K.; Mohamed, R. E.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup> <br> (joint-first author<sup>†</sup>)',
-        venue: '<strong>Under review in</strong> <i>IEEE Transactions on Image Processing</i>',
+        venue: '<strong>Under review in</strong> <i>Complex & Intelligent Systems</i>',
         doi: 'https://doi.org/10.48550/arXiv.2601.20284',
         ga: 'graphical_abstract/sutradhar2025sourcefree.png',
         pdf: 'https://arxiv.org/pdf/2601.20284'
@@ -228,7 +228,7 @@ const publications = [
     {
         id: 'adnan2026waste',
         type: 'preprint', year: 2026,
-        quartile: 'Q1', imf: 'Impact Factor: 5.7', accepted: 'Sun, 1 Mar, 2026',
+        quartile: 'Q1', imf: 'Impact Factor: 8.1', accepted: '1 Mar, 2026',
         title: "Learning to Weigh Waste: A Physics-Informed Multimodal Fusion Framework and Large-Scale Dataset for Commercial and Industrial Applications",
         authors: 'Islam, M. A.; Karim, W.; Alam, M. M.; Rahman, S. S.; <strong><u>Rahman, M. A.</u></strong>; Abian, A. I.; Raiaan, M. A. K.; Yeo, K. C.; Mathur, D.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<strong>Under review in</strong> <i>IEEE Transactions on Big Data</i>',
@@ -238,7 +238,7 @@ const publications = [
     },
     {
         id: 'debnath2025ssmtconed',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 4.9',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 5.7',
         title: 'SSMT-ConED: A semi-supervised student–teacher framework with contrastive learning and generative adversarial network-based augmentation for robust multi-organ segmentation across CT and MRI modalities',
         authors: 'Debnath, R. K.; Raiaan, M. A. K.; <strong><u>Rahman, M. A.</u></strong>; Selvarajah, T.; Yeo, K. C.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
         venue: '<strong>Under review in</strong> <i>Biomedical Signal Processing and Control</i>',
@@ -248,10 +248,10 @@ const publications = [
     },
     {
         id: 'haque2025structured',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 8.0',
+        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 6.0',
         title: 'Structured Vision–Language Diffusion Framework for Synthetic Data Generation in Resource-Limited Deep Learning',
         authors: 'Haque, S. Y.; Jahan, E.; <strong><u>Rahman, M. A.</u></strong>; Fahad, N. M.; Raiaan, M. A. K.; Mukta, S.; Islam, M. R.; Azid, S. I.; Azam, S.<sup><a href="mailto:sami.azam@cdu.edu.au"><i class="fa fa-envelope"></i></a></sup>',
-        venue: '<strong>Under review in</strong> <i>Engineering Applications of Artificial Intelligence</i>',
+        venue: '<strong>Under review in</strong> <i>Information Sciences</i>',
         doi: '#',
         pdf: '#'
 

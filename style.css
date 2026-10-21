@@ -558,7 +558,7 @@ body.light .btn {
 /* /* -------------------- */
 .two-column-container {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   /* space between columns */
   flex-wrap: wrap;
   /* allows stacking on small screens */
@@ -711,4 +711,79 @@ body.light .btn {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   line-height: 1.8;
+}
+
+
+/* === Improved Publications Section === */
+#pubScroller {
+  max-height: min(78vh, 1000px);
+  overflow-y: auto;
+  margin-top: 14px;
+  padding: 4px 10px 4px 0;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(59, 130, 246, 0.6)
+    rgba(255, 255, 255, 0.05);
+}
+
+
+/* Taller Publications box */
+#pubScroller {
+  max-height: 90vh;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+
+/* Give publication cards more breathing room */
+#pubList {
+  gap: 10px;
+}
+
+#pubList .item {
+  padding: 18px;
+}
+
+/* Keep the section usable on smaller screens */
+@media (max-width: 600px) {
+  #pubScroller {
+    max-height: 70vh;
+  }
+
+  #pubList .item {
+    padding: 14px;
+  }
+}
+
+
+
+/* ===== Experience: timeline ends at the first and last entries ===== */
+#experience .timeline.list {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+#experience .timeline.list::before {
+  top: 34px;
+  bottom: auto;
+  height: calc(100% - 130px);
+}
+
+/* Keep one dot for each experience entry */
+#experience .timeline.list .t-item::before {
+  display: block;
+}
+
+/* ===== News: remove timeline line and dots ===== */
+#insights .timeline.list::before {
+  display: none;
+}
+
+#insights .timeline.list .t-item::before {
+  display: none;
+}
+
+#insights .timeline.list {
+  padding-left: 0;
 }
