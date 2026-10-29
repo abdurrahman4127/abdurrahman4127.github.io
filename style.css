@@ -774,8 +774,9 @@ a:hover {
 }
 
 .btn.static img {              /* publisher logo: larger than the other icons */
-  height: 40px;                /* try 30-40px */
-  max-width: 120px;            /* wide wordmarks like Springer/Elsevier need room */
+  height: 32px;
+  max-width: 140px;
+  transform: translateY(-2px);
 }
 
 a.btn:hover {

@@ -7,7 +7,7 @@
     {
       title: "Associate Director",
       tasks: [
-        "Since March 2026, I have been serving as an Associate Director at the Applied Artificial Intelligence and Intelligent Systems (AAIINS) Lab. At AAIINS, I am responsible for coordinating research activities, mentoring graduate and undergraduate researchers, and leading multiple research teams.",
+        "Since March 2025, I have been serving as an Associate Director at the Applied Artificial Intelligence and Intelligent Systems (AAIINS) Lab. At AAIINS, I am responsible for coordinating research activities, mentoring graduate and undergraduate researchers, and leading multiple research teams.",
         "To learn more about AAIINS, visit the lab's <a href='https://aaiins-lab.com/' target='_blank' rel='noopener'>website</a> or its <a href='https://www.linkedin.com/company/applied-artificial-intelligence-intelligent-systems-laboratory' target='_blank' rel='noopener'>LinkedIn page</a>."
       ]
     },
@@ -22,7 +22,7 @@
     {
       title: "Researcher",
       tasks: [
-        "In August 2023, during my fourth year of undergraduate study, I joined the Applied Artificial Intelligence and Intelligent Systems (AAIINS) Lab under the supervision of <a href='https://researchers.cdu.edu.au/en/persons/sami-azam/' target='_blank' rel='noopener'>Prof. Sami Azam</a> (IT Discipline Chair at the Faculty of Science and Technology, Charles Darwin University), and was mentored by <a href='https://mak-raiaan.github.io/' target='_blank' rel='noopener'>MAK Raiaan</a> (Monash University, DSAI).",
+        "In August 2023, during my fourth year of undergraduate study, I joined the Applied Artificial Intelligence and Intelligent Systems (AAIINS) Lab under the supervision of <a href='https://researchers.cdu.edu.au/en/persons/sami-azam/' target='_blank' rel='noopener'>Prof. Sami Azam</a> (IT Discipline Chair at the Faculty of Science and Technology, Charles Darwin University, Aistralia).",
         "Contributed to more than seven research projects involving machine learning, 3D computer vision, and signal processing. My primary focus was on data-efficient learning (unsupervised, semi-supervised, self-supervised, and weakly supervised), domain adaptation, diffusion, and knowledge distillation for clinical and environmental applications."
       ]
     },

@@ -341,16 +341,21 @@ function render(filter = 'all', query = '') {
     items.forEach(p => {
         const item = document.createElement('div');
         item.className = 'item reveal';
+        const unpublished = ['preprint', 'under-review'].includes(p.type);
+        const venue = unpublished ? '<strong>Under review</strong>' : p.venue;
+        const publicationYear = unpublished ? '' : `<span class="tag">${p.year}</span>`;
+        const journalMetrics = unpublished ? '' : `
+                    <span class="tag">${p.quartile || ''}</span>
+                    <span class="tag">${p.imf || ''}</span>`;
         item.innerHTML = `
         <div class="pub-summary">
             <div style="flex:1">
                 <div style="font-weight:700">${p.title}</div>
                 <div class="muted" style="margin:2px 0">${p.authors}</div>
-                <div class="muted">${p.venue} · 
+                <div class="muted">${venue} · 
                     <span class="tag">${p.type}</span> 
-                    <span class="tag">${p.year}</span>
-                    <span class="tag">${p.quartile || ''}</span>
-                    <span class="tag">${p.imf || ''}</span>
+                    ${publicationYear}
+                    ${journalMetrics}
                 </div>
             </div>
         </div>
