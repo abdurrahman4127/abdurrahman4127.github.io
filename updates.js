@@ -2,6 +2,7 @@ window.UPDATES = [
   {
     year: '2026',
     items: [
+      { date: 'Nov 2026', html: `Our paper, “SSMT-ConED: A Semi-Supervised Student–Teacher Framework for Robust Multi-Organ Segmentation Across CT and MRI Modalities,” has been accepted for publication in Biomedical Signal Processing and Control (currently in production)` },
       { date: 'Jul 2026', html: `Our paper on predicting future satellite image changes with a Change-Adaptive Dual-Path Encoder (CADE) is now published in <em><a href="https://doi.org/10.1007/s00521-026-12429-w">Neural Computing and Applications</a></em>. We combined a lightweight model with semi-supervised learning to predict future changes using limited labeled satellite images.` },
       { date: 'Jun 2026', html: `A joint-first author paper on assessing musculoskeletal risk in athletes has been published in <em><a href="https://doi.org/10.1016/j.compeleceng.2026.111281">Computers and Electrical Engineering</a></em>. We combined visual and skeletal features using fine-grained attention and geometric correspondence.` },
       { date: 'May 2026', html: `Our dementia diagnosis paper has been published in <em><a href="https://doi.org/10.1007/s10791-026-10153-6">Discover Computing</a></em>. We analyzed clinical markers using machine learning and graph analysis to distinguish dementia groups.` },
