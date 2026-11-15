@@ -244,10 +244,10 @@ const publications = [
     },
     {
         id: 'debnath2026ssmt',
-        type: 'under-review', year: 2025, quartile: 'Q1', imf: 'Impact Factor: 5.7',
+        type: 'in-production', year: 2026, quartile: 'Q1', imf: 'Impact Factor: 5.7', accepted: '9 Nov, 2026',
         title: 'SSMT-ConED: A semi-supervised student–teacher framework with contrastive learning and generative adversarial network-based augmentation for robust multi-organ segmentation across CT and MRI modalities',
         authors: 'Debnath, R. K.; Raiaan, M. A. K.; <strong><u>Rahman, M. A.</u></strong>; Selvarajah, T.; Yeo, K. C.; Azam, S.',
-        venue: '<strong>Under review in</strong> <i>Biomedical Signal Processing and Control</i>',
+        venue: '<i>Biomedical Signal Processing and Control</i>',
         ga: 'graphical_abstract/debnath2026ssmt.png',
         doi: '#',
         pdf: '#'
