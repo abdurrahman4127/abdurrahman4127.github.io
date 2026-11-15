@@ -5,7 +5,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- <title>🇦󠁯🇷⩜𐍂𓂆 </title> -->
-  <title>⚡︎ ⋆.˚ 🤖ིྀ˚.⋆ ⚡︎</title>
+  <title>⋆｡°₊✧ 🤖ིྀ ·₊˚ ⚡︎</title>
+  <link id="favicon" rel="icon" href="icons/arc-reactor/arc-reactor-frame-00.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="icons/arc-reactor/arc-reactor-touch.png">
   <meta name="description" content="I go by AR, ye Mighty, and despair!" />
   <meta name="color-scheme" content="light">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +17,34 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css">
+  <script>
+    // Animated favicon: tiny preloaded frames, starts on the first frame
+    const frameCount = 16;
+    const frames = Array.from({ length: frameCount }, (_, i) =>
+      `icons/arc-reactor/arc-reactor-frame-${String(i).padStart(2, '0')}.png`
+    );
+    const favicon = document.getElementById('favicon');
+    let started = false;
+
+    function startFavicon() {
+      if (started) return;
+      started = true;
+      let i = 0;
+      setInterval(() => {
+        i = (i + 1) % frames.length;
+        favicon.href = frames[i];
+      }, 30); // faster than the source GIF (was 50ms)
+    }
+
+    // Preload every frame; kick off as soon as the first one is ready
+    frames.forEach((src, i) => {
+      const img = new Image();
+      img.onload = img.onerror = () => { if (i === 0) startFavicon(); };
+      img.src = src;
+    });
+    // Also try starting immediately (browser cache), in case frame 0 is instant
+    startFavicon();
+  </script>
 </head>
 
 <body>
@@ -180,7 +210,7 @@
           <div class="pub-type-switch">
             <button class="switch active" data-filter="journal">JOURNALS</button>
             <button class="switch" data-filter="conference">CONFERENCES</button>
-            <!-- <button class="switch" data-filter="in-production">IN PRESS</button> -->
+            <button class="switch" data-filter="in-production">IN PRESS</button>
             <button class="switch" data-filter="preprint">PREPRINTS</button>
             <button class="switch" data-filter="under-review">UNDER REVIEW</button>
             <button class="switch" data-filter="all">All</button>
